@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+header {
+  background-color: red;
+}
+
+header h1 {
+  color: #000;
+  font-size: 4em;
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header h1 span {
+  font-weight: lighter;
+  font-size: .5em;
+}
+
+header address {
+  text-indent: -9999px !important;
+  margin: 0;
+  padding: 0px;
+  height: 1px;
+  line-height: 1px;
+}
+
+header h3 {
+  color: #205a90;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+main h2, main h2 a {
+  color: #000;
+  font-size: 2.2em;
+  line-height: 1.2em;
+  margin: 24px 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+main h3, main h3 a, main #announcements h3 {
+  color: #4386c3;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 18px 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+main h4, main h4 a {
+  color: #4386c3;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 18px 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav, .navbar {
+  background-color: #4386c3;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top: 5px solid #205a90;
+  border-bottom: 5px solid #205a90;
+}
+
+nav .nav-item:hover, .navbar .nav-item:hover {
+  background-color: #6a9fcf;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 12px 36px 12px 18px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link a .nav-link {
+  color: #fff;
+}
+
+.sidebar-1 .school-info-box {
+  background-color: #f5f5f6;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 5px solid #e8e8ea;
+  border-radius: 6px;
+}
+
+.sidebar-1 h4 {
+  color: #000;
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.sidebar-1 nav {
+  background-color: #ecc621;
+  border-radius: 6px;
+  border: 5px solid #f4de7f;
+}
+
+.sidebar-1 nav h2 {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.sidebar-1 a {
+  color: #000;
+  font-size: 1.08em;
+}
+
+.sidebar-1 .list-group-item {
+  background-color: #ecc621;
+  border-width: 1px 0 1px 0;
+  border-color: #9a800d;
+  border-style: dashed;
+}
+
+.sidebar-1 .list-group-item:hover {
+  background-color: #f0d250;
+}
+
+div.news #news h2, div.news h2 a {
+  color: #205a90;
+}
+
+.list-group-item {
+  border-width: 0 0 1px 0;
+  border-color: #9a800d;
+  border-style: dashed;
+}
+
+.schooleventindexpage .calendar {
+  padding: 15px !important;
+  border-radius: 6px;
+  border: 5px solid #4386c3;
+}
+
+.schooleventindexpage .calendar p strong {
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #4386c3;
+}
+
+.footer p, .footer a {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
