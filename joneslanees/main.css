@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header {
-  background-color: red;
+  background-color: #fff;
 }
 
 header h1 {
@@ -74,6 +74,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 }
 
 .navbar-nav .nav-link {
+  color: #fff;
   font-size: 1em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;

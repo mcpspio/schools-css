@@ -2,7 +2,7 @@
 
 $schoolcolors: (
   
-    bannercolor: red,
+    bannercolor:#fff,
      primary:#000,
      secondary:#4386c3,
      accent:#205a90,
@@ -80,7 +80,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     }
  .navbar-nav .nav-link {
 
-       
+    color: map-get($schoolcolors , navlinks);
         font-size: 1em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
