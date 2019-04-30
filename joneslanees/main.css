@@ -107,6 +107,10 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   border: 5px solid #f4de7f;
 }
 
+.sidebar-1 nav a {
+  color: #fff;
+}
+
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
