@@ -107,20 +107,23 @@ nav{
      
 
         h2{ font-size: 1.6em; text-align: center;}
-}
-a{
-    color: map-get($schoolcolors , primary);
-   }
-.list-group-item {
+
+
+.list-group{
 
     background-color: map-get($schoolcolors , sidemenucolor);
     border-width:1px 0 1px 0;
     border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
     border-style: dashed;
- 
-    }
-    .list-group-item:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
+
+    a{   color: map-get($schoolcolors , primary); }
+   
+
 }
+.list-group:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
+}
+
+
 
 div.news{
  
