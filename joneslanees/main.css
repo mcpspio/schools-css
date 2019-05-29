@@ -122,10 +122,6 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   border-style: dashed;
 }
 
-.sidebar-1 nav .list-group li a {
-  color: #000;
-}
-
 .sidebar-1 nav .list-group:hover {
   background-color: #f0d250;
 }
@@ -134,6 +130,10 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   border-width: 0 0 1px 0;
   border-color: #9a800d;
   border-style: dashed;
+}
+
+.sidebar-1 nav.list-group li a {
+  color: #000;
 }
 
 .sidebar-1 div.news #news h2, .sidebar-1 div.news h2 a {
