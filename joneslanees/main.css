@@ -147,20 +147,20 @@ div.news #news h2, div.news h2 a {
   border: 5px solid #4386c3;
 }
 
-.schooleventindexpage .calendar p strong {
+.schooleventindexpage .calendar p {
+  line-height: 1.4em;
+  font-size: 0.99em;
+}
+
+.schooleventindexpage p strong {
   text-transform: uppercase;
   color: #333333;
 }
 
-.schooleventindexpage .calendar a {
+.schooleventindexpage a {
   color: #333333;
-  font-size: 92%;
+  font-size: 95%;
   line-height: 1.3em;
-}
-
-.schooleventindexpage .calendar p {
-  line-height: 1.3em;
-  font-size: 1em;
 }
 
 .footer {
