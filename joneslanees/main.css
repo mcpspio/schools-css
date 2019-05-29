@@ -154,12 +154,13 @@ div.news #news h2, div.news h2 a {
 
 .schooleventindexpage .calendar a {
   color: #333333;
-  font-size: 89%;
+  font-size: 92%;
   line-height: 1.3em;
 }
 
 .schooleventindexpage .calendar p {
-  line-height: 0.8em;
+  line-height: 1.3em;
+  font-size: 1em;
 }
 
 .footer {
