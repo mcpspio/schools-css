@@ -142,7 +142,8 @@ div.news{
     border:5px solid (map-get($schoolcolors , secondary));
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primary), 20%);}
+    color: lighten(map-get($schoolcolors , primary), 20%);
+font-size:98%;}
 
 }
 }
