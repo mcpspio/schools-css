@@ -109,14 +109,14 @@ nav{
         h2{ font-size: 1.6em; text-align: center;}
 
 
-.list-group{
+.list-group  li {
 
     background-color: map-get($schoolcolors , sidemenucolor);
     border-width:1px 0 1px 0;
     border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
     border-style: dashed;
 
-   li a{   color: map-get($schoolcolors , primary); }
+  a {   color: map-get($schoolcolors , primary); }
    
 
 }

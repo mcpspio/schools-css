@@ -115,7 +115,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   text-align: center;
 }
 
-.sidebar-1 nav .list-group {
+.sidebar-1 nav .list-group li {
   background-color: #ecc621;
   border-width: 1px 0 1px 0;
   border-color: #9a800d;
