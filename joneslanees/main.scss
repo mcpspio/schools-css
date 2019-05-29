@@ -147,6 +147,8 @@ p  strong {text-transform: uppercase;
 a {    color: lighten(map-get($schoolcolors , primary), 20%);
 font-size:89%;
 line-height: 1.3em;}
+p {  
+    line-height: 0.8em;}
 }
 }
 .footer{padding: 20px;

@@ -158,6 +158,10 @@ div.news #news h2, div.news h2 a {
   line-height: 1.3em;
 }
 
+.schooleventindexpage .calendar p {
+  line-height: 0.8em;
+}
+
 .footer {
   padding: 20px;
   background-color: #4386c3;
