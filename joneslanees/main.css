@@ -115,7 +115,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   text-align: center;
 }
 
-.sidebar-1 nav .list-group li {
+.sidebar-1 nav li {
   background-color: #ecc621;
   border-width: 1px 0 1px 0;
   border-color: #9a800d;
@@ -126,14 +126,14 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   background-color: #f0d250;
 }
 
-.sidebar-1 nav .list-group li a {
-  color: #000;
-}
-
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
   border-color: #9a800d;
   border-style: dashed;
+}
+
+.sidebar-1 .list-group li a {
+  color: #000;
 }
 
 .sidebar-1 div.news #news h2, .sidebar-1 div.news h2 a {
