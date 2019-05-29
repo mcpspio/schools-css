@@ -115,48 +115,48 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   text-align: center;
 }
 
-.sidebar-1 a {
-  color: #000;
-}
-
-.sidebar-1 .list-group-item {
+.sidebar-1 nav .list-group {
   background-color: #ecc621;
   border-width: 1px 0 1px 0;
   border-color: #9a800d;
   border-style: dashed;
 }
 
-.sidebar-1 .list-group-item:hover {
+.sidebar-1 nav .list-group a {
+  color: #000;
+}
+
+.sidebar-1 nav .list-group:hover {
   background-color: #f0d250;
 }
 
-div.news #news h2, div.news h2 a {
-  color: #205a90;
-}
-
-.list-group-item {
+.sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
   border-color: #9a800d;
   border-style: dashed;
 }
 
-.schooleventindexpage .calendar {
+.sidebar-1 div.news #news h2, .sidebar-1 div.news h2 a {
+  color: #205a90;
+}
+
+.sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
   border: 5px solid #4386c3;
 }
 
-.schooleventindexpage .calendar p {
+.sidebar-1 .schooleventindexpage .calendar p {
   line-height: 1.5em;
   font-size: 1em;
 }
 
-.schooleventindexpage p strong {
+.sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
   color: #333333;
 }
 
-.schooleventindexpage a {
+.sidebar-1 .schooleventindexpage .calendar a {
   color: #333333;
   font-size: 95%;
 }
