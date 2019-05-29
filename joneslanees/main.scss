@@ -121,6 +121,8 @@ nav{
 
 }
 .list-group:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
+.list-group  li  a {   color: map-get($schoolcolors , primary); }
+
 
 .list-group-item {
 
@@ -129,8 +131,9 @@ nav{
     border-style: dashed;
 
 }
+
 }
-nav.list-group  li  a {   color: map-get($schoolcolors , primary); }
+
 
 div.news{
  
