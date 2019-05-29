@@ -115,7 +115,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   text-align: center;
 }
 
-.sidebar-1 nav li {
+.sidebar-1 nav .secondary-menu li {
   background-color: #ecc621;
   border-width: 1px 0 1px 0;
   border-color: #9a800d;
