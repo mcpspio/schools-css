@@ -122,7 +122,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   border-style: dashed;
 }
 
-.sidebar-1 nav .list-group a {
+.sidebar-1 nav .list-group li a {
   color: #000;
 }
 
