@@ -137,19 +137,18 @@ div.news{
 .schooleventindexpage {
   
 .calendar {
-    padding:15px!important;
+    padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
     border:5px solid (map-get($schoolcolors , secondary));
   p {  
-        line-height: 1.4em;
-    font-size: 0.99em;}
+        line-height: 1.5em;
+    font-size: 1em;}
     }  
 p  strong {text-transform: uppercase;
     color: lighten(map-get($schoolcolors , primary), 20%);
 }
 a {    color: lighten(map-get($schoolcolors , primary), 20%);
-font-size:95%;
-line-height: 1.3em;}
+font-size:95%;}
 
 }
 .footer{padding: 20px;
