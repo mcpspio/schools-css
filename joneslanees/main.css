@@ -134,6 +134,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 
 .sidebar-1 .list-group li a {
   color: #000;
+  font-style: italic;
 }
 
 .sidebar-1 .schooleventindexpage .calendar {
@@ -150,6 +151,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
   color: #333333;
+  font-style: italic;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
