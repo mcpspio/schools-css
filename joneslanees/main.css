@@ -98,6 +98,11 @@ nav li:hover, .navbar li:hover {
   border-radius: 6px;
 }
 
+.sidebar-1 .school-info-box p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
 .sidebar-1 h4 {
   font-size: 1.6em;
   line-height: 1.2em;
