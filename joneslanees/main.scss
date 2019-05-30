@@ -126,7 +126,7 @@ nav{
 }
 
 }
-.list-group  li  a {   color: map-get($schoolcolors , primary); }
+.list-group  li  a {   color: map-get($schoolcolors , primary); font-style: italic;}
 
 .schooleventindexpage {
   
@@ -139,7 +139,7 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primary), 20%);
+    color: lighten(map-get($schoolcolors , primary), 20%) font-style: italic;;
 }
 
 
