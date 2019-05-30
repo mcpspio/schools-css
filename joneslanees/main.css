@@ -161,7 +161,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   color: #205a90;
 }
 
-.news a.list-group-item h3 {
+a.list-group-item h3 {
   font-size: 26px;
   line-height: 30px;
   font-weight: normal;
