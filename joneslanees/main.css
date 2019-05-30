@@ -136,15 +136,6 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   color: #000;
 }
 
-.sidebar-1 .news h2, .sidebar-1 .news h2 a {
-  color: #205a90;
-}
-
-.sidebar-1 .list-group a h3 {
-  font-size: 26px;
-  line-height: 32px;
-}
-
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
@@ -164,6 +155,15 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 .sidebar-1 .schooleventindexpage .calendar a {
   color: #333333;
   font-size: 95%;
+}
+
+.news h2, .news h2 a {
+  color: #205a90;
+}
+
+.list-group a h3 {
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .footer {

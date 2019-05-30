@@ -128,13 +128,6 @@ nav{
 }
 .list-group  li  a {   color: map-get($schoolcolors , primary); }
 
-
-
-.news {
- 
-    h2, h2 a{   color: map-get($schoolcolors , accent);}
-}
-.list-group a h3{font-size: 26px;   line-height: 32px;}
 .schooleventindexpage {
   
 .calendar {
@@ -156,6 +149,14 @@ font-size:95%;}
 }
 }
 }
+
+
+
+.news {
+ 
+    h2, h2 a{   color: map-get($schoolcolors , accent);}
+}
+.list-group a h3{font-size: 26px;   line-height: 32px;}
 .footer{padding: 20px;
     background-color: map-get($schoolcolors , secondary);
    p,a{  color: map-get($schoolcolors , navlinks);} 
