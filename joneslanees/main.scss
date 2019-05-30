@@ -139,12 +139,12 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primary), 20%); font-style: italic;
+    color: lighten(map-get($schoolcolors , primary), 20%); 
 }
 
 
 a {    color: lighten(map-get($schoolcolors , primary), 20%);
-font-size:95%;}
+font-size:95%; font-style: italic;}
 
 }
 }

@@ -151,12 +151,12 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
   color: #333333;
-  font-style: italic;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
   color: #333333;
   font-size: 95%;
+  font-style: italic;
 }
 
 .news h2, .news h2 a {
