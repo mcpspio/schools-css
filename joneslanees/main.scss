@@ -115,7 +115,7 @@ nav{
     border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
     border-style: dashed;
 }
-.list-group:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
+.list-group li:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
 
 .list-group-item {
 
@@ -126,7 +126,7 @@ nav{
 }
 
 }
-.list-group  li  a {   color: map-get($schoolcolors , primary); font-style: italic;}
+.list-group  li  a {   color: map-get($schoolcolors , primary); font-style: italic;     line-height: 2.3em;}
 
 .schooleventindexpage {
   
