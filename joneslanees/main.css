@@ -69,7 +69,7 @@ nav, .navbar {
   border-bottom: 5px solid #205a90;
 }
 
-nav .nav-item:hover, .navbar .nav-item:hover {
+nav li:hover, .navbar li:hover {
   background-color: #6a9fcf;
 }
 

@@ -73,7 +73,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     border-top:5px solid map-get($schoolcolors , accent);
     border-bottom:5px solid map-get($schoolcolors , accent);
 
-    .nav-item:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
+    li:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
     
  
     }
