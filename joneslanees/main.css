@@ -163,7 +163,8 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 
 .list-group a h3 {
   font-size: 26px;
-  line-height: 32px;
+  line-height: 30px;
+  font-weight: normal;
 }
 
 .footer {
