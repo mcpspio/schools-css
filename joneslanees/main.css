@@ -117,7 +117,7 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 
 .sidebar-1 nav .secondary-menu li {
   background-color: #ecc621;
-  border-width: 1px 0 1px 0;
+  border-width: 0 0 1px 0;
   border-color: #9a800d;
   border-style: dashed;
 }
@@ -138,6 +138,11 @@ nav .nav-item:hover, .navbar .nav-item:hover {
 
 .sidebar-1 div.news #news h2, .sidebar-1 div.news h2 a {
   color: #205a90;
+}
+
+.sidebar-1 div.news h3 {
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .sidebar-1 .schooleventindexpage .calendar {

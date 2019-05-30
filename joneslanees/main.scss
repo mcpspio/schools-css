@@ -112,7 +112,7 @@ nav{
 .secondary-menu li {
 
     background-color: map-get($schoolcolors , sidemenucolor);
-    border-width:1px 0 1px 0;
+    border-width:0 0 1px 0;
     border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
     border-style: dashed;
 }
@@ -135,6 +135,7 @@ div.news{
  
    #news h2, h2 a{ 
         color: map-get($schoolcolors , accent);}
+    h3{font-size: 26px;   line-height: 32px;}
 }
 
 .schooleventindexpage {
