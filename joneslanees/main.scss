@@ -115,7 +115,7 @@ nav{
     border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
     border-style: dashed;
 }
-.list-group li:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
+ li:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
 
 .list-group-item {
 
