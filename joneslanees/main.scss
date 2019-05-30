@@ -130,13 +130,12 @@ nav{
 
 
 
-div.news{
+.news .list-group-item{
  
-   #news h2, h2 a{ 
-        color: map-get($schoolcolors , accent);}
-}
-.news h3{font-size: 26px;   line-height: 32px;}
+    h2, h2 a{   color: map-get($schoolcolors , accent);}
 
+ h3{font-size: 26px;   line-height: 32px;}
+}
 .schooleventindexpage {
   
 .calendar {

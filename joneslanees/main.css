@@ -136,11 +136,11 @@ nav .nav-item:hover, .navbar .nav-item:hover {
   color: #000;
 }
 
-.sidebar-1 div.news #news h2, .sidebar-1 div.news h2 a {
+.sidebar-1 .news .list-group-item h2, .sidebar-1 .news .list-group-item h2 a {
   color: #205a90;
 }
 
-.sidebar-1 .news h3 {
+.sidebar-1 .news .list-group-item h3 {
   font-size: 26px;
   line-height: 32px;
 }
