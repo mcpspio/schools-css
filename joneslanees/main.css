@@ -182,9 +182,12 @@ nav li:hover, .navbar li:hover {
 .footer {
   padding: 20px;
   background-color: #4386c3;
+  color: #fff;
+  font-size: .95%;
 }
 
 .footer p, .footer a {
   color: #fff;
+  font-size: .95%;
 }
 /*# sourceMappingURL=main.css.map */
