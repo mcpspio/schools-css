@@ -76,7 +76,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     border-top:5px solid map-get($schoolcolors , accent);
     border-bottom:5px solid map-get($schoolcolors , accent);
 
-    .navbar li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
+     li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
   }
  .navbar-nav .nav-link {
 
