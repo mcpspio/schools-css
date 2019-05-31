@@ -195,4 +195,8 @@ h4, h4 a {
 .carousel-item h2 {
   color: #fff;
 }
+
+.btn-primary, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
+  color: #4386c3;
+}
 /*# sourceMappingURL=main.css.map */
