@@ -176,4 +176,4 @@ font-size:95%; font-style: italic;}
 .carousel-item h2{ color:#fff;}
 
 .btn-primary, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1
-{color: map-get($schoolcolors , secondary);}
+{background-color: map-get($schoolcolors , secondary);}
