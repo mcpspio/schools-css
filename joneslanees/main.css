@@ -72,7 +72,7 @@ nav, .navbar {
   border-bottom: 5px solid #205a90;
 }
 
-nav li:hover, .navbar li:hover {
+nav .navbar li a:hover, .navbar .navbar li a:hover {
   background-color: #6a9fcf;
 }
 
