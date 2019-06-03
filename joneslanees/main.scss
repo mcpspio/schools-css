@@ -180,3 +180,7 @@ font-size:95%; font-style: italic;}
 border-color:map-get($schoolcolors , secondary); }
 .btn-primary:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover
 {background-color: lighten(map-get($schoolcolors , secondary), 10%);}
+
+.emergency {
+    max-width: 1140px;
+}

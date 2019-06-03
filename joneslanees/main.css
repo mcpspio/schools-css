@@ -204,4 +204,8 @@ h4, h4 a {
 .btn-primary:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
   background-color: #6a9fcf;
 }
+
+.emergency {
+  max-width: 1140px;
+}
 /*# sourceMappingURL=main.css.map */
