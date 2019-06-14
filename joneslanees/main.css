@@ -196,17 +196,21 @@ h4, h4 a {
   color: #fff;
 }
 
-.btn-primary, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
+.btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
   background-color: #4386c3;
   border-color: #4386c3;
 }
 
-.btn-primary:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
+.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
   background-color: #6a9fcf;
 }
 
-.emergency {
-  max-width: 1140px;
-  margin: 0 auto;
+.btn-primary {
+  background-color: #4386c3;
+  border-color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #1a1a1a;
 }
 /*# sourceMappingURL=main.css.map */

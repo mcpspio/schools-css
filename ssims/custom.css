@@ -1,0 +1,1322 @@
+
+@import url(https://fonts.googleapis.com/css?family=Courgette);
+
+@import url(https://fonts.googleapis.com/css?family=Gabriela);
+
+
+
+    
+
+
+@font-face {
+    font-family: 'leaguespartan';
+    src: url('fonts/leaguespartan/leaguespartan-bold-webfont.eot');
+    src: url('fonts/leaguespartan/leaguespartan-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguespartan/leaguespartan-bold-webfont.woff') format('woff'),
+         url('fonts/leaguespartan/leaguespartan-bold-webfont.ttf') format('truetype'),
+         url('fonts/leaguespartan/leaguespartan-bold-webfont.svg#comfortaabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'enriqueta';
+    src: url('fonts/enriqueta/enriqueta-bold-webfont.eot');
+    src: url('fonts/enriqueta/enriqueta.eot?#iefix') format('embedded-opentype'),
+         url('fonts/enriqueta/enriqueta.woff') format('woff'),
+         url('fonts/enriqueta/enriqueta.ttf') format('truetype'),
+         url('fonts/enriqueta/enriqueta.svg#amaticbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	
+body img {
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+img.staffprinticon {
+
+    height:inherit;
+    width:80px;
+    overflow:visible;
+    text-indent:none;
+    white-space:normal;
+
+}
+
+/* ---------------------------------------------------------------------------------
+FONTS, GENERAL, MISC
+------------------------------------------------------------------------------------ */
+
+body	{
+	font-family: Arial, Helvetica, sans-serif;  font-size: 14px;
+    line-height: 1.6em;   color:#444444;
+	background:#fff url(../images/ssims-top-bg.jpg) top left repeat-x;
+}
+
+
+	
+
+h1, h2 {
+font-family: 'leaguespartan';
+	font-weight:normal;
+	}
+
+h1 {
+	color:#d36c42;
+	font-size:35px;
+	line-height:48px;
+	}
+	
+h2, h2 a {
+  color: #d36c42;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 30px;
+	text-transform:uppercase;
+
+
+}
+
+h3, h3 a, p.title {
+
+    color:#178876;
+    font-size: 30px;
+    line-height:35px;
+	margin:15px 0 10px 0;
+font-family: 'enriqueta', serif;
+	 
+}
+
+  #homepagetopcontent h3 {  color:#178876;
+    font-size: 28px;
+    line-height:33px;
+	margin:15px 0 10px 0;
+font-family:'leaguespartan' }
+
+
+  #homepagetopcontent p {  
+    font-size: 16px;
+ }
+
+h4, h4 a {
+
+    color:#10267c;
+    font-size: 22px;
+    line-height:28px;
+	margin: 10px 0 15px 0;
+font-family:'enriqueta', serif;
+
+	 
+	}
+	
+hr {
+	height:3px;
+	border:0;
+	background:#e6e2d0;
+	margin:30px 0;
+	clear:both;
+	}
+
+p{   margin:20px 0;}
+a {  color: #006ee2; text-decoration: none; }
+
+#calendar h4	{
+	background:url("../images/orange-bg.jpg"); color:#fff; padding:10px 0 10px 0;font-size:22px; text-transform: uppercase;	
+}
+#calendar p strong	{
+	font-size: 15px;	
+}
+
+footer a, footer p	{
+	font-size: 12px;
+}
+
+a:hover { text-decoration: underline;color:#10267c }
+
+
+.main-content a.list-group-item { border-bottom: 1px dashed #94959b; }
+.main-content .btn-primary { border-bottom:0; }
+.main-content li, .main-content ol { padding:6px 0; margin-left:15px; }
+
+.blue { color:#226722;}
+.green { color:#178876;}
+
+.orange { color:#d36c42;}
+
+.sbr-2	{
+	display:none;
+}
+a img:hover{opacity:.8;}
+
+	/* ----------------RESPONSIVE TABLE -----------*/
+table.responsive {    border-collapse: collapse; }
+/* Zebra striping */
+.responsive tr:nth-of-type(odd) {    }
+table.responsive.nostripes tr:nth-of-type(odd) {   }
+.responsive th {    font-weight: bold; }
+.responsive td, .responsive th {  padding: 3px;    text-align: left; }
+.responsive td p {font-size: 100%;}
+.responsive td ul li {font-size: 100%;}
+
+/* ---------------------------------------------------------------------------------
+HEADER
+------------------------------------------------------------------------------------ */
+
+.tweet-box {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border: 2px solid #e4e4e4;
+    border-radius: 5px;
+    font-family: Lato;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    padding: 10px;
+	
+}
+
+/* Top MCPS Button ---------------------------- */
+
+.btn-default {
+    color:#e57c4a;
+	background:transparent;
+	background-image: none;
+    background-repeat: no-repeat;
+    border:0;
+	text-decoration:underline;
+
+    text-shadow:none;
+	box-shadow:none;
+	margin-top:10px;
+	radius:0px;
+}
+
+a#mcps-link:hover {
+  color:#10267c !important;
+}
+
+
+/* END - Top MCPS Button ---------------------------- */
+
+.site-header { position:relative; }
+
+.masthead{
+
+	}
+.masthead h1 {
+
+
+
+ background: rgba(0, 0, 0, 0) url('../images/ssims-banner.png') no-repeat scroll center top;
+    display: block;
+    height: 147px;
+   margin:1px auto 0px auto;
+    text-indent: -9999px;
+    z-index: 9999999;
+	background-size:contain;
+}
+
+
+
+
+address { 
+	text-indent: -9999px;
+	margin-bottom: 0;
+	line-height: 0;
+	}
+.intro {
+	background:#00B8B8;
+	padding:18px 5%;
+
+	border:1px solid #00B8B8;
+	margin-bottom:24px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px; /* future proofing */
+	-khtml-border-radius: 6px; /* for old Konqueror browsers */
+	}
+
+#content {   padding-top:30px; 
+}
+
+/* ---------------------------------------------------------------------------------
+NAVIGATION
+------------------------------------------------------------------------------------ */
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border:0; margin:0px;}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default:hover .navbar-toggle:hover, .navbar-default:active .navbar-toggle:active {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar {
+    padding: 0;
+background-color:#037b71;
+border:0;
+	border-bottom:5px solid #e57c4a;
+
+	border-radius: 0;
+ margin-bottom: 0px;
+	min-height: 40px;
+	position:relative;
+	z-index: 1000;
+
+}
+
+.navbar .container, .nav-wrapper { background:transparent; }
+
+.navbar-default .navbar-nav > li > a {
+
+	padding: 18px 8px 18px 20px;
+	color:#fff;
+	text-transform:uppercase;
+font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	    margin: 0 5px;
+		font-weight:bold;
+		background: rgba(0, 0, 0, 0) url("../images/ssims-nav-item-bg.png") no-repeat scroll left center;
+	}
+	
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color:#e57c4a;
+	color: #fff;
+	}
+	
+.navbar-nav > li > a {
+    padding-top: 10px;
+}
+
+.navbar a{
+	padding-bottom:5px;
+	}
+
+.nav-wrapper {
+	background:#037b71;
+	background-color: transparent;
+	}
+
+
+/* END - Navigation ---------------------------- */
+
+.homepage #content{ padding-top:30px; }
+
+#content .container	{padding-bottom:0; background-position: bottom right; background-repeat:no-repeat; padding-bottom: 50px;}
+
+.main-content .content-inner { padding:40px 3%;}
+.main-content .content-inner img { 
+	padding:5px;
+	background:#fff;
+	border:1px solid #E6E2D0;
+}
+
+
+
+
+#tophome
+{
+background:#e8e7e5 url(../images/ssims-intro-bg.jpg) repeat;
+width:100%; display:block;
+padding:2em 0px 1.5em;}
+
+
+.transport-icon {
+    margin-top: -100px;
+}
+
+
+
+#bottomhome {
+	background:#e8e7e5 url(../images/ssims-intro-bg.jpg) repeat;
+width:100%; display:block; border-top:8px solid #178876;
+padding:20px 0px 20px 0px;}
+
+#bottomhome h3 {
+	    color:#e57c4a;
+    font-size: 30px;
+    line-height:35px;
+	margin:15px 0 10px 0;
+	
+font-family: 'Gabriela', cursive;
+}
+
+.btn-green a {
+    color: #fff;
+	background-color:#178876;
+    font-size: 0.98em;
+
+	text-align:left;
+	border-radius:6px;
+	padding: 5px 5px;
+}
+
+#bottomhome h2 {
+margin-bottom:0px;
+}
+
+#bottomhome img {
+    border: 5px solid #fff;
+    box-shadow: 1px 1px 3px 2px #ccc;
+}
+
+
+
+
+
+#bottomhome .thumbnail {
+border:0px;
+background-color:transparent;
+margin-bottom:40px;
+text-align:left;
+}
+
+#bottomhome  img.center-cougar {
+   width:154px;
+   text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+	border:0px;
+	box-shadow:none;
+}
+
+/* ---------------------------------------------------------------------------------
+SIDEBAR LEFT
+
+
+------------------------------------------------------------------------------------ */
+.col-md-pull-9 {
+    right: 74.5%;
+}
+.row {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.sidebar-1 {
+	border-left:0;
+	padding-right:0;
+	padding-top:15px;
+	}
+
+
+.sidebar-1 #sb-menu1,
+.sidebar-1 #sb-menu2,
+.sidebar-1 #sb-menu3 {
+	background:#ffffff;
+	padding:0;
+	margin:10px 2% 0px 2%;
+	}
+	
+.sidebar-1 .school-info-box {
+	background:#ffffff;
+	padding:0;
+	margin:10px 2% 1.5em 2%;
+	}
+
+#sb-menu1 ul li ul, #sb-menu2 ul li ul {
+    padding: 0;
+}
+
+.sidebar-1 .school-info-box { padding:12px 0; }
+.school-info-box h3, .school-info-box h4 {font-size: 28px;  color:#d36c42; font-family: 'Gabriela', cursive;}
+
+.sidebar-1 #sb-menu2,
+.sidebar-1 #sb-menu3 { 
+	display:none; 
+	}
+
+.sidebar-1 h2 {
+
+	border-right:0px;
+	border-top:0px;
+	border-bottom: 0;
+	padding:0;
+	margin:0;
+
+	}
+
+a.btn-map {
+	color:#10267c;
+	background:#e57c4a;
+	padding:6px 10px;
+	text-decoration:none;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px; /* future proofing */
+	-khtml-border-radius: 6px; /* for old Konqueror browsers */
+	}
+
+a:hover.btn-map {
+
+	background:#e45e1e;
+	}
+	
+.school-info-box {
+	padding:15px 5%;
+
+	}
+
+.school-info-box p, .school-info-box a.bluelink {
+    line-height:1.5em;
+	font-size:13px;
+    margin-bottom: 0px;
+}
+
+
+.school-info-box .btn { 
+	margin-bottom: 0em;
+}
+
+.school-info-box aside	{
+	margin-bottom:0;
+}
+
+ul li.secondary-menu ul li a
+
+/* ---------------------------------------------------------------------------------
+SIDEBAR NAVIGATION
+------------------------------------------------------------------------------------ */
+
+.list-group {
+    border-radius: 0;
+    box-shadow: none;
+
+}	
+
+nav.list-group ul, 
+nav.list-group ul li {
+	list-style:none;
+	margin:0;
+	padding:0;
+	 
+	
+	
+	}	
+
+li.secondary-menu h2 {
+	color:#fff;
+background-color:#10267c;
+	padding:3px 0 8px 8px;
+ font-size: 22px;
+
+	}
+
+li.secondary-menu h2:first-word {
+	color:#ccc;
+	}
+.secondary-menu{
+	border: 2px 2px 0px 0px solid #e6e2d0;
+	}
+	
+nav.list-group ul li.secondary-menu { padding:0;}
+
+nav.list-group ul li a {
+
+	font-style:normal;
+	color:#FFF;
+	display:block;
+	padding:8px 10px;
+	background-color:#178876;
+    display: block;
+ font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 12px;
+    text-transform: none;
+	}		
+
+nav.list-group ul li a:hover {
+	color:#fff;
+	background:#086758;
+	text-decoration:none;
+	}		
+	
+	
+ul li ul {
+
+
+	border-radius: 2px;
+}	
+ul li ul li{border-bottom: 1px solid #1da38e;
+border-top: 1px solid #0b7362;}
+	
+/* ---------------------------------------------------------------------------------
+NEWS
+------------------------------------------------------------------------------------ */
+
+#news {
+
+
+	
+
+    background: rgba(0, 0, 0, 0) url("../images/ssims-hr-bg.jpg") repeat-x scroll left top;
+    margin: 60px 0 20px;
+    padding-top: 25px;
+
+
+	}
+	
+	#news h2 {   margin:0 0 15px 0 ; color:#d36c42; font-family: 'leaguespartan'; text-transform:uppercase;}
+
+
+article.list-group {
+	margin-bottom:30px;
+	}
+article.list-group h3 {
+margin-bottom:5px;
+	}
+.list-group-item {
+	border:0;
+	padding:8px 0;
+	border-bottom: 1px dotted #94959b;
+	border-right: 8px solid #fff;
+	background-color:transparent;
+	margin-bottom:0;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 0px;
+}
+
+.list-group-item h3 { margin-top:0; border-bottom:0px; font-size:20px; color:#0f5fbf;font-family:Arial, Helvetica, sans-serif;}
+a.list-group-item:hover { border-right: 8px solid #d1d1d1; }
+.list-group-item p { color:#444; margin:5px 0; }
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------
+SIDEBAR BLOCK
+------------------------------------------------------------------------------------ */
+
+.search,
+#sb-menu3,
+.sb-block,
+.sbr-2 {
+	padding:0;
+}
+
+.form-group, .search	{
+	margin-top: 36px;
+}
+
+aside.sb-block, .sbr-2, .sbr-1 { text-align:center; } 
+	
+aside.sb-block img {
+	padding:5px;
+	background:#fff;
+	-moz-box-shadow:    0px 0px 4px 4px #e8e3d5;
+	-webkit-box-shadow: 0px 0px 4px 4px #e8e3d5;
+	box-shadow:         0px 0px 4px 4px #e8e3d5;
+	}
+
+aside.sb-block a:hover {
+	opacity:0.6;
+	}
+
+#sb-menu3 { display:none; }	
+
+#twitter-widget-0 { margin:0 auto; }
+
+.sbr-2 img {
+	background:#F6F2E5;
+	padding:5px;
+}
+
+.sbr-1 { padding:30px 0; }
+.sbr-2 { padding-right:5%; }
+
+aside.sb-block { margin-left:2%; margin-right:2%; }
+
+
+/* ---------------------------------------------------------------------------------
+SEARCH
+------------------------------------------------------------------------------------ */
+
+.search {
+	
+	overflow:auto;
+	
+	}
+
+.searchtext,
+.searchbtn {
+    background-color: #FFFFFF;
+    border: 1px solid #E6E2D0;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 9px 12px;
+}
+
+.searchtext { width: 60%; }
+
+
+.searchtext {
+  display: inline-block;
+  height: 34px;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.searchtext:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+.searchtext::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+.searchtext:-ms-input-placeholder {
+  color: #999;
+}
+.searchtext::-webkit-input-placeholder {
+  color: #999;
+}
+
+
+
+.searchbtn {
+	width: 34%;
+	margin-left:4%;
+	color:#fff;
+	border:1px solid #f99703;
+	background-color:#f99703;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px; /* future proofing */
+	-khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+.searchbtn:hover {
+	color:#2B853E;
+	background:#feb168;
+	border-color: #ccc;
+	}
+
+
+
+/*-----------------------------------------------------------------------------------------
+SLIDESHOW
+------------------------------------------------------------------------------------------- */
+
+.slideshow {
+	position:relative;
+	}
+
+.slideshow img{
+	border-top:5px solid #fbfd06;
+	border-bottom:5px solid #fbfd06;
+	padding:0;
+	width:100%;
+	margin:10px 0 20px 0;
+	}
+
+p.slideshow-btn {
+	text-align:center;
+	margin-top:-40px;
+	}
+
+p.slideshow-btn .btn-primary {  }
+
+p.slideshow-btn a:hover {
+	color:#2B853E;
+	background:#FFFEA9;
+	text-decoration:none;
+	} 
+
+.pika-stage, .pika-textnav {
+    width: 100% !important;
+}
+
+.content-inner iframe {
+	border:5px solid #ccc;
+	}
+
+
+/* ---------------------------------------------------------------------------------
+TABLE
+------------------------------------------------------------------------------------ */
+
+.table { margin-top:30px; }	
+	
+
+
+/* ---------------------------------------------------------------------------------
+SOCIAL MEDIA	
+------------------------------------------------------------------------------------ */
+
+.sm {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+.sm li {
+    border-bottom:0px dashed #e6e2d0;
+    margin: 0;
+    padding:0;
+    text-align: left;
+}
+.sm li a { display:block; padding: 16px 5px 16px 44px; }
+.twitter a { background:url(../images/twitter.png) left center no-repeat; }	
+.facebook a { background:url(../images/facebook.png) left center no-repeat; }	
+	
+/* ---------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------------ */
+
+#calendar { 
+
+	text-align:center;
+	padding:0px 0 40px 0;
+
+	margin-top: 20px;
+  background: url("../images/ssims-intro-bg.jpg")repeat 0 0;
+  
+  
+
+
+}
+
+#calendar h4::after {
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+    border-top: 22px solid #10267c;
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+#calendar h4 {
+    background: #10267c;
+    color: #fff;
+    display: inline-block;
+  font-size: 22px;
+    font-weight: normal;
+    margin: 0 0 0.8em;
+  padding: 8px 0 8px 8px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+	font-family:'leaguespartan', serif;
+  
+}
+
+
+
+#calendar p {
+	color:#646464;
+	padding:10px 0;
+	border-bottom:1px dashed #aaaaaa; 
+	margin:0 5%;
+	line-height:1.2em;
+	}
+#calendar p a {
+	color:#0f5fbf;
+	font-size:14px;
+
+	}
+#calendar p a:hover {
+	color:#10267c;
+
+	}
+#calendar p strong {
+    color: #646464;
+    display: inline-block;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+	font-weight:bold;
+}
+	
+.btn-calendar { margin-top:-10px; text-align:center; margin-bottom:2em; }
+
+
+
+/* ---------------------------------------------------------------------------------
+CALENDAR - TOP LIST
+------------------------------------------------------------------------------------ */
+
+ul#taxonomylist { margin:0; padding:0; list-style:none; }
+ul#taxonomylist li {
+    background: none repeat scroll 0 0 #F6F3E5;
+    display: inline-block;
+	*zoom: 1;
+    *display: inline;
+    margin: 0.25%;
+    padding: 6px 0.25%;
+    text-align: center;
+    width: 18%;
+}
+
+
+
+
+.main-content .content-inner img {
+    background: #FFF none repeat scroll 0 0;
+    border: 1px solid #ccc;
+	 box-shadow: 1px 1px 3px 2px #ccc;
+    padding: 5px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------
+STAFF DIRECTORY
+------------------------------------------------------------------------------------ */
+
+#box_left, #box_right {
+	width:48%;
+	float:left;
+	}
+	
+#box_right {
+	width:48%;
+	float:right;
+	}	
+	
+#box_left h3, #box_right h3 {
+	color:#FFFFFF;
+	background:#178876;
+	font-size:18px;
+	padding:15px 5%;
+	margin-bottom:0;
+	}
+
+.alternaterow {
+    background-color: #f1f0f1;
+}
+
+#employee {
+	padding:15px 5% !important;
+	background:#e8f3fe;
+	margin-bottom:0.1em;
+	}
+
+#employee p.employeename { font-weight: bold; }
+#employee p { line-height:1.8em; margin-bottom:5px; }
+
+#departmentList {
+	padding: 10px 0;
+	border-bottom:1px dotted #F6F2E5;
+	}
+
+#departmentList p {
+
+    margin: 0 0 20px 0;
+}
+
+#departmentList p a:hover { text-decoration:none; }	
+
+
+/* ---------------------------------------------------------------------------------
+FOOTER
+------------------------------------------------------------------------------------ */
+
+.footer {
+/* Old browsers */
+    background:#243882 url("../images/ssims-footerbg.jpg") repeat;
+    border-radius: 0;
+
+
+}
+
+ .footer img {
+    border: 0 solid #fff;
+    box-shadow: none;
+    padding: 5px;
+}
+.footer-inner{
+    background:url("../images/ssims-top-bg.jpg") repeat-x scroll;
+	border-top:#fff 3px solid;
+}
+
+.mcps-info,
+.credits,
+.tron-login {
+    margin: 0;
+    padding: 40px 0 15px 0;
+	}
+	
+.tron-login	img	{
+	border-radius: 5px;
+}
+
+.credits {
+	text-align:right;
+	line-height:1.5em;
+	color:white;
+
+	padding:10px auto ;
+	}
+.footer .container{}
+
+.credits a { color:#669a66; text-decoration:underline; }
+.credits a:hover { color:#fff; text-decoration:none; }
+.mcps-logo { background:url(../images/ftr-mcps-logo.png) 5% top no-repeat; padding-top:75px; }
+.mcps-logo p { line-height:1.5em; color:#cbd9fe; }
+
+.footer ul,
+.footer li {
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+.footer li a {
+	color:#FFF;
+	display:block;
+	text-decoration:none; 
+	}
+
+.footer li a:hover { color:#cbd9fe; }
+ul#global-footerNav { width:50%; float:right; }	
+
+.tron-login { border-bottom:0px; text-align:center }	
+.tron-login a { opacity:.9; }	
+.tron-login a:hover { opacity:.5; }	
+
+
+/* Search -------------------------------------------------------- */
+
+.search {
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+.three-column .search {
+    float: none;
+    margin: 35px 0 0px 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.one-column .search { width:25%; }
+p.bluelink{margin-top:0px;}
+
+/* Misc -------------------------------------------------------- */
+
+.btn-primary, .searchbtn {
+    color:#fff;
+	background-image: none;
+	background:#d36c42;
+    border: 0px;
+}
+
+a.btn-primary, .searchbtn	{
+
+	text-transform:uppercase;
+	padding: 6px 12px 6px 12px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+a.btn-primary:hover, .searchbtn:hover {
+    color:#ffffff;
+	background-image: none;
+	background:#f38b1a;
+	text-shadow:none;
+}
+
+html.embed { background:transparent; }
+
+
+div.tron-login > a > img {
+	border-radius: 15px;
+}
+
+/* Classroom-------------------------------------------------------- */
+ul.grid {
+    margin: 0;
+    padding: 0;
+} 
+
+ul.grid li {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: 1px solid #e5ecf4;
+    border-radius: 0.25em;
+    box-shadow: 0 0 0 1px #fff inset;
+    display: inline-block;
+    font-size: 96%;
+    line-height: 96%;
+    margin: 0 10px 10px;
+    min-height: 130px;
+    overflow: hidden;
+    padding: 0.5em;
+    text-align: center;
+    width: 30%;
+}
+ul.grid li img {
+    border: medium none;
+    box-shadow: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 180px;
+
+}
+.main-content .content-inner ul.grid li img{ 	background:none; border:none;}
+
+/* ---------------------------------------------------------------------------------
+RESPONSIVE
+------------------------------------------------------------------------------------ */
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 240px) 
+and (max-width : 768px) {
+/* Styles */
+
+.footer	{
+	position:relative;
+	padding-top: 50px;
+	overflow: visible;
+}
+
+
+.credits {
+	text-align:center;
+	line-height:1.5em;
+	color:white;
+	height: 120px;
+	width: 100%;
+	position:absolute;
+	top: -50px;
+	right: 10px;
+	z-index: 999999;
+	padding-top: 74px;
+	overflow: visible;
+}
+
+.sbr-2, .school-info-box {
+  text-align: left;
+}
+
+
+
+
+.sidebar-1 .school-info-box,
+.sidebar-1 #sb-menu1,
+.sidebar-1 #sb-menu2,
+.sidebar-1 #sb-menu3 {
+	background:#FAF8F2;
+	padding:0;
+	margin:10px 0 0px 0;
+	}
+
+h2, h2 a {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+h3, h3 a, p.title {
+    font-size:20px;
+    line-height:24px;
+	text-align:center;
+}
+
+h4, h4 a {
+	font-size:22px;
+	line-height:20px;
+	text-align:left;
+	}
+	
+#calendar h4	{
+	text-align:center;
+}
+	
+.intro {
+	background:transparent;
+	padding:8px 0;
+	border:0px solid #e6e2d0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px; /* future proofing */
+	-khtml-border-radius: 0px; /* for old Konqueror browsers */
+	}
+.navbar {
+    background-color: #037b71;
+}
+
+.navbar-default .navbar-nav > li > a {
+
+		background:none;
+	}
+.navbar-collapse { max-height:none; }	
+.navbar-toggle { display: block; float: none; margin: 10px auto; }
+
+
+
+
+
+.masthead { height:auto; }
+#banner { display:none; }
+address { display:none; }
+
+
+.sidebar-1 {
+	border:0px solid #e6e2d0;
+	background:transparent;
+	margin-top:10px;
+	padding:0 5%;
+	}
+
+.school-info-box p { text-align:left; }
+#sb-menu2 { border-bottom:0px solid #E6E2D0; }
+.sidebar-1 h2 {  }
+.navbar { -moz-box-shadow:0; -webkit-box-shadow:0; box-shadow:0; }
+.navbar .container, .nav-wrapper { background:transparent; }
+.container > .navbar-header, .container > .navbar-collapse { margin-left: 0; margin-right: 0; }
+
+.navbar-default .navbar-nav > li { margin:0; }
+.navbar-default .navbar-nav > li > a { border-top:1px dashed #999; padding:0.85em 0; width:100%; margin:0;}
+.navbar-default .navbar-nav > li > a:last-child { border-bottom:0;}
+.navbar-default .navbar-nav > li > a:hover {   }
+.nav-wrapper { margin-bottom:0; }
+.nav li { display: block; }
+nav.list-group ul li a {  }
+
+#news h3 { text-align:left; }
+.main-content { background:transparent; }
+.sidebar-2 { background:transparent; }	
+.list-group-item { border-bottom: 1px dotted #ccc; }
+
+#departmentList p { line-height: 1.8em; }
+
+#box_left, #box_right { float:none; width:100%;}
+
+.search, .one-column .search { 
+	width:80%;
+	display:block;
+	margin:10px auto;
+	float:none;
+}
+.navbar {padding:0px;}
+
+.credits	{
+	padding-top: 90px;
+}
+
+.top-content-bg {
+
+    height: 100px;}
+#content {
+    background: none;
+}
+
+   /* ............RESPONSIVE TABLE STYLES ..........*/ 
+table.responsive, .responsive thead, .responsive tbody, .responsive th, .responsive td, .responsive tr { 		display: block; 	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+.responsive th { position: absolute;top: -9999px;left: -9999px;	}
+	.responsive tr { border: 1px solid #ccc; }
+	.responsive  td {/* Behave  like a "row" */	border: none;border-bottom: 1px solid #eee;	position: relative;}
+	.responsive  td:before {/* Now like a table header */	position: absolute;	/* Top/left values mimic padding */	top: 6px;left: 6px;	width: 45%; padding-right: 10px; white-space: nowrap;}
+	
+}
+
+
+
+@media only screen 
+and (min-width : 450px) 
+and (max-width : 600px) {
+
+
+.masthead h1 {    display: block;    height: 161px;	 background:  url("../images/ssims-banner-small.png") no-repeat scroll center top;    width: 100%;  margin-top:10px;}
+}
+
+
+@media only screen 
+and (min-width : 240px) 
+and (max-width : 450px) {
+	.masthead h1 {background-image: url("../images/ssims-banner-xs.png"); height:136px; margin-top:30px;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1209px)and (orientation : landscape) {
+/* Styles */	
+
+.masthead h1 {
+
+    height: 115px;}
+
+.container {
+    max-width: 100%;
+}
+
+.nav li { display: inline-block; }
+.navbar-default .navbar-nav > li > a {
+	padding-left:15px;
+	padding-right:15px;
+	}
+	.top-content-bg {
+
+    height: 240px;}
+
+
+
+}
+
+
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+.masthead h1 {
+
+    height: 80px;}
+.nav li {
+    display: inline-block;
+}
+
+.navbar-default .navbar-nav > li > a {
+	border:0;
+	padding:5px 8px;
+	}
+
+.navbar-default .navbar-nav > li > a:hover {
+	border:0;
+	padding:5px 8px;
+	}
+	
+.navbar-toggle { display:none; }
+.top-content-bg {
+
+    height:180px;}
+
+}

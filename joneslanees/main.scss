@@ -182,7 +182,7 @@ border-color:map-get($schoolcolors , secondary); }
 {background-color: lighten(map-get($schoolcolors , secondary), 10%);}
 
 
-.btn-primary, {background-color: map-get($schoolcolors , secondary);
+.btn-primary{background-color: map-get($schoolcolors , secondary);
     border-color:map-get($schoolcolors , primary); }
 
 .btn-primary:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
