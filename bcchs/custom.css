@@ -302,9 +302,6 @@ address {
     text-indent: -9999px;
 }
 
-#banner {
-
-	}
 
 .intro {
 	font-size:2.4em;
@@ -450,9 +447,7 @@ border-right: 3px solid #FFF;
 
 /* Carousel ---------------------------- */
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
 
-}
 
  .carousel-control .glyphicon-chevron-left {
 
@@ -511,12 +506,6 @@ SIDEBAR LEFT
 	margin-top:0px;
 	}
 
-
-.sidebar-1 #sb-menu1,
-.sidebar-1 #sb-menu2 {
-	
-
-	}
 
 
 
@@ -856,7 +845,7 @@ SEARCH
 
     padding: 4px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-    vertical-align: middle;
+    vertical-align:middle;
 	float:left;
 }
 
@@ -1099,9 +1088,7 @@ h4.yellow {
 ACTIVITIES
 ------------------------------------------------------------------------------------ */
 
-#activity {
 
-}
 
 .activitybg {
 
@@ -1588,11 +1575,6 @@ ul#global-footerNav { width:50%; float:right; }
 .tron-login a:hover { opacity:1; }	
 
 
- .ftr-image {
-
-}
- 
-
 
 
 
@@ -1782,9 +1764,6 @@ display:none;
 }    
 
 
-#banner  {
-
-	} 
 	
 }
 
@@ -1836,9 +1815,6 @@ display:none;
 }    
 
 
-#banner  {
-	
-	} 
 
 }
 
