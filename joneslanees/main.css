@@ -202,7 +202,7 @@ h4, h4 a {
 }
 
 .btn-default:hover {
-  background-color: #7dabd6;
+  background-color: #2d5f8d;
 }
 
 .btn-primary, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
@@ -212,5 +212,13 @@ h4, h4 a {
 
 .btn-primary:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
   background-color: #333333;
+}
+
+.btn-warning {
+  background-color: #205a90;
+}
+
+.btn-warning:hover {
+  background-color: #2d5f8d;
 }
 /*# sourceMappingURL=main.css.map */
