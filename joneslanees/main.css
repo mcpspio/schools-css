@@ -206,11 +206,11 @@ h4, h4 a {
 }
 
 .btn-primary {
-  background-color: #4386c3;
+  background-color: #000;
   border-color: #000;
 }
 
 .btn-primary:hover {
-  background-color: #262626;
+  background-color: #333333;
 }
 /*# sourceMappingURL=main.css.map */
