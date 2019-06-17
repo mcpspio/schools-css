@@ -202,7 +202,7 @@ h4, h4 a {
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #6a9fcf;
+  background-color: #7dabd6;
 }
 
 .btn-primary {
@@ -211,6 +211,6 @@ h4, h4 a {
 }
 
 .btn-primary:hover {
-  background-color: #1a1a1a;
+  background-color: #262626;
 }
 /*# sourceMappingURL=main.css.map */
