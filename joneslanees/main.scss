@@ -176,8 +176,7 @@ font-size:95%; font-style: italic;}
 .carousel-item h2{ color:#fff;}
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1
-{background-color: map-get($schoolcolors , primary); border-color:map-get($schoolcolors , primary); }
-
+{background-color: map-get($schoolcolors ,primary ); border-color:map-get($schoolcolors , primary); }
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover
 {background-color: darken(map-get($schoolcolors , primary), 15%);}
 
@@ -191,3 +190,4 @@ font-size:95%; font-style: italic;}
 .btn-warning{background-color: map-get($schoolcolors , accent);
     border-color:map-get($schoolcolors , accent); }
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , accent), 15%);}
+    .btn-calendar {width:auto; margin: -20px auto 0 auto; }
