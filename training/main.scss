@@ -3,10 +3,10 @@
 $schoolcolors: (
   
     bannercolor:#fff,
-     primary:#000,
-     secondary:#4386c3,
-     accent:#205a90,
-     sidemenucolor:#ecc621,
+     primary:#051c58,
+     secondary:#fbbb00,
+     accent:#303c97,
+     sidemenucolor:#fbbb00,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
 );
@@ -190,4 +190,4 @@ font-size:95%; font-style: italic;}
 .btn-warning{background-color: map-get($schoolcolors , accent);
     border-color:map-get($schoolcolors , accent); }
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , accent), 15%);}
-    // .btn-calendar {width:255px; margin: -20px auto 0 auto; }
+    .btn-calendar {width:255px; margin: -20px auto 0 auto; }
