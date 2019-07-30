@@ -98,7 +98,7 @@ h4, h4 a {
   margin-bottom: 20px;
   text-align: center;
   border: 5px solid #e8e8ea;
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .sidebar-1 .school-info-box p {
@@ -114,7 +114,7 @@ h4, h4 a {
 
 .sidebar-1 nav {
   background-color: #fbbb00;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 5px solid #ffd762;
 }
 
@@ -150,7 +150,7 @@ h4, h4 a {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #303c97;
+  border: 5px solid #fbbb00;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
