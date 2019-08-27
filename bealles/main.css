@@ -4,7 +4,7 @@ header {
 }
 
 header h1 {
-  color: #0da60d;
+  color: #0033cc;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -27,7 +27,7 @@ header address {
 }
 
 header h3 {
-  color: #205a90;
+  color: #ecc621;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -37,7 +37,7 @@ header a:hover {
 }
 
 h2, h2 a {
-  color: #0da60d;
+  color: #0033cc;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -47,7 +47,7 @@ h2, h2 a {
 }
 
 h3, h3 a {
-  color: #0da60d;
+  color: #091447;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -56,7 +56,7 @@ h3, h3 a {
 }
 
 h4, h4 a {
-  color: #0da60d;
+  color: #091447;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -65,15 +65,15 @@ h4, h4 a {
 }
 
 .navbar {
-  background-color: #0da60d;
+  background-color: #091447;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #205a90;
-  border-bottom: 5px solid #205a90;
+  border-top: 5px solid #ecc621;
+  border-bottom: 5px solid #ecc621;
 }
 
 .navbar li a:hover {
-  background-color: #11d511;
+  background-color: #0f2174;
 }
 
 .navbar-nav .nav-link {
@@ -113,9 +113,9 @@ h4, h4 a {
 }
 
 .sidebar-1 nav {
-  background-color: #091447;
+  background-color: #0033cc;
   border-radius: 6px;
-  border: 5px solid #142ea2;
+  border: 5px solid #3366ff;
 }
 
 .sidebar-1 nav h2 {
@@ -124,24 +124,24 @@ h4, h4 a {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #091447;
+  background-color: #0033cc;
   border-width: 0 0 1px 0;
-  border-color: black;
+  border-color: #001a66;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #0f2174;
+  background-color: #0040ff;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: black;
+  border-color: #001a66;
   border-style: dashed;
 }
 
 .sidebar-1 .list-group li a {
-  color: #0da60d;
+  color: #0033cc;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -150,7 +150,7 @@ h4, h4 a {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #0da60d;
+  border: 5px solid #091447;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -160,17 +160,17 @@ h4, h4 a {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #2bee2b;
+  color: #3366ff;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #2bee2b;
+  color: #3366ff;
   font-size: 95%;
   font-style: italic;
 }
 
 .news h2, .news h2 a {
-  color: #0da60d;
+  color: #0033cc;
 }
 
 .list-group a.list-group-item h3 {
@@ -182,7 +182,7 @@ h4, h4 a {
 
 .footer {
   padding: 20px;
-  background-color: #0da60d;
+  background-color: #091447;
   color: #fff;
   font-size: 95%;
 }
@@ -197,29 +197,29 @@ h4, h4 a {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #0da60d;
-  border-color: #0da60d;
+  background-color: #0033cc;
+  border-color: #0033cc;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #075f07;
+  background-color: #002080;
 }
 
 .btn-primary {
-  background-color: #0da60d;
-  border-color: #0da60d;
+  background-color: #091447;
+  border-color: #091447;
 }
 
 .btn-primary:hover {
-  background-color: #2bee2b;
+  background-color: #142ea2;
 }
 
 .btn-warning {
-  background-color: #205a90;
-  border-color: #205a90;
+  background-color: #ecc621;
+  border-color: #ecc621;
 }
 
 .btn-warning:hover {
-  background-color: #123351;
+  background-color: #b1930f;
 }
 /*# sourceMappingURL=main.css.map */
