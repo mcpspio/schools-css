@@ -17,7 +17,7 @@ $schoolcolors: (
     -webkit-border-radius: $arc;
     border-radius: $arc;  
 }
-
+ // HEADER
 header{
     background-color: map-get($schoolcolors , bannercolor); 
 
@@ -76,7 +76,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
             a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , secondary);};
       
             }
- 
+  // TOP NAVIGATION
   .navbar{
 
     background-color: map-get($schoolcolors , secondary);
@@ -99,7 +99,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
             }
  .nav a{ color: map-get($schoolcolors ,  navlinks);}
 
-
+// SIDEBAR and NAVIGATION
 
 .sidebar-1{
 
@@ -141,7 +141,7 @@ nav{
 }
 .list-group  li  a {   color: map-get($schoolcolors , primary); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
-
+// UPCOMING EVENTS
 .schooleventindexpage {
   
 .calendar {
@@ -164,15 +164,15 @@ font-size:95%; font-style: italic;}
 }
 }
 
-
+// NEWS
 
 .news {
  
-    h2, h2 a{   color: map-get($schoolcolors , primary);}
+    h2, h2 a{   color: map-get($schoolcolors , secondary);}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0; color: map-get($schoolcolors , primary}
   }
 .footer{padding: 20px;
     background-color: map-get($schoolcolors , secondary);
