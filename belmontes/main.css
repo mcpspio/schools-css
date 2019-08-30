@@ -181,7 +181,7 @@ h4 {
 }
 
 .news h2, .news h2 a {
-  color: #0da60d;
+  color: #091447;
 }
 
 .list-group a.list-group-item h3 {
@@ -189,6 +189,7 @@ h4 {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
+  color: #0da60d;
 }
 
 .footer {
