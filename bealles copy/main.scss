@@ -6,8 +6,8 @@ $schoolcolors: (
      primary:#0033cc,
      secondary:#091447,
      accent:#ecc621,
-     sidemenucolor:#fbbb00,
-     infoboxcolor:#f5f5f6,
+     sidemenucolor:#ecc621,
+     infoboxcolor:#ededed,
      navlinks:#fff,
 );
 
@@ -71,12 +71,12 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  
   .navbar{
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , secondary);
     padding-top: 0px; padding-bottom: 0px;
     border-top:5px solid map-get($schoolcolors , accent);
     border-bottom:5px solid map-get($schoolcolors , accent);
 
-     li a:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
+     li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
   }
  .navbar-nav .nav-link {
 
@@ -190,4 +190,4 @@ font-size:95%; font-style: italic;}
 .btn-warning{background-color: map-get($schoolcolors , accent);
     border-color:map-get($schoolcolors , accent); }
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , accent), 15%);}
-    .btn-calendar {width:255px; margin: -20px auto 0 auto; }
+    // .btn-calendar {width:255px; margin: -20px auto 0 auto; }
