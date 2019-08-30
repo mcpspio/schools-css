@@ -53,6 +53,7 @@ h2 a {
 
 h2 a:hover {
   text-decoration: none;
+  border-bottom-color: #0da60d;
 }
 
 h3 {
@@ -71,6 +72,7 @@ h3 a {
 
 h3 a:hover {
   text-decoration: none;
+  border-bottom-color: #091447;
 }
 
 h4 {
@@ -89,6 +91,7 @@ h4 a {
 
 h4 a:hover {
   text-decoration: none;
+  border-bottom-color: #091447;
 }
 
 .navbar {
