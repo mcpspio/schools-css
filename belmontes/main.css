@@ -48,6 +48,7 @@ h2 {
 
 h2 a {
   color: #0da60d;
+  border-bottom: 1px solid #0da60d;
 }
 
 h3 {
@@ -61,6 +62,7 @@ h3 {
 
 h3 a {
   color: #091447;
+  border-bottom: 1px dashed #091447;
 }
 
 h4 {
@@ -74,6 +76,7 @@ h4 {
 
 h4 a {
   color: #091447;
+  border-bottom: 1px dashed #091447;
 }
 
 .navbar {

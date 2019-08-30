@@ -48,7 +48,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
             font-family: 'Oswald', sans-serif;  
             text-transform: uppercase;
             font-weight: normal;
-            a{ color: map-get($schoolcolors , primary); border-bottom: 1px solid color: map-get($schoolcolors , primary);}
+            a{ color: map-get($schoolcolors , primary); border-bottom: 1px solid  map-get($schoolcolors , primary);};
         }
     
             h3 {
@@ -59,7 +59,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
                 font-weight: normal; 
-            a{color: map-get($schoolcolors , secondary); border-bottom: 1px dashed map-get($schoolcolors , secondary);}
+            a{color: map-get($schoolcolors , secondary); border-bottom: 1px dashed map-get($schoolcolors , secondary);};
             }
             h4 {
     
@@ -69,7 +69,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
                 font-weight: normal;
-                a{ color: map-get($schoolcolors , secondary); border-bottom: 1px dashed map-get($schoolcolors , secondary);}
+                a{ color: map-get($schoolcolors , secondary); border-bottom: 1px dashed map-get($schoolcolors , secondary);};
             }
  // TOP NAVIGATION
   .navbar{
