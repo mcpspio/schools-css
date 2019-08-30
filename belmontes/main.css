@@ -107,7 +107,7 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link {
-  color: #091447;
+  color: #fff;
   font-size: .95em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;
@@ -115,11 +115,11 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link a .nav-link {
-  color: #091447;
+  color: #fff;
 }
 
 .nav a {
-  color: #091447;
+  color: #fff;
 }
 
 .sidebar-1 .school-info-box {
@@ -159,6 +159,7 @@ h4 a:hover {
   border-width: 0 0 1px 0;
   border-color: black;
   border-style: dashed;
+  border-color: #036ab3;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
@@ -215,12 +216,12 @@ h4 a:hover {
 .footer {
   padding: 20px;
   background-color: #091447;
-  color: #091447;
+  color: #fff;
   font-size: 95%;
 }
 
 .footer p, .footer a {
-  color: #091447;
+  color: #fff;
   font-size: 95%;
 }
 
