@@ -113,9 +113,9 @@ h4, h4 a {
 }
 
 .sidebar-1 nav {
-  background-color: #fbbb00;
+  background-color: #091447;
   border-radius: 6px;
-  border: 5px solid #ffd762;
+  border: 5px solid #142ea2;
 }
 
 .sidebar-1 nav h2 {
@@ -125,19 +125,19 @@ h4, h4 a {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #fbbb00;
+  background-color: #091447;
   border-width: 0 0 1px 0;
-  border-color: #956f00;
+  border-color: black;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #ffca2f;
+  background-color: #0f2174;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #956f00;
+  border-color: black;
   border-style: dashed;
 }
 
