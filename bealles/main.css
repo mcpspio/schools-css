@@ -201,7 +201,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #0033cc;
+  color: #091447;
 }
 
 .list-group a.list-group-item h3 {
@@ -209,6 +209,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
+  color: #0033cc;
 }
 
 .footer {
