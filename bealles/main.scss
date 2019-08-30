@@ -126,9 +126,9 @@ nav{
 
     background-color: map-get($schoolcolors , sidemenucolor);
     border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
+    border-color: lighten(map-get($schoolcolors , sidemenucolor), 20%);
     border-style: dashed;
-    border-color: map-get($schoolcolors , sidenavlinks);
+    
 }
 .secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , sidemenucolor), 10%);}
 
