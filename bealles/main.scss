@@ -111,7 +111,7 @@ nav{
      border:5px solid lighten(map-get($schoolcolors , sidemenucolor), 20%);
      
 
- h2{ font-size: 1.6em; text-align: center;}
+ h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
 
 
 .secondary-menu li {
