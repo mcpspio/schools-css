@@ -76,22 +76,22 @@ h3 a:hover {
 }
 
 h4 {
-  color: #091447;
-  font-size: 1.8em;
-  line-height: 1.2em;
+  color: #036ab3;
+  font-size: 1.5em;
+  line-height: 1.1em;
   margin: 18px 0;
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
 }
 
 h4 a {
-  color: #091447;
-  border-bottom: 1px dashed #091447;
+  color: #036ab3;
+  border-bottom: 1px dashed #036ab3;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #091447;
+  border-bottom-color: #036ab3;
 }
 
 .navbar {
@@ -107,7 +107,7 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
+  color: #091447;
   font-size: .95em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;
@@ -115,11 +115,11 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link a .nav-link {
-  color: #fff;
+  color: #091447;
 }
 
 .nav a {
-  color: #fff;
+  color: #091447;
 }
 
 .sidebar-1 .school-info-box {
@@ -215,12 +215,12 @@ h4 a:hover {
 .footer {
   padding: 20px;
   background-color: #091447;
-  color: #fff;
+  color: #091447;
   font-size: 95%;
 }
 
 .footer p, .footer a {
-  color: #fff;
+  color: #091447;
   font-size: 95%;
 }
 
