@@ -47,7 +47,7 @@ h2, h2 a {
 }
 
 h3, h3 a {
-  color: #091447;
+  color: #0da60d;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -56,7 +56,7 @@ h3, h3 a {
 }
 
 h4, h4 a {
-  color: #091447;
+  color: #0da60d;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -93,11 +93,11 @@ h4, h4 a {
 }
 
 .sidebar-1 .school-info-box {
-  background-color: #f5f5f6;
+  background-color: #ededed;
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #e8e8ea;
+  border: 5px solid #e0e0e0;
   border-radius: 6px;
 }
 
@@ -113,36 +113,35 @@ h4, h4 a {
 }
 
 .sidebar-1 nav {
-  background-color: #fbbb00;
+  background-color: #091447;
   border-radius: 6px;
-  border: 5px solid #ffd762;
+  border: 5px solid #142ea2;
 }
 
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #fff;
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #fbbb00;
+  background-color: #091447;
   border-width: 0 0 1px 0;
-  border-color: #956f00;
+  border-color: black;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #ffca2f;
+  background-color: #0f2174;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #956f00;
+  border-color: black;
   border-style: dashed;
 }
 
 .sidebar-1 .list-group li a {
-  color: #fff;
+  color: #0da60d;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -151,7 +150,7 @@ h4, h4 a {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #205a90;
+  border: 5px solid #0da60d;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -183,7 +182,7 @@ h4, h4 a {
 
 .footer {
   padding: 20px;
-  background-color: #091447;
+  background-color: #0da60d;
   color: #fff;
   font-size: 95%;
 }
@@ -207,12 +206,12 @@ h4, h4 a {
 }
 
 .btn-primary {
-  background-color: #091447;
-  border-color: #091447;
+  background-color: #0da60d;
+  border-color: #0da60d;
 }
 
 .btn-primary:hover {
-  background-color: #142ea2;
+  background-color: #2bee2b;
 }
 
 .btn-warning {
@@ -222,10 +221,5 @@ h4, h4 a {
 
 .btn-warning:hover {
   background-color: #123351;
-}
-
-.btn-calendar {
-  width: 255px;
-  margin: -20px auto 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
