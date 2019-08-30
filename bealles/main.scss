@@ -9,6 +9,7 @@ $schoolcolors: (
      sidemenucolor:#fbbb00,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
+     sidenavlinks:#091447,
 );
 
 
@@ -17,7 +18,7 @@ $schoolcolors: (
     -webkit-border-radius: $arc;
     border-radius: $arc;  
 }
-
+// HEADER
 header{
     background-color: map-get($schoolcolors , bannercolor); 
 
@@ -68,7 +69,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 font-family: 'Oswald', sans-serif; 
                 font-weight: normal;
             }
- 
+ // TOP NAVIGATION
   .navbar{
 
     background-color: map-get($schoolcolors , primary);
@@ -92,7 +93,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  .nav a{ color: map-get($schoolcolors ,  navlinks);}
 
 
-
+ // SIDEBAR and NAVIGATION
 .sidebar-1{
 
 .school-info-box{
@@ -131,9 +132,9 @@ nav{
 }
 
 }
-.list-group  li  a {   color: map-get($schoolcolors , primary); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+.list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
-
+ // UPCOMING EVENTS
 .schooleventindexpage {
   
 .calendar {
@@ -156,7 +157,7 @@ font-size:95%; font-style: italic;}
 }
 }
 
-
+// NEWS
 
 .news {
  
@@ -166,6 +167,8 @@ font-size:95%; font-style: italic;}
 
   a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;}
   }
+
+  // FOOTER
 .footer{padding: 20px;
     background-color: map-get($schoolcolors , secondary);
     color: map-get($schoolcolors , navlinks);
@@ -173,8 +176,9 @@ font-size:95%; font-style: italic;}
    p,a{  color: map-get($schoolcolors , navlinks); font-size: 95%;} 
   
 }
+// CAROUSEL
 .carousel-item h2{ color:#fff;}
-
+// BUTTONS
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1
 {background-color: map-get($schoolcolors ,primary ); border-color:map-get($schoolcolors , primary); }
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover
