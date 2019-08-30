@@ -2,11 +2,9 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-    bannercolor:#fff,
      primary:#0da60d,
      secondary:#091447,
      accent:#036ab3,
-     sidemenucolor:#091447,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
      sidenavlinks:#fff,
@@ -77,7 +75,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , seconday);
     padding-top: 0px; padding-bottom: 0px;
     border-top:5px solid map-get($schoolcolors , accent);
     border-bottom:5px solid map-get($schoolcolors , accent);
@@ -111,9 +109,9 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif;  }
 nav{
-    background-color: map-get($schoolcolors , sidemenucolor);
+    background-color: map-get($schoolcolors , primary);
      @include rounded-corners(6px); 
-     border:5px solid lighten(map-get($schoolcolors , sidemenucolor), 20%);
+     border:5px solid lighten(map-get($schoolcolors , primary), 20%);
      
 
  h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
