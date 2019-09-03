@@ -147,7 +147,7 @@ h4 a:hover {
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #fff;
+  color: #000;
 }
 
 .sidebar-1 nav .secondary-menu li {
@@ -168,7 +168,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .list-group li a {
-  color: #fff;
+  color: #000;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
