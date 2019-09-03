@@ -130,7 +130,7 @@ nav{
 .list-group-item {
 
     border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors , sidemenucolor), 20%);
+    border-color: darken(map-get($schoolcolors , primary), 20%);
     border-style: dashed;
 
 }
