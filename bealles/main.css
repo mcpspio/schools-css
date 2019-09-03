@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #fbbb00;
+  color: #eb961d;
 }
 
 .footer {
@@ -234,21 +234,21 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #fbbb00;
-  border-color: #fbbb00;
-}
-
-.btn-primary:hover {
-  background-color: #ffd762;
-}
-
-.btn-warning {
   background-color: #eb961d;
   border-color: #eb961d;
 }
 
+.btn-primary:hover {
+  background-color: #f3c27b;
+}
+
+.btn-warning {
+  background-color: #fbbb00;
+  border-color: #eb961d;
+}
+
 .btn-warning:hover {
-  background-color: #ac6b0f;
+  background-color: #af8200;
 }
 
 .btn-calendar {
