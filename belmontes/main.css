@@ -91,7 +91,7 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #0da60d;
+  background-color: #091447;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 5px solid #036ab3;
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #11d511;
+  background-color: #0f2174;
 }
 
 .navbar-nav .nav-link {
@@ -197,7 +197,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #0da60d;
+  color: #091447;
 }
 
 .list-group a.list-group-item h3 {
@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #091447;
+  color: #0da60d;
 }
 
 .footer {
