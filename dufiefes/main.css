@@ -190,14 +190,14 @@ h4 a:hover {
   color: #575962;
 }
 
-.sidebar-1 .schooleventindexpage .calendar h4 {
-  color: #27282c;
-}
-
 .sidebar-1 .schooleventindexpage .calendar a {
   color: #575962;
   font-size: 95%;
   font-style: italic;
+}
+
+.sidebar-1 h4 {
+  color: #27282c;
 }
 
 .news h2, .news h2 a {
