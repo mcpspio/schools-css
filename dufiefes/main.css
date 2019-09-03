@@ -136,6 +136,7 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
+  color: #27282c;
 }
 
 .sidebar-1 nav {
@@ -194,10 +195,6 @@ h4 a:hover {
   color: #575962;
   font-size: 95%;
   font-style: italic;
-}
-
-.sidebar-1 h4 {
-  color: #27282c;
 }
 
 .news h2, .news h2 a {

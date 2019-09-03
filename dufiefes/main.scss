@@ -108,7 +108,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
-         font-family: 'Oswald', sans-serif;  }
+         font-family: 'Oswald', sans-serif;  color: map-get($schoolcolors , calendarlinks); }
 nav{
     background-color: map-get($schoolcolors , secondary);
      @include rounded-corners(6px); 
@@ -161,7 +161,7 @@ font-size:95%; font-style: italic;}
 }
 }
 }
-.sidebar-1 h4{    color: map-get($schoolcolors , calendarlinks);}
+
 // NEWS
 
 .news {
