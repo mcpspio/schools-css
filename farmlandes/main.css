@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #0065ba;
+  color: #02639b;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #02b002;
+  color: #069ecc;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #0065ba;
+  color: #02639b;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,13 +43,13 @@ h2 {
 }
 
 h2 a {
-  color: #0065ba;
-  border-bottom: 1px solid #0065ba;
+  color: #02639b;
+  border-bottom: 1px solid #02639b;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #0065ba;
+  border-bottom-color: #02639b;
 }
 
 h3 {
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #02b002;
+  color: #069ecc;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #02b002;
-  border-bottom: 1px dashed #02b002;
+  color: #069ecc;
+  border-bottom: 1px dashed #069ecc;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #02b002;
+  border-bottom-color: #069ecc;
 }
 
 .navbar {
-  background-color: #0065ba;
+  background-color: #02639b;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #02b002;
-  border-bottom: 5px solid #02b002;
+  border-top: 5px solid #069ecc;
+  border-bottom: 5px solid #069ecc;
 }
 
 .navbar li a:hover {
-  background-color: #0081ed;
+  background-color: #0383cd;
 }
 
 .navbar-nav .nav-link {
@@ -198,7 +198,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #0065ba;
+  color: #02639b;
 }
 
 .list-group a.list-group-item h3 {
@@ -211,7 +211,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #0065ba;
+  background-color: #02639b;
   color: #fff;
   font-size: 95%;
 }
@@ -226,12 +226,12 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #0065ba;
-  border-color: #0065ba;
+  background-color: #02639b;
+  border-color: #02639b;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #003b6e;
+  background-color: #01334f;
 }
 
 .btn-primary {
@@ -244,12 +244,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #02b002;
-  border-color: #02b002;
+  background-color: #069ecc;
+  border-color: #069ecc;
 }
 
 .btn-warning:hover {
-  background-color: #016401;
+  background-color: #046482;
 }
 
 .btn-calendar {
