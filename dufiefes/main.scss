@@ -144,7 +144,7 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-    border:5px solid (map-get($schoolcolors , accent));
+    border:5px solid (map-get($schoolcolors , infoboxcolor));
   p {  
         line-height: 1.5em;
     font-size: 1em;}
@@ -174,7 +174,7 @@ font-size:95%; font-style: italic;}
 
   // FOOTER
 .footer{padding: 20px;
-    background-color: map-get($schoolcolors , secondary);
+    background-color: map-get($schoolcolors , primary);
     color: map-get($schoolcolors , navlinks);
     font-size: 95%;
    p,a{  color: map-get($schoolcolors , navlinks); font-size: 95%;} 
