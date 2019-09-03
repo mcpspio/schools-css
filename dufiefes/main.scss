@@ -8,6 +8,7 @@ $schoolcolors: (
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
      sidenavlinks:#000,
+     calendarlinks:#0f4670,
 );
 
 
@@ -150,11 +151,11 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primary), 20%); 
+    color: lighten(map-get($schoolcolors , calendarlinks), 20%); 
 }
 
 
-a {    color: lighten(map-get($schoolcolors , primary), 20%);
+a {    color: lighten(map-get($schoolcolors , calendarlinks), 20%);
 font-size:95%; font-style: italic;}
 
 }
