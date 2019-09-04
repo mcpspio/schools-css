@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #00009e;
+  color: #96d24d;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,13 +62,13 @@ h3 {
 }
 
 h3 a {
-  color: #00009e;
-  border-bottom: 1px dashed #00009e;
+  color: #96d24d;
+  border-bottom: 1px dashed #96d24d;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #00009e;
+  border-bottom-color: #96d24d;
 }
 
 h4 {
@@ -119,11 +119,11 @@ h4 a:hover {
 }
 
 .sidebar-1 .school-info-box {
-  background-color: #96d24d;
+  background-color: #f5f5f6;
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #8acd39;
+  border: 5px solid #e8e8ea;
   border-radius: 6px;
 }
 
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #00009e;
+  background-color: #96d24d;
   border-radius: 6px;
-  border: 5px solid #0505ff;
+  border: 5px solid #c6e79e;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #00009e;
+  background-color: #96d24d;
   border-width: 0 0 1px 0;
-  border-color: #0505ff;
+  border-color: #c6e79e;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #0000d1;
+  background-color: #aedc76;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #000038;
+  border-color: #629425;
   border-style: dashed;
 }
 
@@ -210,7 +210,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #00009e;
+  background-color: #96d24d;
   color: #fff;
   font-size: 95%;
 }
@@ -243,12 +243,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #00009e;
+  background-color: #96d24d;
   border-color: #04bffe;
 }
 
 .btn-warning:hover {
-  background-color: #000052;
+  background-color: #6fa82a;
 }
 
 .btn-calendar {
