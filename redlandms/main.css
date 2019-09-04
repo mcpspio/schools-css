@@ -94,8 +94,8 @@ h4 a:hover {
   background-color: #910d0c;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #2c2c2b;
-  border-bottom: 5px solid #2c2c2b;
+  border-top: 3px solid #2c2c2b;
+  border-bottom: 3px solid #2c2c2b;
 }
 
 .navbar li a:hover {

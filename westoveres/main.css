@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
-header {
-  background-color: #fff;
-}
-
 header h1 {
   color: #051c58;
   font-size: 4em;
@@ -36,7 +32,7 @@ header a:hover {
   text-decoration: none;
 }
 
-h2, h2 a {
+h2 {
   color: #051c58;
   font-size: 2.2em;
   line-height: 1.2em;
@@ -46,7 +42,17 @@ h2, h2 a {
   font-weight: normal;
 }
 
-h3, h3 a {
+h2 a {
+  color: #051c58;
+  border-bottom: 1px solid #051c58;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  border-bottom-color: #051c58;
+}
+
+h3 {
   color: #00009e;
   font-size: 1.8em;
   line-height: 1.2em;
@@ -55,13 +61,33 @@ h3, h3 a {
   font-weight: normal;
 }
 
-h4, h4 a {
+h3 a {
   color: #00009e;
-  font-size: 1.8em;
-  line-height: 1.2em;
+  border-bottom: 1px dashed #00009e;
+}
+
+h3 a:hover {
+  text-decoration: none;
+  border-bottom-color: #00009e;
+}
+
+h4 {
+  color: #04bffe;
+  font-size: 1.5em;
+  line-height: 1.1em;
   margin: 18px 0;
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
+}
+
+h4 a {
+  color: #04bffe;
+  border-bottom: 1px dashed #04bffe;
+}
+
+h4 a:hover {
+  text-decoration: none;
+  border-bottom-color: #04bffe;
 }
 
 .navbar {
@@ -93,11 +119,11 @@ h4, h4 a {
 }
 
 .sidebar-1 .school-info-box {
-  background-color: #f5f5f6;
+  background-color: #96d24d;
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #e8e8ea;
+  border: 5px solid #8acd39;
   border-radius: 6px;
 }
 
@@ -113,30 +139,31 @@ h4, h4 a {
 }
 
 .sidebar-1 nav {
-  background-color: #96d24d;
+  background-color: #00009e;
   border-radius: 6px;
-  border: 5px solid #c6e79e;
+  border: 5px solid #0505ff;
 }
 
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
+  color: #051c58;
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #96d24d;
+  background-color: #00009e;
   border-width: 0 0 1px 0;
-  border-color: #629425;
+  border-color: #0505ff;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #aedc76;
+  background-color: #0000d1;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #629425;
+  border-color: #000038;
   border-style: dashed;
 }
 
@@ -150,7 +177,7 @@ h4, h4 a {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #00009e;
+  border: 5px solid #04bffe;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -178,6 +205,7 @@ h4, h4 a {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
+  color: #04bffe;
 }
 
 .footer {
@@ -206,21 +234,21 @@ h4, h4 a {
 }
 
 .btn-primary {
-  background-color: #00009e;
-  border-color: #00009e;
-}
-
-.btn-primary:hover {
-  background-color: #0505ff;
-}
-
-.btn-warning {
   background-color: #04bffe;
   border-color: #04bffe;
 }
 
+.btn-primary:hover {
+  background-color: #6ad9fe;
+}
+
+.btn-warning {
+  background-color: #00009e;
+  border-color: #04bffe;
+}
+
 .btn-warning:hover {
-  background-color: #0187b5;
+  background-color: #000052;
 }
 
 .btn-calendar {
