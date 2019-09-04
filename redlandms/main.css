@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
-header {
-  background-color: #fff;
-}
-
 header h1 {
   color: #828180;
   font-size: 4em;
@@ -36,7 +32,7 @@ header a:hover {
   text-decoration: none;
 }
 
-h2, h2 a {
+h2 {
   color: #828180;
   font-size: 2.2em;
   line-height: 1.2em;
@@ -46,7 +42,17 @@ h2, h2 a {
   font-weight: normal;
 }
 
-h3, h3 a {
+h2 a {
+  color: #828180;
+  border-bottom: 1px solid #828180;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  border-bottom-color: #828180;
+}
+
+h3 {
   color: #910d0c;
   font-size: 1.8em;
   line-height: 1.2em;
@@ -55,17 +61,37 @@ h3, h3 a {
   font-weight: normal;
 }
 
-h4, h4 a {
+h3 a {
   color: #910d0c;
-  font-size: 1.8em;
-  line-height: 1.2em;
+  border-bottom: 1px dashed #910d0c;
+}
+
+h3 a:hover {
+  text-decoration: none;
+  border-bottom-color: #910d0c;
+}
+
+h4 {
+  color: #2c2c2b;
+  font-size: 1.5em;
+  line-height: 1.1em;
   margin: 18px 0;
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
+}
+
+h4 a {
+  color: #2c2c2b;
+  border-bottom: 1px dashed #2c2c2b;
+}
+
+h4 a:hover {
+  text-decoration: none;
+  border-bottom-color: #2c2c2b;
 }
 
 .navbar {
-  background-color: #910d0c;
+  background-color: #828180;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 5px solid #2c2c2b;
@@ -73,7 +99,7 @@ h4, h4 a {
 }
 
 .navbar li a:hover {
-  background-color: #c01110;
+  background-color: #9b9b9a;
 }
 
 .navbar-nav .nav-link {
@@ -115,18 +141,19 @@ h4, h4 a {
 .sidebar-1 nav {
   background-color: #910d0c;
   border-radius: 6px;
-  border: 5px solid #ec1917;
+  border: 5px solid #c01110;
 }
 
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
+  color: #fff;
 }
 
 .sidebar-1 nav .secondary-menu li {
   background-color: #910d0c;
   border-width: 0 0 1px 0;
-  border-color: #330504;
+  border-color: #ec1917;
   border-style: dashed;
 }
 
@@ -141,7 +168,7 @@ h4, h4 a {
 }
 
 .sidebar-1 .list-group li a {
-  color: #828180;
+  color: #fff;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -150,7 +177,7 @@ h4, h4 a {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #910d0c;
+  border: 5px solid #2c2c2b;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -178,6 +205,7 @@ h4, h4 a {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
+  color: #910d0c;
 }
 
 .footer {
@@ -221,5 +249,10 @@ h4, h4 a {
 
 .btn-warning:hover {
   background-color: #050505;
+}
+
+.btn-calendar {
+  width: 255px;
+  margin: -20px auto 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
