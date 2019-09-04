@@ -177,7 +177,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #2c2c2b;
+  border: 5px solid #910d0c;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -187,17 +187,17 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #ec1917;
+  color: #b5b4b3;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #ec1917;
+  color: #60605d;
   font-size: 95%;
   font-style: italic;
 }
 
 .news h2, .news h2 a {
-  color: #910d0c;
+  color: #2c2c2b;
 }
 
 .list-group a.list-group-item h3 {
@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #828180;
+  color: #910d0c;
 }
 
 .footer {
