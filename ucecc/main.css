@@ -1,4 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+body {
+  background: #fff url("https://cdn.montgomeryschoolsmd.org/schools-css/ucecc/images/colors-top.gif") top left repeat-x;
+  padding-top: 3px;
+}
+
+hr {
+  background: #f6f2e5 url("https://cdn.montgomeryschoolsmd.org/schools-css/ucecc/images/bg-hr.png") no-repeat scroll 0 0;
+  border: 0 none;
+  clear: both;
+  height: 3px;
+  margin: 36px 0;
+}
+
 header h1 {
   color: #ba0f0d;
   font-size: 4em;
@@ -91,11 +104,10 @@ h4 a:hover {
 }
 
 .navbar {
+  background: #e5e2c8 url("https://cdn.montgomeryschoolsmd.org/schools-css/ucecc/images/colors-nav.gif") repeat-x scroll left top;
   background-color: #ba0f0d;
-  padding-top: 0px;
+  padding-top: 5px;
   padding-bottom: 0px;
-  border-top: 5px solid #e5e2c8;
-  border-bottom: 5px solid #e5e2c8;
 }
 
 .navbar li a:hover {
@@ -178,7 +190,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #e5e2c8;
+  border: 5px solid #1b2564;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -192,7 +204,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #f13e3c;
+  color: #3143b4;
   font-size: 95%;
   font-style: italic;
 }
