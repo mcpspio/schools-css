@@ -247,8 +247,8 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #e5e2c8;
-  border-color: #e5e2c8;
+  background-color: #1b2564;
+  border-color: #1b2564;
 }
 
 .btn-primary:hover {
@@ -256,7 +256,7 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #1b2564;
+  background-color: #ba0f0d;
   border-color: #e5e2c8;
 }
 
