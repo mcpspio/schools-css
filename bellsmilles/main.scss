@@ -175,7 +175,7 @@ font-size:95%; font-style: italic;}
 
   // FOOTER
 .footer{padding: 20px;
-    background-color: map-get($schoolcolors , secondary);
+    background-color: map-get($schoolcolors , primary);
     color: map-get($schoolcolors , navlinks);
     font-size: 95%;
    p,a{  color: map-get($schoolcolors , navlinks); font-size: 95%;} 
