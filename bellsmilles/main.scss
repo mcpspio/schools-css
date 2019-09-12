@@ -8,6 +8,7 @@ $schoolcolors: (
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
      sidenavlinks:#000,
+     primaryfonts:#27282c,
 );
 
 
@@ -154,7 +155,7 @@ p  strong {text-transform: uppercase;
 }
 
 
-a {    color: lighten(map-get($schoolcolors , primary), 20%);
+a {    color: lighten(map-get($schoolcolors , primaryfonts), 20%);
 font-size:95%; font-style: italic;}
 
 }
