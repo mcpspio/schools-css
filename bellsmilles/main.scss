@@ -151,7 +151,7 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primary), 20%); 
+    color: lighten(map-get($schoolcolors , primaryfonts), 20%); 
 }
 
 
