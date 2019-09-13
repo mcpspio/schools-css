@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #0a496a;
+  color: #01289b;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #dd6c06;
+  color: #0177ca;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #0a496a;
+  color: #01289b;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,17 +43,17 @@ h2 {
 }
 
 h2 a {
-  color: #0a496a;
-  border-bottom: 1px solid #0a496a;
+  color: #01289b;
+  border-bottom: 1px solid #01289b;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #0a496a;
+  border-bottom-color: #01289b;
 }
 
 h3 {
-  color: #dd6c06;
+  color: #febf00;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #dd6c06;
-  border-bottom: 1px dashed #dd6c06;
+  color: #febf00;
+  border-bottom: 1px dashed #febf00;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #dd6c06;
+  border-bottom-color: #febf00;
 }
 
 h4 {
-  color: #dd6c06;
+  color: #0177ca;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #dd6c06;
-  border-bottom: 1px dashed #f3e327;
+  color: #0177ca;
+  border-bottom: 1px dashed #0177ca;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #f3e327;
+  border-bottom-color: #0177ca;
 }
 
 .navbar {
-  background-color: #0a496a;
+  background-color: #01289b;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #f3e327;
-  border-bottom: 5px solid #f3e327;
+  border-top: 5px solid #0177ca;
+  border-bottom: 5px solid #0177ca;
 }
 
 .navbar li a:hover {
-  background-color: #0e6999;
+  background-color: #0135ce;
 }
 
 .navbar-nav .nav-link {
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #dd6c06;
+  background-color: #febf00;
   border-radius: 6px;
-  border: 5px solid #faa04f;
+  border: 5px solid #ffd965;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #dd6c06;
+  background-color: #febf00;
   border-width: 0 0 1px 0;
-  border-color: #faa04f;
+  border-color: #ffd965;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #f9851d;
+  background-color: #ffcc32;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #7a3b03;
+  border-color: #987200;
   border-style: dashed;
 }
 
@@ -177,7 +177,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #f3e327;
+  border: 5px solid #0177ca;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -197,7 +197,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #0a496a;
+  color: #01289b;
 }
 
 .list-group a.list-group-item h3 {
@@ -205,12 +205,12 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #f3e327;
+  color: #0177ca;
 }
 
 .footer {
   padding: 20px;
-  background-color: #0a496a;
+  background-color: #01289b;
   color: #fff;
   font-size: 95%;
 }
@@ -225,30 +225,30 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #0a496a;
-  border-color: #0a496a;
+  background-color: #01289b;
+  border-color: #01289b;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #031924;
+  background-color: #01144f;
 }
 
 .btn-primary {
-  background-color: #f3e327;
-  border-color: #f3e327;
+  background-color: #0177ca;
+  border-color: #0177ca;
 }
 
 .btn-primary:hover {
-  background-color: #f8f088;
+  background-color: #33aafe;
 }
 
 .btn-warning {
-  background-color: #dd6c06;
-  border-color: #f3e327;
+  background-color: #febf00;
+  border-color: #0177ca;
 }
 
 .btn-warning:hover {
-  background-color: #934804;
+  background-color: #b28500;
 }
 
 .btn-calendar {
