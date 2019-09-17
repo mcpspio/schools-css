@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #02639b;
+  color: #002594;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #02639b;
+  color: #002594;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,13 +43,13 @@ h2 {
 }
 
 h2 a {
-  color: #02639b;
-  border-bottom: 1px solid #02639b;
+  color: #002594;
+  border-bottom: 1px solid #002594;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #02639b;
+  border-bottom-color: #002594;
 }
 
 h3 {
@@ -91,7 +91,7 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #02639b;
+  background-color: #002594;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 5px solid #069ecc;
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #0383cd;
+  background-color: #0032c7;
 }
 
 .navbar-nav .nav-link {
@@ -199,7 +199,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #02639b;
+  color: #002594;
 }
 
 .list-group a.list-group-item h3 {
@@ -212,7 +212,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #02639b;
+  background-color: #002594;
   color: #fff;
   font-size: 95%;
 }
@@ -227,12 +227,12 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #02639b;
-  border-color: #02639b;
+  background-color: #002594;
+  border-color: #002594;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #01334f;
+  background-color: #001248;
 }
 
 .btn-primary {
