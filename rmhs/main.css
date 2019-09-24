@@ -260,7 +260,7 @@ h4 a:hover {
   margin: 0px;
 }
 
-.order-md-3 .dropzone {
+.order-md-3 .htmlblock {
   background-color: #f7f7f7;
   padding: 15px;
   margin-bottom: 20px;
@@ -269,7 +269,7 @@ h4 a:hover {
   border-radius: 6px;
 }
 
-.order-md-3 .dropzone h2 {
+.order-md-3 .htmlblock h2 {
   font-size: 99%;
 }
 /*# sourceMappingURL=main.css.map */

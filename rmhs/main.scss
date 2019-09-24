@@ -207,7 +207,7 @@ font-size:95%; font-style: italic;}
    //  Aditional styles
 
     .order-md-3{
-        .dropzone{
+        .htmlblock{
         background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
     margin-bottom: 20px;   text-align: center;
     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
