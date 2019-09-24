@@ -220,7 +220,8 @@ font-size:95%; font-style: italic;}
         list-style-type: none;
         border-bottom: 1px dashed darken(map-get($schoolcolors , infoboxcolor), 25%);
     text-align: left;
-    color: map-get($schoolcolors , primary); }
+    a{color: map-get($schoolcolors , primary); }
+}
     }
 }
 }

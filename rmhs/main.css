@@ -284,6 +284,9 @@ h4 a:hover {
   list-style-type: none;
   border-bottom: 1px dashed #b7b7b7;
   text-align: left;
+}
+
+.order-md-3 .htmlblock ul li a {
   color: #000000;
 }
 /*# sourceMappingURL=main.css.map */
