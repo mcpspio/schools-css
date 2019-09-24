@@ -208,10 +208,14 @@ font-size:95%; font-style: italic;}
 
     .order-md-3{
         .htmlblock{
-        background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+        background-color: map-get($schoolcolors , infoboxcolor); padding:8px;
     margin-bottom: 20px;   text-align: center;
     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
     @include rounded-corners(6px);
-    h2{ font-size: 99%;}
+    h2{ font-size: 99.7%;}
+    li{    margin: 0px;
+        padding: 2px 0px 2px 10px;
+        list-style-type: none;
+        border-bottom: 5px solid darken(map-get($schoolcolors , infoboxcolor), 25%);}
     }
 }
