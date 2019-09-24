@@ -212,7 +212,7 @@ font-size:95%; font-style: italic;}
     margin-bottom: 20px;   text-align: center;
     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
     @include rounded-corners(6px);
-    h2{ font-size: 99.99%;}
+    h2{ font: size 1.6em;;}
     ul{    margin: 0px 0px 5px 0px;
         padding: 0px;
         li{    margin: 0px;
