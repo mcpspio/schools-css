@@ -202,3 +202,14 @@ font-size:95%; font-style: italic;}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
     .logo.has-image {   margin:0px;     }
+
+
+   //  Aditional styles
+
+    .order-md-3{
+        background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+    margin-bottom: 20px;   text-align: center;
+    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    @include rounded-corners(6px);
+    h2{ font-size: 90%;}
+    }
