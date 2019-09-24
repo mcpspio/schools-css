@@ -270,7 +270,8 @@ h4 a:hover {
 }
 
 .order-md-3 .htmlblock h2 {
-  font: size 1.6em;
+  font-size: 1.6em;
+  padding: 0 15px;
 }
 
 .order-md-3 .htmlblock ul {
