@@ -103,7 +103,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 .school-info-box{
     background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
     margin-bottom: 20px;   text-align: center;
-    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 15%);
     @include rounded-corners(6px);
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
