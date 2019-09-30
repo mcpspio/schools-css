@@ -7,7 +7,7 @@ $schoolcolors: (
      accent:#0fc8c8,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
-     sidenavlinks:#fff,
+     sidenavlinks:#0fc8c8,
      primaryfonts:#27282c,
 );
 
@@ -64,7 +64,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , accent);
+                color: map-get($schoolcolors , secondary);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
