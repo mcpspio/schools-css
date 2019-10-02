@@ -110,9 +110,9 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif;   }
 nav{
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , secondary);
      @include rounded-corners(6px); 
-     border:5px solid lighten(map-get($schoolcolors , primary), 15%);
+     border:5px solid lighten(map-get($schoolcolors , secondary), 15%);
      
 
  h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
@@ -120,9 +120,9 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , secondary);
     border-width:0 0 1px 0;
-    border-color: lighten(map-get($schoolcolors , primary), 20%);
+    border-color: lighten(map-get($schoolcolors , secondary), 20%);
     border-style: dashed;
   
 }
@@ -131,7 +131,7 @@ nav{
 .list-group-item {
 
     border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors , primary), 20%);
+    border-color: darken(map-get($schoolcolors , secondary), 20%);
     border-style: dashed;
 
 }
