@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #1d1d99;
+  background-color: #333333;
 }
 
 .navbar-nav .nav-link {
@@ -158,7 +158,7 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #1d1d99;
+  background-color: #333333;
 }
 
 .sidebar-1 nav .list-group-item {
