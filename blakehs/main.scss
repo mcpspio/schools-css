@@ -76,7 +76,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , secondary);
     padding-top: 0px; padding-bottom: 0px;
     border-top:5px solid map-get($schoolcolors , accent);
     border-bottom:5px solid map-get($schoolcolors , accent);
@@ -126,7 +126,7 @@ nav{
     border-style: dashed;
   
 }
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
 
 .list-group-item {
 
