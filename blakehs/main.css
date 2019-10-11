@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #0360a3;
+  color: #e7660b;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -136,6 +136,7 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
+  color: #e7660b;
 }
 
 .sidebar-1 nav {
@@ -151,9 +152,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #000000;
+  background-color: #0360a3;
   border-width: 0 0 1px 0;
-  border-color: #333333;
+  border-color: #1199fb;
   border-style: dashed;
 }
 
