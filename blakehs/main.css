@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #0360a3;
+  color: #000000;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #0360a3;
+  color: #000000;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,17 +43,17 @@ h2 {
 }
 
 h2 a {
-  color: #0360a3;
-  border-bottom: 1px solid #0360a3;
+  color: #000000;
+  border-bottom: 1px solid #000000;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #0360a3;
+  border-bottom-color: #000000;
 }
 
 h3 {
-  color: #000000;
+  color: #0360a3;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #000000;
-  border-bottom: 1px dashed #000000;
+  color: #0360a3;
+  border-bottom: 1px dashed #0360a3;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #000000;
+  border-bottom-color: #0360a3;
 }
 
 h4 {
-  color: #000000;
+  color: #0360a3;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -91,7 +91,7 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #000000;
+  background-color: #0360a3;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 5px solid #e7660b;
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #333333;
+  background-color: #1199fb;
 }
 
 .navbar-nav .nav-link {
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #000000;
+  background-color: #0360a3;
   border-radius: 6px;
-  border: 5px solid #262626;
+  border: 5px solid #048cee;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #0360a3;
+  background-color: #000000;
   border-width: 0 0 1px 0;
   border-color: #333333;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #333333;
+  background-color: #1199fb;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: black;
+  border-color: #01253f;
   border-style: dashed;
 }
 
@@ -199,7 +199,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #0360a3;
+  color: #000000;
 }
 
 .list-group a.list-group-item h3 {
@@ -207,12 +207,12 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #000000;
+  color: #0360a3;
 }
 
 .footer {
   padding: 20px;
-  background-color: #0360a3;
+  background-color: #000000;
   color: #fff;
   font-size: 95%;
 }
@@ -227,21 +227,21 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #0360a3;
-  border-color: #0360a3;
-}
-
-.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #023458;
-}
-
-.btn-primary {
   background-color: #000000;
   border-color: #000000;
 }
 
+.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
+  background-color: black;
+}
+
+.btn-primary {
+  background-color: #0360a3;
+  border-color: #0360a3;
+}
+
 .btn-primary:hover {
-  background-color: #333333;
+  background-color: #1199fb;
 }
 
 .btn-warning {

@@ -2,8 +2,8 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     primary:#0360a3,
-     secondary:#000000,
+     primary:#000000,
+     secondary:#0360a3,
      accent:#e7660b,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
@@ -122,7 +122,7 @@ nav{
 
     background-color: map-get($schoolcolors , primary);
     border-width:0 0 1px 0;
-    border-color: lighten(map-get($schoolcolors , secondary), 20%);
+    border-color: lighten(map-get($schoolcolors , primary), 20%);
     border-style: dashed;
   
 }
