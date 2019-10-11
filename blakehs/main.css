@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #15156e;
+  color: #0360a3;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #7079d3;
+  color: #e7660b;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #15156e;
+  color: #0360a3;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,13 +43,13 @@ h2 {
 }
 
 h2 a {
-  color: #15156e;
-  border-bottom: 1px solid #15156e;
+  color: #0360a3;
+  border-bottom: 1px solid #0360a3;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #15156e;
+  border-bottom-color: #0360a3;
 }
 
 h3 {
@@ -81,21 +81,21 @@ h4 {
 }
 
 h4 a {
-  color: #7079d3;
-  border-bottom: 1px dashed #7079d3;
+  color: #e7660b;
+  border-bottom: 1px dashed #e7660b;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #7079d3;
+  border-bottom-color: #e7660b;
 }
 
 .navbar {
   background-color: #000000;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #7079d3;
-  border-bottom: 5px solid #7079d3;
+  border-top: 5px solid #e7660b;
+  border-bottom: 5px solid #e7660b;
 }
 
 .navbar li a:hover {
@@ -199,7 +199,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #15156e;
+  color: #0360a3;
 }
 
 .list-group a.list-group-item h3 {
@@ -212,7 +212,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #15156e;
+  background-color: #0360a3;
   color: #fff;
   font-size: 95%;
 }
@@ -227,12 +227,12 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #15156e;
-  border-color: #15156e;
+  background-color: #0360a3;
+  border-color: #0360a3;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #09092e;
+  background-color: #023458;
 }
 
 .btn-primary {
@@ -245,12 +245,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #7079d3;
-  border-color: #7079d3;
+  background-color: #e7660b;
+  border-color: #e7660b;
 }
 
 .btn-warning:hover {
-  background-color: #3a46bd;
+  background-color: #9e4608;
 }
 
 .btn-calendar {
