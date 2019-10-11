@@ -120,7 +120,7 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , secondary);
+    background-color: map-get($schoolcolors , primary);
     border-width:0 0 1px 0;
     border-color: lighten(map-get($schoolcolors , secondary), 20%);
     border-style: dashed;
