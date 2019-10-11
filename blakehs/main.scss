@@ -76,7 +76,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , secondary);
+    background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
     border-top:5px solid map-get($schoolcolors , accent);
     border-bottom:5px solid map-get($schoolcolors , accent);
