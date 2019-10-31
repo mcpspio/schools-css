@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #0360a3;
-  border-bottom: 1px dashed #0360a3;
+  color: #17006b;
+  border-bottom: 1px dashed #17006b;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #0360a3;
+  border-bottom-color: #17006b;
 }
 
 h4 {
-  color: #0360a3;
+  color: #17006b;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -94,8 +94,8 @@ h4 a:hover {
   background-color: #000000;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #0360a3;
-  border-bottom: 5px solid #0360a3;
+  border-top: 5px solid #17006b;
+  border-bottom: 5px solid #17006b;
 }
 
 .navbar li a:hover {
@@ -140,9 +140,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #0360a3;
+  background-color: #17006b;
   border-radius: 6px;
-  border: 5px solid #048cee;
+  border: 5px solid #2700b8;
 }
 
 .sidebar-1 nav h2 {
@@ -152,19 +152,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #0360a3;
+  background-color: #17006b;
   border-width: 0 0 1px 0;
-  border-color: #1199fb;
+  border-color: #2d00d1;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #1199fb;
+  background-color: #2d00d1;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #01253f;
+  border-color: #010005;
   border-style: dashed;
 }
 
@@ -208,7 +208,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #0360a3;
+  color: #17006b;
 }
 
 .footer {
@@ -237,12 +237,12 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #0360a3;
-  border-color: #0360a3;
+  background-color: #17006b;
+  border-color: #17006b;
 }
 
 .btn-primary:hover {
-  background-color: #1199fb;
+  background-color: #2d00d1;
 }
 
 .btn-warning {
