@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #979797;
+  color: #f38f01;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #979797;
+  color: #f38f01;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #979797;
+  color: #f38f01;
   border-bottom: 1px dashed #585858;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #979797;
+  border-bottom-color: #f38f01;
 }
 
 h4 {
-  color: #979797;
+  color: #f38f01;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,13 +81,13 @@ h4 {
 }
 
 h4 a {
-  color: #979797;
-  border-bottom: 1px dashed #979797;
+  color: #f38f01;
+  border-bottom: 1px dashed #f38f01;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #979797;
+  border-bottom-color: #f38f01;
 }
 
 .navbar {
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #a4a4a4;
+  background-color: #fe9b0f;
 }
 
 .navbar-nav .nav-link {
@@ -147,7 +147,7 @@ h4 a:hover {
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 .sidebar-1 nav .secondary-menu li {
@@ -168,7 +168,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .list-group li a {
-  color: #000;
+  color: #fff;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -177,7 +177,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #979797;
+  border: 5px solid #f38f01;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #979797;
+  color: #f38f01;
 }
 
 .footer {
@@ -234,17 +234,17 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #979797;
-  border-color: #979797;
+  background-color: #f38f01;
+  border-color: #f38f01;
 }
 
 .btn-primary:hover {
-  background-color: #cacaca;
+  background-color: #febb5c;
 }
 
 .btn-warning {
   background-color: #585858;
-  border-color: #979797;
+  border-color: #f38f01;
 }
 
 .btn-warning:hover {
