@@ -78,8 +78,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors , secondary);
-    border-bottom:5px solid map-get($schoolcolors , secondary);
+    border-top:5px solid map-get($schoolcolors , accent);
+    border-bottom:5px solid map-get($schoolcolors , accent);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , accent), 5%);}
   }
