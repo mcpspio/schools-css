@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #fb4d00;
+  color: #d26433;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -63,7 +63,7 @@ h3 {
 
 h3 a {
   color: #62c14b;
-  border-bottom: 1px dashed #fb4d00;
+  border-bottom: 1px dashed #d26433;
 }
 
 h3 a:hover {
@@ -139,36 +139,36 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #fb4d00;
+  background-color: #d26433;
   border-radius: 6px;
-  border: 5px solid #ff9262;
+  border: 5px solid #e4a387;
 }
 
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #fb4d00;
+  background-color: #d26433;
   border-width: 0 0 1px 0;
-  border-color: #ff9262;
+  border-color: #e4a387;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #ff6f2f;
+  background-color: #db845d;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #952e00;
+  border-color: #823c1d;
   border-style: dashed;
 }
 
 .sidebar-1 .list-group li a {
-  color: #000;
+  color: #fff;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #fb4d00;
+  color: #d26433;
 }
 
 .footer {
@@ -243,12 +243,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #fb4d00;
+  background-color: #d26433;
   border-color: #62c14b;
 }
 
 .btn-warning:hover {
-  background-color: #af3600;
+  background-color: #974621;
 }
 
 .btn-calendar {
