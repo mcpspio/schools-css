@@ -40,7 +40,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
         h2{
     
-            color: map-get($schoolcolors , primary);
+            color: map-get($schoolcolors , secondary);
             font-size: 2.2em;
             line-height: 1.2em;
             margin: 24px 0;
@@ -53,7 +53,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     
             h3 {
     
-                color: map-get($schoolcolors , secondary);
+                color: map-get($schoolcolors , primary);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
@@ -64,7 +64,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , accent);
+                color: map-get($schoolcolors , secondary);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
@@ -78,7 +78,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors , accent);
+    border-top:5px solid #27366a;
     border-bottom:5px solid map-get($schoolcolors , accent);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
@@ -120,9 +120,9 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , secondary);
+    background-color: #fadd83;
     border-width:0 0 1px 0;
-    border-color: lighten(map-get($schoolcolors , secondary), 20%);
+    border-color: lighten(map-get($schoolcolors , accent), 20%);
     border-style: dashed;
   
 }
@@ -145,7 +145,7 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-    border:5px solid (map-get($schoolcolors , secondary));
+    border:5px solid (map-get($schoolcolors , primary));
   p {  
         line-height: 1.5em;
     font-size: 1em;}
