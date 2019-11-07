@@ -95,7 +95,7 @@ h4 a:hover {
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 5px solid #27366a;
-  border-bottom: 5px solid #febf00;
+  border-bottom: 5px solid #27366a;
 }
 
 .navbar li a:hover {
@@ -154,17 +154,17 @@ h4 a:hover {
 .sidebar-1 nav .secondary-menu li {
   background-color: #fadd83;
   border-width: 0 0 1px 0;
-  border-color: #ffd965;
+  border-color: #febf00;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #78b27f;
+  background-color: #ffcc32;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #355c3a;
+  border-color: #987200;
   border-style: dashed;
 }
 
