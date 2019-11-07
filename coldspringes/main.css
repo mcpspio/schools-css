@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #445db5;
+  color: #27366a;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #5a9d62;
+  color: #27366a;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
