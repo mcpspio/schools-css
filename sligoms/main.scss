@@ -137,7 +137,7 @@ nav{
 }
 
 }
-.list-group  li  a {   color: map-get($schoolcolors , accent); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+.list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
  // UPCOMING EVENTS
 .schooleventindexpage {
@@ -171,7 +171,7 @@ font-size:95%; font-style: italic;}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , primary);}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , accent);}
   }
 
   // FOOTER

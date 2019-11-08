@@ -168,7 +168,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .list-group li a {
-  color: #db8515;
+  color: #fff;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -207,7 +207,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #024b60;
+  color: #db8515;
 }
 
 .footer {
