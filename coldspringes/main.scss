@@ -4,7 +4,7 @@ $schoolcolors: (
   
      primary:#445db5,
      secondary:#febf00,
-     accent:#27366a;,
+     accent:#27366a,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
      sidenavlinks:#000,
@@ -22,7 +22,7 @@ header{
     background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
-        color: map-get($schoolcolors , accent);
+        color: map-get($schoolcolors , accent);;
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
