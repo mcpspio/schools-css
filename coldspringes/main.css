@@ -159,12 +159,12 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #35498f;
+  background-color: #ffcc32;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #0c101f;
+  border-color: #987200;
   border-style: dashed;
 }
 
@@ -235,12 +235,12 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #febf00;
-  border-color: #febf00;
+  background-color: #445db5;
+  border-color: #27366a;
 }
 
 .btn-primary:hover {
-  background-color: #ffd965;
+  background-color: #425cb5;
 }
 
 .btn-warning {
