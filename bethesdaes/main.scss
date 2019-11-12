@@ -3,8 +3,8 @@
 $schoolcolors: (
   
      primary:#0e1a52,
-     secondary:#0360a3,
-     accent:#0360a3,
+     secondary:rgb(3, 96, 163),
+     accent:#feb80f,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
      sidenavlinks:#fff,
@@ -203,5 +203,5 @@ font-size:95%; font-style: italic;}
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , accent), 15%);}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {   margin: 0px; 
+    .logo.has-image {   margin: 0px 0 15px 0; 
     }

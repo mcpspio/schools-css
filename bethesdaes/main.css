@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #0360a3;
+  color: #feb80f;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -81,21 +81,21 @@ h4 {
 }
 
 h4 a {
-  color: #0360a3;
-  border-bottom: 1px dashed #0360a3;
+  color: #feb80f;
+  border-bottom: 1px dashed #feb80f;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #0360a3;
+  border-bottom-color: #feb80f;
 }
 
 .navbar {
   background-color: #0e1a52;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #0360a3;
-  border-bottom: 5px solid #0360a3;
+  border-top: 5px solid #feb80f;
+  border-bottom: 5px solid #feb80f;
 }
 
 .navbar li a:hover {
@@ -246,12 +246,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #0360a3;
-  border-color: #0360a3;
+  background-color: #feb80f;
+  border-color: #feb80f;
 }
 
 .btn-warning:hover {
-  background-color: #023458;
+  background-color: #c08801;
 }
 
 .btn-calendar {
@@ -260,6 +260,6 @@ h4 a:hover {
 }
 
 .logo.has-image {
-  margin: 0px;
+  margin: 0px 0 15px 0;
 }
 /*# sourceMappingURL=main.css.map */
