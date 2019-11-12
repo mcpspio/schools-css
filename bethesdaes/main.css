@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #feb80f;
+  color: #1a8ddf;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -81,21 +81,21 @@ h4 {
 }
 
 h4 a {
-  color: #feb80f;
-  border-bottom: 1px dashed #feb80f;
+  color: #1a8ddf;
+  border-bottom: 1px dashed #1a8ddf;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #feb80f;
+  border-bottom-color: #1a8ddf;
 }
 
 .navbar {
   background-color: #0e1a52;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #feb80f;
-  border-bottom: 5px solid #feb80f;
+  border-top: 5px solid #1a8ddf;
+  border-bottom: 5px solid #1a8ddf;
 }
 
 .navbar li a:hover {
@@ -246,12 +246,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #feb80f;
-  border-color: #feb80f;
+  background-color: #1a8ddf;
+  border-color: #1a8ddf;
 }
 
 .btn-warning:hover {
-  background-color: #c08801;
+  background-color: #12629a;
 }
 
 .btn-calendar {
