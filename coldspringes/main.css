@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #febf00;
+  color: #27366a;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #5a9d62;
+  color: #445db5;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #445db5;
+  color: #27366a;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,13 +62,13 @@ h3 {
 }
 
 h3 a {
-  color: #5a9d62;
-  border-bottom: 1px dashed #5a9d62;
+  color: #27366a;
+  border-bottom: 1px dashed #27366a;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #5a9d62;
+  border-bottom-color: #27366a;
 }
 
 h4 {
@@ -81,13 +81,13 @@ h4 {
 }
 
 h4 a {
-  color: #febf00;
-  border-bottom: 1px dashed #febf00;
+  color: #445db5;
+  border-bottom: 1px dashed #445db5;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #febf00;
+  border-bottom-color: #445db5;
 }
 
 .navbar {
@@ -142,7 +142,7 @@ h4 a:hover {
 .sidebar-1 nav {
   background-color: #fadd83;
   border-radius: 6px;
-  border: 5px solid #ffcc32;
+  border: 5px solid #35498f;
 }
 
 .sidebar-1 nav h2 {
@@ -159,12 +159,12 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #ffcc32;
+  background-color: #35498f;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #987200;
+  border-color: #0c101f;
   border-style: dashed;
 }
 
@@ -235,21 +235,21 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #5a9d62;
-  border-color: #5a9d62;
-}
-
-.btn-primary:hover {
-  background-color: #99c49e;
-}
-
-.btn-warning {
   background-color: #febf00;
   border-color: #febf00;
 }
 
+.btn-primary:hover {
+  background-color: #ffd965;
+}
+
+.btn-warning {
+  background-color: #27366a;
+  border-color: #27366a;
+}
+
 .btn-warning:hover {
-  background-color: #b28500;
+  background-color: #121a32;
 }
 
 .btn-calendar {
