@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #314690;
+  color: #0e1a52;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #ffbb0a;
+  color: #0360a3;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #314690;
+  color: #0e1a52;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,17 +43,17 @@ h2 {
 }
 
 h2 a {
-  color: #314690;
-  border-bottom: 1px solid #314690;
+  color: #0e1a52;
+  border-bottom: 1px solid #0e1a52;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #314690;
+  border-bottom-color: #0e1a52;
 }
 
 h3 {
-  color: #5a9d62;
+  color: #febf00;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #ffbb0a;
-  border-bottom: 1px dashed #5a9d62;
+  color: #0360a3;
+  border-bottom: 1px dashed #febf00;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #ffbb0a;
+  border-bottom-color: #0360a3;
 }
 
 h4 {
-  color: #5a9d62;
+  color: #febf00;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #ffbb0a;
-  border-bottom: 1px dashed #ffbb0a;
+  color: #0360a3;
+  border-bottom: 1px dashed #0360a3;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #ffbb0a;
+  border-bottom-color: #0360a3;
 }
 
 .navbar {
-  background-color: #314690;
+  background-color: #0e1a52;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #ffbb0a;
-  border-bottom: 5px solid #ffbb0a;
+  border-top: 5px solid #0360a3;
+  border-bottom: 5px solid #0360a3;
 }
 
 .navbar li a:hover {
-  background-color: #ffc224;
+  background-color: #036fbc;
 }
 
 .navbar-nav .nav-link {
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #5a9d62;
+  background-color: #febf00;
   border-radius: 6px;
-  border: 5px solid #99c49e;
+  border: 5px solid #ffd965;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #5a9d62;
+  background-color: #febf00;
   border-width: 0 0 1px 0;
-  border-color: #99c49e;
+  border-color: #ffd965;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #78b27f;
+  background-color: #ffcc32;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #355c3a;
+  border-color: #987200;
   border-style: dashed;
 }
 
@@ -199,7 +199,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #5a9d62;
+  color: #febf00;
 }
 
 .list-group a.list-group-item h3 {
@@ -207,12 +207,12 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #314690;
+  color: #0e1a52;
 }
 
 .footer {
   padding: 20px;
-  background-color: #314690;
+  background-color: #0e1a52;
   color: #fff;
   font-size: 95%;
 }
@@ -227,30 +227,30 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #314690;
-  border-color: #314690;
+  background-color: #0e1a52;
+  border-color: #0e1a52;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #1e2a57;
+  background-color: #030511;
 }
 
 .btn-primary {
-  background-color: #ffbb0a;
-  border-color: #ffbb0a;
+  background-color: #0360a3;
+  border-color: #0360a3;
 }
 
 .btn-primary:hover {
-  background-color: #ffd770;
+  background-color: #1199fb;
 }
 
 .btn-warning {
-  background-color: #5a9d62;
-  border-color: #ffbb0a;
+  background-color: #febf00;
+  border-color: #0360a3;
 }
 
 .btn-warning:hover {
-  background-color: #3e6c44;
+  background-color: #b28500;
 }
 
 .btn-calendar {
@@ -290,6 +290,6 @@ h4 a:hover {
 }
 
 .order-md-3 .htmlblock ul li a {
-  color: #314690;
+  color: #0e1a52;
 }
 /*# sourceMappingURL=main.css.map */
