@@ -36,7 +36,7 @@ header a:hover {
   text-decoration: none;
 }
 
-h2, h2 a {
+h2 {
   color: #051c58;
   font-size: 2.2em;
   line-height: 1.2em;
@@ -46,7 +46,17 @@ h2, h2 a {
   font-weight: normal;
 }
 
-h3, h3 a {
+h2 a {
+  color: #051c58;
+  border-bottom: 1px solid #051c58;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  border-bottom-color: #051c58;
+}
+
+h3 {
   color: #303c97;
   font-size: 1.8em;
   line-height: 1.2em;
@@ -55,13 +65,33 @@ h3, h3 a {
   font-weight: normal;
 }
 
-h4, h4 a {
+h3 a {
+  color: #fbbb00;
+  border-bottom: 1px dashed #303c97;
+}
+
+h3 a:hover {
+  text-decoration: none;
+  border-bottom-color: #fbbb00;
+}
+
+h4 {
   color: #303c97;
-  font-size: 1.8em;
-  line-height: 1.2em;
+  font-size: 1.5em;
+  line-height: 1.1em;
   margin: 18px 0;
   font-family: 'Oswald', sans-serif;
   font-weight: normal;
+}
+
+h4 a {
+  color: #fbbb00;
+  border-bottom: 1px dashed #fbbb00;
+}
+
+h4 a:hover {
+  text-decoration: none;
+  border-bottom-color: #fbbb00;
 }
 
 .navbar {
