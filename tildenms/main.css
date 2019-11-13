@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #0360a3;
+  color: #febf00;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #febf00;
+  color: #0360a3;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #0360a3;
-  border-bottom: 1px dashed #febf00;
+  color: #febf00;
+  border-bottom: 1px dashed #0360a3;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #0360a3;
+  border-bottom-color: #febf00;
 }
 
 h4 {
-  color: #febf00;
+  color: #0360a3;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #0360a3;
-  border-bottom: 1px dashed #0360a3;
+  color: #febf00;
+  border-bottom: 1px dashed #febf00;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #0360a3;
+  border-bottom-color: #febf00;
 }
 
 .navbar {
   background-color: #0e1a52;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #0360a3;
-  border-bottom: 5px solid #0360a3;
+  border-top: 5px solid #febf00;
+  border-bottom: 5px solid #febf00;
 }
 
 .navbar li a:hover {
-  background-color: #036fbc;
+  background-color: #ffc619;
 }
 
 .navbar-nav .nav-link {
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #febf00;
+  background-color: #0360a3;
   border-radius: 6px;
-  border: 5px solid #ffd965;
+  border: 5px solid #1199fb;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #febf00;
+  background-color: #0360a3;
   border-width: 0 0 1px 0;
-  border-color: #ffd965;
+  border-color: #1199fb;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #ffcc32;
+  background-color: #047dd5;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #987200;
+  border-color: #01253f;
   border-style: dashed;
 }
 
@@ -199,7 +199,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #febf00;
+  color: #0360a3;
 }
 
 .list-group a.list-group-item h3 {
@@ -236,21 +236,21 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #0360a3;
-  border-color: #0360a3;
+  background-color: #febf00;
+  border-color: #febf00;
 }
 
 .btn-primary:hover {
-  background-color: #1199fb;
+  background-color: #ffd965;
 }
 
 .btn-warning {
-  background-color: #febf00;
-  border-color: #0360a3;
+  background-color: #0360a3;
+  border-color: #febf00;
 }
 
 .btn-warning:hover {
-  background-color: #b28500;
+  background-color: #023458;
 }
 
 .btn-calendar {
