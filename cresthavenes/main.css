@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #eb7f27;
+  color: #da711c;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -63,7 +63,7 @@ h3 {
 
 h3 a {
   color: #f3dc81;
-  border-bottom: 1px dashed #eb7f27;
+  border-bottom: 1px dashed #da711c;
 }
 
 h3 a:hover {
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #eb7f27;
+  color: #da711c;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #eb7f27;
+  background-color: #da711c;
   border-radius: 6px;
-  border: 5px solid #f4b684;
+  border: 5px solid #eda76f;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #eb7f27;
+  background-color: #da711c;
   border-width: 0 0 1px 0;
-  border-color: #f4b684;
+  border-color: #eda76f;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #ef9b56;
+  background-color: #e78c42;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #9d4f0f;
+  border-color: #804210;
   border-style: dashed;
 }
 
@@ -243,12 +243,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #eb7f27;
+  background-color: #da711c;
   border-color: #f3dc81;
 }
 
 .btn-warning:hover {
-  background-color: #b55a11;
+  background-color: #964e13;
 }
 
 .btn-calendar {
