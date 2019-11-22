@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #f3dc81;
+  color: #eb7f27;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #f3dc81;
+  color: #eb7f27;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -94,8 +94,8 @@ h4 a:hover {
   background-color: #891404;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #eb7f27;
-  border-bottom: 5px solid #eb7f27;
+  border-top: 5px solid #f3dc81;
+  border-bottom: 5px solid #f3dc81;
 }
 
 .navbar li a:hover {
@@ -147,7 +147,7 @@ h4 a:hover {
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 .sidebar-1 nav .secondary-menu li {
@@ -168,7 +168,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .list-group li a {
-  color: #000;
+  color: #fff;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
