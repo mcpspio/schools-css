@@ -234,12 +234,12 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #4200f8;
-  border-color: #6e57fb;
+  background-color: #6e57fb;
+  border-color: #4200f8;
 }
 
 .btn-primary:hover {
-  background-color: #c4bbfd;
+  background-color: #8a5fff;
 }
 
 .btn-warning {
