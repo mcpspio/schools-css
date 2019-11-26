@@ -19,7 +19,7 @@ $schoolcolors: (
 }
 // HEADER
 header{
-    background-color: #cdc9fc;; 
+    background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
         color: map-get($schoolcolors , primary);
