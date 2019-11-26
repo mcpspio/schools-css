@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+header {
+  background-color: #cdc9fc;
+}
+
 header h1 {
   color: #4200f8;
   font-size: 4em;
@@ -91,11 +95,11 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #cdc9fc;
+  background-color: #4200f8;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #4200f8;
-  border-bottom: 5px solid #4200f8;
+  border-top: 5px solid #febf00;
+  border-bottom: 5px solid #febf00;
 }
 
 .navbar li a:hover {
