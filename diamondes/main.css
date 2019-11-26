@@ -91,11 +91,11 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #cdc9fc;
+  background-color: #4200f8;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #4200f8;
-  border-bottom: 5px solid #4200f8;
+  border-top: 5px solid #6e57fb;
+  border-bottom: 5px solid #6e57fb;
 }
 
 .navbar li a:hover {
@@ -119,11 +119,11 @@ h4 a:hover {
 }
 
 .sidebar-1 .school-info-box {
-  background-color: #f5f5f6;
+  background-color: #cdc9fc;
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #e8e8ea;
+  border: 5px solid #593efa;
   border-radius: 6px;
 }
 
@@ -177,6 +177,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
+  background-color: #cdc9fc;
   border: 5px solid #6e57fb;
 }
 

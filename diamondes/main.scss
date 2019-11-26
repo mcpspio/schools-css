@@ -76,10 +76,10 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: #cdc9fc;
+    background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors , primary);
-    border-bottom:5px solid map-get($schoolcolors , primary);
+    border-top:5px solid map-get($schoolcolors , accent);
+    border-bottom:5px solid map-get($schoolcolors , accent);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , accent), 5%);}
   }
@@ -101,9 +101,9 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 .sidebar-1{
 
 .school-info-box{
-    background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+    background-color: #cdc9fc; padding:15px;
     margin-bottom: 20px;   text-align: center;
-    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    border:5px solid darken(map-get($schoolcolors , accent), 5%);
     @include rounded-corners(6px);
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
@@ -145,6 +145,7 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
+    background-color: #cdc9fc; 
     border:5px solid (map-get($schoolcolors , accent));
   p {  
         line-height: 1.5em;
