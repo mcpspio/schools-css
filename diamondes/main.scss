@@ -167,7 +167,7 @@ font-size:95%; font-style: italic;}
 
 .news {
  
-    h2, h2 a   #febf00;
+    h2, h2 a{   color: map-get($schoolcolors , secondary);}
   }
   .list-group{
 
