@@ -9,6 +9,7 @@ $schoolcolors: (
      navlinks:#fff,
      sidenavlinks:#fff,
      primaryfonts:#27282c,
+     bannerbg:#e2dcd0;
 );
 
 
@@ -20,6 +21,8 @@ $schoolcolors: (
 // HEADER
 header{
     background-color: map-get($schoolcolors , bannercolor); 
+    .masthead {
+        background-color: map-get($schoolcolors , bannerbg); 
 
     h1{
         color: map-get($schoolcolors , primary);
