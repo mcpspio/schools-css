@@ -108,6 +108,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
+    color: map-get($schoolcolors ,  primary);
          font-family: 'Oswald', sans-serif;  }
 nav{
     background-color: map-get($schoolcolors , secondary);
@@ -153,6 +154,7 @@ nav{
    
 p  strong {text-transform: uppercase;
     color: lighten(map-get($schoolcolors , primaryfonts), 20%); 
+h4{color: map-get($schoolcolors ,  primary);}
 }
 
 
