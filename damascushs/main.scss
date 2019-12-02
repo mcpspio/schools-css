@@ -144,8 +144,9 @@ nav{
   
 .calendar {
     padding:0 15px 15px 15px!important;
-    @include rounded-corners(6px); 
-    border:5px solid (map-get($schoolcolors , accent));
+    background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    @include rounded-corners(6px);
   p {  
         line-height: 1.5em;
     font-size: 1em;}
