@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #ebaa0f;
+  color: #e39c04;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #ebaa0f;
+  color: #e39c04;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #ebaa0f;
-  border-bottom: 1px dashed #ebaa0f;
+  color: #e39c04;
+  border-bottom: 1px dashed #e39c04;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #ebaa0f;
+  border-bottom-color: #e39c04;
 }
 
 .navbar {
   background-color: #000000;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #ebaa0f;
-  border-bottom: 5px solid #ebaa0f;
+  border-top: 5px solid #e39c04;
+  border-bottom: 5px solid #e39c04;
 }
 
 .navbar li a:hover {
-  background-color: #f1b423;
+  background-color: #fbad06;
 }
 
 .navbar-nav .nav-link {
@@ -241,17 +241,17 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #ebaa0f;
-  border-color: #ebaa0f;
+  background-color: #e39c04;
+  border-color: #e39c04;
 }
 
 .btn-primary:hover {
-  background-color: #f6cc6a;
+  background-color: #fcc651;
 }
 
 .btn-warning {
   background-color: #005800;
-  border-color: #ebaa0f;
+  border-color: #e39c04;
 }
 
 .btn-warning:hover {
