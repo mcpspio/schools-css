@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
-header h1 {
+header .masthead {
+  background-color: #e2dcd0;
+}
+
+header .masthead h1 {
   color: #485daa;
   font-size: 4em;
   padding-top: 20px;
