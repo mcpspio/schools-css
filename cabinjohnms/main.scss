@@ -10,7 +10,7 @@ $schoolcolors: (
      sidenavlinks:#fff,
      primaryfonts:#27282c,
      bannerbg:#e2dcd0,
-)
+);
 
 
 @mixin rounded-corners($arc) {
@@ -40,6 +40,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     a:hover {text-decoration: none;}
     }
 
+}
 
         h2{
     
@@ -228,4 +229,4 @@ font-size:95%; font-style: italic;}
 }
     }
 }
-}
+    }
