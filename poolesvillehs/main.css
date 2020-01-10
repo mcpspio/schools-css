@@ -63,7 +63,7 @@ h3 {
 
 h3 a {
   color: #585858;
-  border-bottom: 1px dashed #585858;
+  border-bottom: 1px dashed #db8515;
 }
 
 h3 a:hover {
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #585858;
+  background-color: #db8515;
   border-radius: 6px;
-  border: 5px solid #8b8b8b;
+  border: 5px solid #f0b466;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #585858;
+  background-color: #db8515;
   border-width: 0 0 1px 0;
-  border-color: #8b8b8b;
+  border-color: #f0b466;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #727272;
+  background-color: #ec9d37;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #252525;
+  border-color: #7e4c0c;
   border-style: dashed;
 }
 
@@ -243,12 +243,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #585858;
+  background-color: #db8515;
   border-color: #585858;
 }
 
 .btn-warning:hover {
-  background-color: #323232;
+  background-color: #955b0e;
 }
 
 .btn-calendar {
