@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #99c46c;
+  color: #5a9d62;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #99c46c;
+  color: #5a9d62;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #99c46c;
+  color: #5a9d62;
   border-bottom: 1px dashed #ae6623;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #99c46c;
+  border-bottom-color: #5a9d62;
 }
 
 h4 {
-  color: #99c46c;
+  color: #5a9d62;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #99c46c;
-  border-bottom: 1px dashed #99c46c;
+  color: #5a9d62;
+  border-bottom: 1px dashed #5a9d62;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #99c46c;
+  border-bottom-color: #5a9d62;
 }
 
 .navbar {
   background-color: #4f8054;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #99c46c;
-  border-bottom: 5px solid #99c46c;
+  border-top: 5px solid #5a9d62;
+  border-bottom: 5px solid #5a9d62;
 }
 
 .navbar li a:hover {
-  background-color: #a6cb7e;
+  background-color: #68a870;
 }
 
 .navbar-nav .nav-link {
@@ -147,7 +147,7 @@ h4 a:hover {
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 .sidebar-1 nav .secondary-menu li {
@@ -168,7 +168,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .list-group li a {
-  color: #000;
+  color: #fff;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -177,7 +177,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #99c46c;
+  border: 5px solid #5a9d62;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #99c46c;
+  color: #5a9d62;
 }
 
 .footer {
@@ -234,17 +234,17 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #99c46c;
-  border-color: #99c46c;
+  background-color: #5a9d62;
+  border-color: #5a9d62;
 }
 
 .btn-primary:hover {
-  background-color: #cce1b5;
+  background-color: #99c49e;
 }
 
 .btn-warning {
   background-color: #ae6623;
-  border-color: #99c46c;
+  border-color: #5a9d62;
 }
 
 .btn-warning:hover {
