@@ -177,7 +177,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #000;
+  border: 5px solid #febf00;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -187,11 +187,11 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #858d94;
+  color: #000;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #ffd965;
+  color: #545a5f;
   font-size: 95%;
   font-style: italic;
 }

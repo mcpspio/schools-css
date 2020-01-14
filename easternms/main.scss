@@ -154,7 +154,7 @@ p  strong {text-transform: uppercase;
 }
 
 
-a {    color:map-get ($schoolcolors , secondary);
+a {    color:map-get($schoolcolors , secondary);
 font-size:95%;
  font-style: italic;
 }
