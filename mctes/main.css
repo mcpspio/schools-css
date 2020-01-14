@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #0471ce;
+  color: #0267bd;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #0471ce;
+  color: #0267bd;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,13 +43,13 @@ h2 {
 }
 
 h2 a {
-  color: #0471ce;
-  border-bottom: 1px solid #0471ce;
+  color: #0267bd;
+  border-bottom: 1px solid #0267bd;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #0471ce;
+  border-bottom-color: #0267bd;
 }
 
 h3 {
@@ -63,7 +63,7 @@ h3 {
 
 h3 a {
   color: #59b1fc;
-  border-bottom: 1px dashed #c62935;
+  border-bottom: 1px dashed #be212d;
 }
 
 h3 a:hover {
@@ -91,7 +91,7 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #0471ce;
+  background-color: #0267bd;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 5px solid #59b1fc;
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #c62935;
+  background-color: #be212d;
   border-radius: 6px;
-  border: 5px solid #e2737b;
+  border: 5px solid #e4616b;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #c62935;
+  background-color: #be212d;
   border-width: 0 0 1px 0;
-  border-color: #e2737b;
+  border-color: #e4616b;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #d94954;
+  background-color: #dc3643;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #71181e;
+  border-color: #671218;
   border-style: dashed;
 }
 
@@ -197,7 +197,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #0471ce;
+  color: #0267bd;
 }
 
 .list-group a.list-group-item h3 {
@@ -210,7 +210,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #0471ce;
+  background-color: #0267bd;
   color: #fff;
   font-size: 95%;
 }
@@ -225,12 +225,12 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #0471ce;
-  border-color: #0471ce;
+  background-color: #0267bd;
+  border-color: #0267bd;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #034883;
+  background-color: #013e71;
 }
 
 .btn-primary {
@@ -243,12 +243,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #c62935;
+  background-color: #be212d;
   border-color: #59b1fc;
 }
 
 .btn-warning:hover {
-  background-color: #871c24;
+  background-color: #7d161e;
 }
 
 .btn-calendar {
