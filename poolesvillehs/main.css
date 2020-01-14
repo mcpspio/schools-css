@@ -290,4 +290,8 @@ h4 a:hover {
 .order-md-3 .htmlblock ul li a {
   color: #000000;
 }
+
+.navbar-nav .nav-link {
+  padding: 12px 20px 12px 18px;
+}
 /*# sourceMappingURL=main.css.map */
