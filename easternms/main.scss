@@ -149,15 +149,13 @@ nav{
         line-height: 1.5em;
     font-size: 1em;}
    
-p  strong {text-transform: uppercase;
-    color: map-get($schoolcolors , primary); 
-}
-
-
-a {    color:map-get($schoolcolors , secondary);
-font-size:95%;
- font-style: italic;
-}
+    p  strong {text-transform: uppercase;
+        color: lighten(map-get($schoolcolors , primaryfonts), 20%); 
+    }
+    
+    
+    a {    color: lighten(map-get($schoolcolors , primaryfonts), 20%);
+    font-size:95%; font-style: italic;}
 
 }
 }
