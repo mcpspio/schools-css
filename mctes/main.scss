@@ -2,14 +2,13 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     primary:#485daa,
-     secondary:#433125,
-     accent:#db8515,
-     infoboxcolor:#f7f7f7,
+     primary:#025ead,
+     secondary:#be212d,
+     accent:#59b1fc,
+     infoboxcolor:#f5f5f6,
      navlinks:#fff,
      sidenavlinks:#fff,
      primaryfonts:#27282c,
-     bannerbg:#e2dcd0,
 );
 
 
@@ -21,8 +20,6 @@ $schoolcolors: (
 // HEADER
 header{
     background-color: map-get($schoolcolors , bannercolor); 
-    .masthead {
-        background-color: map-get($schoolcolors , bannerbg); 
 
     h1{
         color: map-get($schoolcolors , primary);
@@ -40,7 +37,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     a:hover {text-decoration: none;}
     }
 
-}
+
         h2{
     
             color: map-get($schoolcolors , primary);
@@ -56,7 +53,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     
             h3 {
     
-                color: map-get($schoolcolors , secondary);
+                color: map-get($schoolcolors , accent);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
@@ -148,8 +145,7 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-    background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
-    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    border:5px solid (map-get($schoolcolors , accent));
   p {  
         line-height: 1.5em;
     font-size: 1em;}
@@ -170,7 +166,7 @@ font-size:95%; font-style: italic;}
 
 .news {
  
-    h2, h2 a{   color: map-get($schoolcolors , secondary);}
+    h2, h2 a{   color: map-get($schoolcolors , primary);}
   }
   .list-group{
 
@@ -205,27 +201,5 @@ font-size:95%; font-style: italic;}
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%);}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {   margin:0px;     }
-
-
-   //  Aditional styles
-
-    .order-md-3{
-        .htmlblock{
-        background-color: map-get($schoolcolors , infoboxcolor); padding:8px;
-    margin-bottom: 20px;   text-align: center;
-    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
-    @include rounded-corners(6px);
-    h2{ font-size: 1.6em; padding:0 15px;}
-    ul{    margin: 0px 0px 5px 0px;
-        padding: 0px;
-        li{    margin: 0px;
-        padding: 5px 0px 5px 10px;
-        list-style-type: none;
-        border-bottom: 1px dashed darken(map-get($schoolcolors , infoboxcolor), 25%);
-    text-align: left;
-    a{color: map-get($schoolcolors , primary); }
-}
-    }
-}
+    .logo.has-image {   margin: 0px; 
     }

@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
-header h1 {
+header .masthead {
+  background-color: #e2dcd0;
+}
+
+header .masthead h1 {
   color: #485daa;
   font-size: 4em;
   padding-top: 20px;
@@ -9,12 +13,12 @@ header h1 {
   text-align: center;
 }
 
-header h1 span {
+header .masthead h1 span {
   font-weight: lighter;
   font-size: .5em;
 }
 
-header address {
+header .masthead address {
   text-indent: -9999px !important;
   margin: 0;
   padding: 0px;
@@ -22,13 +26,13 @@ header address {
   line-height: 1px;
 }
 
-header h3 {
+header .masthead h3 {
   color: #db8515;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
 
-header a:hover {
+header .masthead a:hover {
   text-decoration: none;
 }
 
