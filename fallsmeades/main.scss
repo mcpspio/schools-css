@@ -152,11 +152,11 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , secondary), 20%); 
+    color: lighten(map-get($schoolcolors , secondary), 5%); 
 }
 
 
-a {    color: lighten(map-get($schoolcolors , secondary), 20%);
+a {    color: lighten(map-get($schoolcolors , secondary), 5%);
 font-size:95%; font-style: italic;}
 
 }
