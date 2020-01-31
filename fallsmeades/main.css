@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #3a3a3a;
+  color: #891404;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #891404;
+  color: #3a3a3a;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,17 +43,17 @@ h2 {
 }
 
 h2 a {
-  color: #3a3a3a;
-  border-bottom: 1px solid #891404;
+  color: #891404;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #891404;
+  border-bottom-color: #3a3a3a;
 }
 
 h3 {
-  color: #3a3a3a;
+  color: #891404;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #891404;
-  border-bottom: 1px dashed #3a3a3a;
+  color: #3a3a3a;
+  border-bottom: 1px dashed #891404;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #3a3a3a;
+  border-bottom-color: #891404;
 }
 
 h4 {
-  color: #891404;
+  color: #3a3a3a;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -82,16 +82,16 @@ h4 {
 
 h4 a {
   color: #f7dc70;
-  border-bottom: 1px dashed #891404;
+  border-bottom: 1px dashed #3a3a3a;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #891404;
+  border-bottom-color: #3a3a3a;
 }
 
 .navbar {
-  background-color: #3a3a3a;
+  background-color: #891404;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 3px solid #f7dc70;
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #545454;
+  background-color: #bb1b05;
 }
 
 .navbar-nav .nav-link {
@@ -139,9 +139,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #891404;
+  background-color: #3a3a3a;
   border-radius: 6px;
-  border: 5px solid #bb1b05;
+  border: 5px solid #545454;
 }
 
 .sidebar-1 nav h2 {
@@ -151,19 +151,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #891404;
+  background-color: #3a3a3a;
   border-width: 0 0 1px 0;
-  border-color: #ec2207;
+  border-color: #6d6d6d;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #bb1b05;
+  background-color: #545454;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #260601;
+  border-color: #070707;
   border-style: dashed;
 }
 
@@ -189,17 +189,17 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #ec2207;
+  color: #6d6d6d;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #ec2207;
+  color: #6d6d6d;
   font-size: 95%;
   font-style: italic;
 }
 
 .news h2, .news h2 a {
-  color: #3a3a3a;
+  color: #891404;
 }
 
 .list-group a.list-group-item h3 {
@@ -207,12 +207,12 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #3a3a3a;
+  color: #891404;
 }
 
 .footer {
   padding: 20px;
-  background-color: #891404;
+  background-color: #3a3a3a;
   color: #fff;
   font-size: 95%;
 }
@@ -227,21 +227,21 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #3a3a3a;
-  border-color: #3a3a3a;
-}
-
-.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #141414;
-}
-
-.btn-primary {
   background-color: #891404;
   border-color: #891404;
 }
 
+.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
+  background-color: #3f0902;
+}
+
+.btn-primary {
+  background-color: #3a3a3a;
+  border-color: #3a3a3a;
+}
+
 .btn-primary:hover {
-  background-color: #ec2207;
+  background-color: #6d6d6d;
 }
 
 .btn-warning {
