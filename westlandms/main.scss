@@ -110,7 +110,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif; 
-         color: map-get($schoolcolors ,  primary); }
+         color: map-get($schoolcolors ,  accent); }
 nav{
     background-color: darken(map-get($schoolcolors , accent), 5%);
      @include rounded-corners(6px); 
@@ -149,6 +149,11 @@ nav{
     @include rounded-corners(6px); 
     border:5px solid  #0b0c10;
     background-color:#1f2833;
+
+    h4{    font-size: 1.6em;   line-height: 1.2em;
+        font-family: 'Oswald', sans-serif; 
+        color: map-get($schoolcolors ,  primary); }
+
   p {  
         line-height: 1.5em;
     font-size: 1em;}
@@ -173,7 +178,7 @@ font-size:95%; font-style: italic;}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , accent);}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , secondary);}
   }
 
   // FOOTER
