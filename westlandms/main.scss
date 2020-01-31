@@ -112,7 +112,7 @@ h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif; 
          color: map-get($schoolcolors ,  primary); }
 nav{
-    background-color: darken(map-get($schoolcolors , accent), 20%);
+    background-color: darken(map-get($schoolcolors , accent), 5%);
      @include rounded-corners(6px); 
      border:5px solid lighten(map-get($schoolcolors , accent), 20%);
      
@@ -122,7 +122,7 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , accent);
+    background-color: darken(map-get($schoolcolors , accent), 5%);
     border-width:0 0 1px 0;
     border-color: lighten(map-get($schoolcolors , accent), 20%);
     border-style: dashed;
