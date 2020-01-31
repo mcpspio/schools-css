@@ -136,10 +136,11 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
+  color: #36456c;
 }
 
 .sidebar-1 nav {
-  background-color: #b99041;
+  background-color: #6e5526;
   border-radius: 6px;
   border: 5px solid #d6bc8a;
 }
