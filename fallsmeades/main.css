@@ -82,12 +82,12 @@ h4 {
 
 h4 a {
   color: #fada03;
-  border-bottom: 1px dashed #fada03;
+  border-bottom: 1px dashed #3a3a3a;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #fada03;
+  border-bottom-color: #3a3a3a;
 }
 
 .navbar {
