@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #fada03;
+  color: #891404;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -189,17 +189,17 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #ec2207;
+  color: #6d6d6d;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #ec2207;
+  color: #6d6d6d;
   font-size: 95%;
   font-style: italic;
 }
 
 .news h2, .news h2 a {
-  color: #fada03;
+  color: #891404;
 }
 
 .list-group a.list-group-item h3 {

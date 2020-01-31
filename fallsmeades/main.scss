@@ -63,7 +63,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , accent);
+                color: map-get($schoolcolors , primary);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
@@ -152,11 +152,11 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primary), 20%); 
+    color: lighten(map-get($schoolcolors , secondary), 20%); 
 }
 
 
-a {    color: lighten(map-get($schoolcolors , primary), 20%);
+a {    color: lighten(map-get($schoolcolors , secondary), 20%);
 font-size:95%; font-style: italic;}
 
 }
@@ -167,7 +167,7 @@ font-size:95%; font-style: italic;}
 
 .news {
  
-    h2, h2 a{   color: map-get($schoolcolors , accent);}
+    h2, h2 a{   color: map-get($schoolcolors , primary);}
   }
   .list-group{
 
