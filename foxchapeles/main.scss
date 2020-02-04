@@ -4,7 +4,7 @@ $schoolcolors: (
   
      primary:#830707,
      secondary:#d66426,
-     accent:#ffbc1c,
+     accent:#f5e7b2,
      infoboxcolor:#ebebeb,
      navlinks:#fff,
      sidenavlinks:#fff,
@@ -145,7 +145,8 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-       border:5px solid (map-get($schoolcolors , accent));
+       border:5px solid  darken(map-get($schoolcolors , secondary), 15%);
+       background-color: map-get($schoolcolors , accent);
  
   p {  
         line-height: 1.5em;
