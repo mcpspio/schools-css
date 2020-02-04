@@ -178,9 +178,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  background-color: #ebebeb;
-  padding: 15px;
-  border: 5px solid #dedede;
+  border: 5px solid #ffbc1c;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -194,7 +192,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #dc733a;
+  color: darden(#d66426, 5%);
   font-size: 95%;
   font-style: italic;
 }
@@ -208,7 +206,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #830707;
+  color: #d66426;
 }
 
 .footer {
