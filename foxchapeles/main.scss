@@ -156,7 +156,7 @@ p  strong {text-transform: uppercase;
 }
 
 
-a {    color: darden(map-get($schoolcolors , secondary), 5%);
+a {    color: darken(map-get($schoolcolors , secondary), 5%);
 font-size:95%; font-style: italic;}
 
 }
