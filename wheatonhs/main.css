@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #ffc51c;
+  color: #f3ba0d;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #3a3a3a;
+  color: #830707;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -44,16 +44,16 @@ h2 {
 
 h2 a {
   color: #830707;
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #830707;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #3a3a3a;
+  border-bottom-color: #830707;
 }
 
 h3 {
-  color: #830707;
+  color: #3a3a3a;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -63,16 +63,16 @@ h3 {
 
 h3 a {
   color: #3a3a3a;
-  border-bottom: 1px dashed #830707;
+  border-bottom: 1px dashed #3a3a3a;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #830707;
+  border-bottom-color: #3a3a3a;
 }
 
 h4 {
-  color: #3a3a3a;
+  color: #f3ba0d;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,21 +81,21 @@ h4 {
 }
 
 h4 a {
-  color: #ffc51c;
-  border-bottom: 1px dashed #3a3a3a;
+  color: #f3ba0d;
+  border-bottom: 1px dashed #f3ba0d;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #3a3a3a;
+  border-bottom-color: #f3ba0d;
 }
 
 .navbar {
   background-color: #830707;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 3px solid #ffc51c;
-  border-bottom: 3px solid #ffc51c;
+  border-top: 3px solid #f3ba0d;
+  border-bottom: 3px solid #f3ba0d;
 }
 
 .navbar li a:hover {
@@ -245,12 +245,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #ffc51c;
-  border-color: #ffc51c;
+  background-color: #f3ba0d;
+  border-color: #f3ba0d;
 }
 
 .btn-warning:hover {
-  background-color: #cf9a00;
+  background-color: #ab8308;
 }
 
 .btn-calendar {
