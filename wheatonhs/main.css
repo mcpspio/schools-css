@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #830707;
+  color: #d70c1d;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -43,7 +43,7 @@ h2 {
 }
 
 h2 a {
-  color: #830707;
+  color: #d70c1d;
   border-bottom: 1px solid #3a3a3a;
 }
 
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #830707;
+  color: #d70c1d;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,13 +62,13 @@ h3 {
 }
 
 h3 a {
-  color: #830707;
-  border-bottom: 1px dashed #830707;
+  color: #d70c1d;
+  border-bottom: 1px dashed #d70c1d;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #830707;
+  border-bottom-color: #d70c1d;
 }
 
 h4 {
@@ -91,7 +91,7 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #830707;
+  background-color: #262626;
   padding-top: 0px;
   padding-bottom: 0px;
   border-top: 3px solid #ffbc1c;
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #b30a0a;
+  background-color: #f32335;
 }
 
 .navbar-nav .nav-link {
@@ -136,7 +136,7 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
-  color: #830707;
+  color: #d70c1d;
 }
 
 .sidebar-1 nav {
@@ -200,7 +200,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #830707;
+  color: #d70c1d;
 }
 
 .list-group a.list-group-item h3 {
@@ -208,7 +208,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #830707;
+  color: #d70c1d;
 }
 
 .footer {
@@ -228,12 +228,12 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #830707;
-  border-color: #830707;
+  background-color: #d70c1d;
+  border-color: #d70c1d;
 }
 
 .btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #3a0303;
+  background-color: #8f0813;
 }
 
 .btn-primary {
