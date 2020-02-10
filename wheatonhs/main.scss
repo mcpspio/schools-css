@@ -76,10 +76,10 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , darknav);
+    background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:3px solid map-get($schoolcolors , accent);
-    border-bottom:3px solid map-get($schoolcolors , accent);
+    border-top:3px solid map-get($schoolcolors , secondary);
+    border-bottom:3px solid map-get($schoolcolors , secondary);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
   }
