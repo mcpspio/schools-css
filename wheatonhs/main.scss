@@ -78,23 +78,23 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , secondary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:3px solid map-get($schoolcolors , secondary);
-    border-bottom:3px solid map-get($schoolcolors , secondary);
+    border-top:3px solid map-get($schoolcolors , primary);
+    border-bottom:3px solid map-get($schoolcolors , primary);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
   }
  .navbar-nav .nav-link {
 
-    color: map-get($schoolcolors , primary);
+    color: map-get($schoolcolors , navlinks);
         font-size:.95em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
         text-transform: uppercase;
 
-              a .nav-link {  color: map-get($schoolcolors , primary);}   
+              a .nav-link {  color: map-get($schoolcolors , navlinks);}   
   
             }
- .nav a{ color: map-get($schoolcolors ,  primary);}
+ .nav a{ color: map-get($schoolcolors ,  navlinks);}
 
 
  // SIDEBAR and NAVIGATION
