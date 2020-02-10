@@ -76,25 +76,25 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , secondary);
     padding-top: 0px; padding-bottom: 0px;
     border-top:3px solid map-get($schoolcolors , secondary);
     border-bottom:3px solid map-get($schoolcolors , secondary);
 
-     li a:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
+     li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
   }
  .navbar-nav .nav-link {
 
-    color: map-get($schoolcolors , navlinks);
+    color: map-get($schoolcolors , primary);
         font-size:.95em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
         text-transform: uppercase;
 
-              a .nav-link {  color: map-get($schoolcolors , navlinks);}   
+              a .nav-link {  color: map-get($schoolcolors , primary);}   
   
             }
- .nav a{ color: map-get($schoolcolors ,  navlinks);}
+ .nav a{ color: map-get($schoolcolors ,  primary);}
 
 
  // SIDEBAR and NAVIGATION
