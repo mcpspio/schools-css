@@ -2,12 +2,13 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     primary:#830707,
+     primary:#d70c1d,
      secondary:#3a3a3a,
      accent:#ffbc1c,
      infoboxcolor:#ebebeb,
      navlinks:#fff,
      sidenavlinks:#fff,
+     darknav:#262626;
 );
 
 
@@ -75,7 +76,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , darknav);
     padding-top: 0px; padding-bottom: 0px;
     border-top:3px solid map-get($schoolcolors , accent);
     border-bottom:3px solid map-get($schoolcolors , accent);
