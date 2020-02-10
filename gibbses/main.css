@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #20224f;
+  color: #2e3192;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -103,7 +103,7 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
+  color: #5b5ecb;
   font-size: .95em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;
@@ -111,7 +111,7 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link a .nav-link {
-  color: #fff;
+  color: #5b5ecb;
 }
 
 .nav a {
@@ -192,7 +192,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #feaa72;
+  color: #ffc9a4;
   font-size: 95%;
   font-style: italic;
 }
@@ -235,8 +235,8 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #20224f;
-  border-color: #20224f;
+  background-color: #feaa72;
+  border-color: #fe6d0c;
 }
 
 .btn-primary:hover {
