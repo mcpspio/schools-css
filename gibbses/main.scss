@@ -23,7 +23,7 @@ header{
     background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
-        color: map-get($schoolcolors , primary);
+        color: map-get($schoolcolors , primaryfonts);
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
