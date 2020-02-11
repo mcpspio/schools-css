@@ -157,11 +157,11 @@ color: lighten(map-get($schoolcolors , secondary), 15%);
     
    }
 p  strong {text-transform: uppercase;
-    color: map-get($schoolcolors , navlinks); 
+    color: lighten(map-get($schoolcolors , lightcolor), 10%); 
 }
 
 
-a {    color: lighten(map-get($schoolcolors , lightcolor), 10%);
+a {    color: map-get($schoolcolors , navlinks); 
 font-size:95%; font-style: italic;}
 
 }
