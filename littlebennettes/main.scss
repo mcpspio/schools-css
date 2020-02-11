@@ -9,7 +9,7 @@ $schoolcolors: (
      navlinks:#ffffff,
      sidenavlinks:#000,
      primaryfonts:#27282c,
-     darkcolor:#0e0e7e,
+     darkcolor:#110e46,
 );
 
 
@@ -154,11 +154,11 @@ nav{
         font-size: 1em;}
        
     p  strong {text-transform: uppercase;
-        color: map-get($schoolcolors , accent); 
+        color: lighten(map-get($schoolcolors , accent), 30%); 
     }
     
     
-    a {    color: lighten(map-get($schoolcolors , navlinks), 20%);
+    a {    color: map-get($schoolcolors , navlinks);
     font-size:95%; font-style: italic;}
 
 }
