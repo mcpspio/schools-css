@@ -85,13 +85,13 @@ h1 span{  font-weight:lighter; font-size: .5em;}
   }
  .navbar-nav .nav-link {
 
-    color: lighten(map-get($schoolcolors , secondary), 20%);
+    color: map-get($schoolcolors , navlinks));
         font-size:.95em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
         text-transform: uppercase;
 
-              a .nav-link {  color: lighten(map-get($schoolcolors , secondary), 20%);}   
+              a .nav-link {  color: map-get($schoolcolors , navlinks);}   
   
             }
  .nav a{ color: map-get($schoolcolors ,  secondary);}
