@@ -85,7 +85,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
   }
  .navbar-nav .nav-link {
 
-    color: map-get($schoolcolors , navlinks));
+    color: map-get($schoolcolors , navlinks);
         font-size:.95em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
