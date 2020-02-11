@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #3d3dfe;
+  color: #110e46;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -188,7 +188,7 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #ddd8fe;
+  color: #b3a7fc;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
@@ -235,8 +235,8 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #5d45f8;
-  border-color: #3d3dfe;
+  background-color: #b3a7fc;
+  border-color: #5d45f8;
 }
 
 .btn-primary:hover {

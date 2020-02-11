@@ -65,7 +65,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , primary);
+                color: map-get($schoolcolors , darkcolor);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
@@ -154,7 +154,7 @@ nav{
         font-size: 1em;}
        
     p  strong {text-transform: uppercase;
-        color: lighten(map-get($schoolcolors , accent), 30%); 
+        color: lighten(map-get($schoolcolors , accent), 20%); 
     }
     
     
@@ -194,7 +194,7 @@ nav{
 
 
 .btn-primary
-{background-color: map-get($schoolcolors , accent);    border-color:map-get($schoolcolors , primary); }
+{background-color: lighten(map-get($schoolcolors , accent), 20%);    border-color:map-get($schoolcolors , accent); }
 
 .btn-primary:hover
 {background-color: lighten(map-get($schoolcolors , primary), 20%);}
