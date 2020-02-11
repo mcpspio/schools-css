@@ -41,7 +41,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
         h2{
     
-            color: map-get($schoolcolors , primary);
+            color: map-get($schoolcolors , darkcolor);
             font-size: 2.2em;
             line-height: 1.2em;
             margin: 24px 0;
@@ -65,7 +65,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , darkcolor);
+                color: map-get($schoolcolors , primary);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
@@ -77,7 +77,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , darkcolor);
     padding-top: 0px; padding-bottom: 0px;
     border-top:5px solid map-get($schoolcolors , secondary);
     border-bottom:5px solid map-get($schoolcolors , secondary);
@@ -144,21 +144,22 @@ nav{
  // UPCOMING EVENTS
 .schooleventindexpage {
   
-.calendar {
-    padding:0 15px 15px 15px!important;
-    @include rounded-corners(6px); 
-    border:5px solid (map-get($schoolcolors , primary));
-  p {  
-        line-height: 1.5em;
-    font-size: 1em;}
-   
-p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , primaryfonts), 20%); 
-}
-
-
-a {    color: lighten(map-get($schoolcolors , primaryfonts), 20%);
-font-size:95%; font-style: italic;}
+    .calendar {
+        padding:0 15px 15px 15px!important;
+        @include rounded-corners(6px); 
+        border:5px solid lighten(map-get($schoolcolors , darkcolor), 20%); 
+        background-color: map-get($schoolcolors , darkcolor);
+      p {  
+            line-height: 1.5em;
+        font-size: 1em;}
+       
+    p  strong {text-transform: uppercase;
+        color: map-get($schoolcolors , accent); 
+    }
+    
+    
+    a {    color: lighten(map-get($schoolcolors , navlinks), 20%);
+    font-size:95%; font-style: italic;}
 
 }
 }
