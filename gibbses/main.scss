@@ -152,7 +152,7 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , secondary), 5%); 
+    color: map-get($schoolcolors , navlinks); 
 }
 
 
