@@ -147,21 +147,19 @@ nav{
     .calendar {
         padding:0 15px 15px 15px!important;
         @include rounded-corners(6px); 
-        border:5px solid lighten(map-get($schoolcolors , darkcolor), 20%); 
-        background-color: map-get($schoolcolors , darkcolor);
+        border:5px solid (map-get($schoolcolors , primary));
       p {  
             line-height: 1.5em;
         font-size: 1em;}
        
     p  strong {text-transform: uppercase;
-        color: lighten(map-get($schoolcolors , primary), 20%);
+        color: lighten(map-get($schoolcolors , primaryfonts), 20%); 
     }
     
-    h4 {color: lighten(map-get($schoolcolors , primary), 10%);}
     
-    a {    color: map-get($schoolcolors , navlinks);
+    a {    color: lighten(map-get($schoolcolors , primaryfonts), 20%);
     font-size:95%; font-style: italic;}
-
+    
 }
 }
 }
@@ -195,7 +193,7 @@ nav{
 
 
 .btn-primary
-{background-color: lighten(map-get($schoolcolors , accent), 20%);    border-color:map-get($schoolcolors , accent); }
+{background-color: lighten(map-get($schoolcolors , primary), 5%);    border-color:map-get($schoolcolors , accent); }
 
 .btn-primary:hover
 {background-color: lighten(map-get($schoolcolors , primary), 20%);}
