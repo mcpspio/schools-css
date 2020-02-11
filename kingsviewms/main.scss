@@ -3,7 +3,7 @@
 $schoolcolors: (
   
      primary:#363d49,
-     secondary:#bdfcfe,
+     secondary:#66fcf1,
      accent:#4d7a8c,
      infoboxcolor:#f7f7f7,
      navlinks:#c5c6c8,
@@ -78,8 +78,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:3px solid map-get($schoolcolors , secondary);
-    border-bottom:3px solid map-get($schoolcolors , secondary);
+    border-top:4px solid map-get($schoolcolors , secondary);
+    border-bottom:4px solid map-get($schoolcolors , secondary);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , accent), 5%);}
   }
@@ -152,11 +152,11 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , secondary), 20%); 
+    color: map-get($schoolcolors , secondary); 
 }
 
 
-a {    color: lighten(map-get($schoolcolors , accent), 20%);
+a {    color: lighten(map-get($schoolcolors , secondary), 20%);
 font-size:95%; font-style: italic;}
 
 }
