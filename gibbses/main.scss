@@ -121,13 +121,13 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , accent);
+    background-color: map-get($schoolcolors , lightcolor);
     border-width:0 0 1px 0;
-    border-color: lighten(map-get($schoolcolors , accent), 20%);
+    border-color: darken(map-get($schoolcolors , lightcolor), 20%);
     border-style: dashed;
   
 }
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , accent), 10%);}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , lightcolor), 10%);}
 
 .list-group-item {
 

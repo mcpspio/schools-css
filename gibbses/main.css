@@ -151,14 +151,14 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #20224f;
+  background-color: #6997d4;
   border-width: 0 0 1px 0;
-  border-color: #3d4198;
+  border-color: #3063a7;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #2f3273;
+  background-color: #91b2df;
 }
 
 .sidebar-1 nav .list-group-item {
