@@ -2,9 +2,9 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     primary:#363d49,
-     secondary:#66fcf1,
-     accent:#4d7a8c,
+     primary:#323e49,
+     secondary:#91ffff,
+     accent:#2c9ea2,
      infoboxcolor:#f7f7f7,
      navlinks:#c5c6c8,
      sidenavlinks:#FFFFFF,
@@ -152,7 +152,7 @@ nav{
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: map-get($schoolcolors , secondary); 
+    color: map-get($schoolcolors , secondary), 20%); 
 }
 
 
