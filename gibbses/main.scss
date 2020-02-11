@@ -153,7 +153,7 @@ nav{
         line-height: 1.5em;
     font-size: 1em;}
    h4 {
-color: map-get($schoolcolors , secondary);
+color: lighten(map-get($schoolcolors , secondary), 15%); 
     
    }
 p  strong {text-transform: uppercase;
