@@ -10,6 +10,7 @@ $schoolcolors: (
      sidenavlinks:#FFFFFF,
      primaryfonts:#27282c,
      lightcolor:#6997d4,
+     lightgray:#a5a5a5,
 );
 
 
@@ -23,7 +24,7 @@ header{
     background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
-        color: map-get($schoolcolors , primaryfonts);
+        color: map-get($schoolcolors , lightgray);
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
@@ -172,7 +173,7 @@ font-size:95%; font-style: italic;}
 
 .news {
  
-    h2, h2 a{   color: map-get($schoolcolors , primaryfonts);}
+    h2, h2 a{   color: map-get($schoolcolors , lightgray);}
   }
   .list-group{
 
