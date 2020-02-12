@@ -23,7 +23,7 @@ header{
     background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
-        color: map-get($schoolcolors , primary);
+        color: darken(map-get($schoolcolors , primary), 10%);
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
@@ -54,7 +54,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     
             h3 {
     
-                color: map-get($schoolcolors , primary);
+                color: darken(map-get($schoolcolors , primary), 10%);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
@@ -82,7 +82,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     border-top:3px solid map-get($schoolcolors , primary);
     border-bottom:3px solid map-get($schoolcolors , primary);
 
-     li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 5%);}
+     li a:hover{background-color: map-get($schoolcolors , secondary);}
   }
  .navbar-nav .nav-link {
 
@@ -110,7 +110,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif; 
-        color:  map-get($schoolcolors , primary);
+        color:  darken(map-get($schoolcolors , primary), 10%);
          }
 nav{
     background-color: map-get($schoolcolors , accent);
@@ -118,7 +118,7 @@ nav{
      border:5px solid lighten(map-get($schoolcolors , accent), 20%);
      
 
- h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
+ h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , primary); }
 
 
 .secondary-menu li {
@@ -179,12 +179,12 @@ font-size:95%; font-style: italic;}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , primary);}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: darken(map-get($schoolcolors , primary), 10%);}
   }
 
   // FOOTER
 .footer{padding: 20px;
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , secondary);
     color: map-get($schoolcolors , navlinks);
     font-size: 95%;
    p,a{  color: map-get($schoolcolors , navlinks); font-size: 95%;} 

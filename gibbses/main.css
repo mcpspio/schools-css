@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #fe6d0c;
+  color: #d65601;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #fe6d0c;
+  color: #d65601;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -99,7 +99,7 @@ h4 a:hover {
 }
 
 .navbar li a:hover {
-  background-color: #3438a5;
+  background-color: #2e3192;
 }
 
 .navbar-nav .nav-link {
@@ -136,7 +136,7 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
-  color: #fe6d0c;
+  color: #d65601;
 }
 
 .sidebar-1 nav {
@@ -148,7 +148,7 @@ h4 a:hover {
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #FFFFFF;
+  color: #fe6d0c;
 }
 
 .sidebar-1 nav .secondary-menu li {
@@ -211,12 +211,12 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #fe6d0c;
+  color: #d65601;
 }
 
 .footer {
   padding: 20px;
-  background-color: #fe6d0c;
+  background-color: #2e3192;
   color: #FFFFFF;
   font-size: 95%;
 }
