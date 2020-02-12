@@ -136,7 +136,8 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
-  color: #3a3f45;
+  color: #FFFFFF;
+  background-color: #1e2f4a;
 }
 
 .sidebar-1 nav {
@@ -178,12 +179,13 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #0b3db4;
-  background-color: #326bf3;
+  border: 5px solid #0b0c0e;
+  background-color: #3a3f45;
 }
 
 .sidebar-1 .schooleventindexpage .calendar h4 {
-  color: #5d656f;
+  color: #FFFFFF;
+  background-color: #1e2f4a;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -193,11 +195,11 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #3b5d93;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #1e2f4a;
+  color: #FFFFFF;
   font-size: 95%;
   font-style: italic;
 }
