@@ -152,24 +152,25 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #3a3f45;
+  background-color: #f7f7f5;
+  padding: 15px;
+  border: 5px solid #ecece7;
   border-width: 0 0 1px 0;
-  border-color: #69727c;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #515861;
+  background-color: white;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #161744;
+  border-color: #cacabc;
   border-style: dashed;
 }
 
 .sidebar-1 .list-group li a {
-  color: #feaa72;
+  color: #3438a5;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -178,8 +179,8 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #0b0c0e;
-  background-color: #3a3f45;
+  border: 5px solid #0f1031;
+  background-color: #161744;
 }
 
 .sidebar-1 .schooleventindexpage .calendar h4 {
