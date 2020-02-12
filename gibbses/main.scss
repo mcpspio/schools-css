@@ -41,7 +41,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
         h2{
     
-            color: map-get($schoolcolors , secondary);
+            color: darken(map-get($schoolcolors , secondary), 10%);
             font-size: 2.2em;
             line-height: 1.2em;
             margin: 24px 0;
