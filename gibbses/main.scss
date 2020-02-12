@@ -2,15 +2,14 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     primary:#2e3192,
-     secondary:#fe6d0c,
-     accent:#20224f,
-     infoboxcolor:#f7f7f7,
-     navlinks:#fff,
+     secondary:#2e3192,
+     primary:#fe6d0c,
+     accent:#3a3f45,
+     infoboxcolor:#f7f7f5,
+     navlinks:#FFFFFF,
      sidenavlinks:#FFFFFF,
-     primaryfonts:#27282c,
-     lightcolor:#6997d4,
-     lightgray:#a5a5a5,
+     primaryfonts:#2c2a2a,
+    
 );
 
 
@@ -24,7 +23,7 @@ header{
     background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
-        color: map-get($schoolcolors , lightgray);
+        color: map-get($schoolcolors , primary);
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
@@ -42,7 +41,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
         h2{
     
-            color: map-get($schoolcolors , lightcolor);
+            color: map-get($schoolcolors , secondary);
             font-size: 2.2em;
             line-height: 1.2em;
             margin: 24px 0;
@@ -55,7 +54,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     
             h3 {
     
-                color: map-get($schoolcolors , secondary);
+                color: map-get($schoolcolors , primary);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
@@ -66,7 +65,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , lightcolor);
+                color: map-get($schoolcolors , accent);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
@@ -78,25 +77,25 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // TOP NAVIGATION
   .navbar{
 
-    background-color: map-get($schoolcolors , accent);
+    background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:2px solid lighten(map-get($schoolcolors , secondary), 5%);
-    border-bottom:2px solid lighten(map-get($schoolcolors , secondary), 5%);
+    border-top:5px solid map-get($schoolcolors , secondary);
+    border-bottom:5px solid map-get($schoolcolors , secondary);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , primary), 5%);}
   }
  .navbar-nav .nav-link {
 
-    color: map-get($schoolcolors , navlinks);
+    color: map-get($schoolcolors , sidenavlinks);
         font-size:.95em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
         text-transform: uppercase;
 
-              a .nav-link {  color: map-get($schoolcolors , navlinks);}   
+              a .nav-link {  color: map-get($schoolcolors , sidenavlinks);}   
   
             }
- .nav a{ color: map-get($schoolcolors ,  secondary);}
+ .nav a{ color: map-get($schoolcolors ,  sidenavlinks);}
 
 
  // SIDEBAR and NAVIGATION
@@ -110,12 +109,13 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
-         font-family: 'Oswald', sans-serif;  
-        color: map-get($schoolcolors , secondary);}
+         font-family: 'Oswald', sans-serif; 
+        color:  map-get($schoolcolors , primary);
+         }
 nav{
-    background-color: map-get($schoolcolors , lightcolor);
+    background-color: map-get($schoolcolors , accent);
      @include rounded-corners(6px); 
-     border:5px solid darken(map-get($schoolcolors , lightcolor), 20%);
+     border:5px solid lighten(map-get($schoolcolors , accent), 20%);
      
 
  h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
@@ -123,13 +123,13 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , lightcolor);
+    background-color: map-get($schoolcolors , accent);
     border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors , lightcolor), 20%);
+    border-color: lighten(map-get($schoolcolors , accent), 20%);
     border-style: dashed;
   
 }
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , lightcolor), 10%);}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , accent), 10%);}
 
 .list-group-item {
 
@@ -140,7 +140,7 @@ nav{
 }
 
 }
-.list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+.list-group  li  a {  color: lighten(map-get($schoolcolors , primary), 20%); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
  // UPCOMING EVENTS
 .schooleventindexpage {
@@ -148,21 +148,23 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-    border:5px solid lighten(map-get($schoolcolors , accent), 20%); 
-    background-color: map-get($schoolcolors , accent);
+    border:5px solid   darken(map-get($schoolcolors , accent), 20%);
+    background-color:map-get($schoolcolors , accent);
+
+    h4 {
+
+        color:  lighten(map-get($schoolcolors , primary), 10%);
+    }
   p {  
         line-height: 1.5em;
     font-size: 1em;}
-   h4 {
-color: lighten(map-get($schoolcolors , secondary), 15%); 
-    
-   }
+   
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , lightcolor), 10%); 
+    color:  lighten(map-get($schoolcolors , primary), 20%);
 }
 
 
-a {    color: map-get($schoolcolors , navlinks); 
+a {    color: map-get($schoolcolors , sidenavlinks);
 font-size:95%; font-style: italic;}
 
 }
@@ -173,11 +175,11 @@ font-size:95%; font-style: italic;}
 
 .news {
  
-    h2, h2 a{   color: map-get($schoolcolors , lightgray);}
+    h2, h2 a{   color: map-get($schoolcolors , secondary);}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , secondary);}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , primary);}
   }
 
   // FOOTER
@@ -198,10 +200,10 @@ font-size:95%; font-style: italic;}
 
 
 .btn-primary
-{background-color: lighten(map-get($schoolcolors , secondary), 5%);    border-color:map-get($schoolcolors , secondary); }
+{background-color: map-get($schoolcolors , primary);    border-color: darken(map-get($schoolcolors , primary), 5%); }
 
 .btn-primary:hover
-{background-color: lighten(map-get($schoolcolors , accent), 20%);}
+{background-color: lighten(map-get($schoolcolors , primary), 20%);}
 
 .btn-warning{background-color: map-get($schoolcolors , secondary);
     border-color:map-get($schoolcolors , accent); }

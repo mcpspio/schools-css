@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #a5a5a5;
+  color: #fe6d0c;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #20224f;
+  color: #3a3f45;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #6997d4;
+  color: #2e3192;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -43,13 +43,13 @@ h2 {
 }
 
 h2 a {
-  color: #2e3192;
-  border-bottom: 1px solid #2e3192;
+  color: #fe6d0c;
+  border-bottom: 1px solid #fe6d0c;
 }
 
 h2 a:hover {
   text-decoration: none;
-  border-bottom-color: #2e3192;
+  border-bottom-color: #fe6d0c;
 }
 
 h3 {
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #20224f;
-  border-bottom: 1px dashed #fe6d0c;
+  color: #3a3f45;
+  border-bottom: 1px dashed #2e3192;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #20224f;
+  border-bottom-color: #3a3f45;
 }
 
 h4 {
-  color: #6997d4;
+  color: #3a3f45;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,29 +81,29 @@ h4 {
 }
 
 h4 a {
-  color: #20224f;
-  border-bottom: 1px dashed #20224f;
+  color: #3a3f45;
+  border-bottom: 1px dashed #3a3f45;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #20224f;
+  border-bottom-color: #3a3f45;
 }
 
 .navbar {
-  background-color: #20224f;
+  background-color: #fe6d0c;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 2px solid #fe7c25;
-  border-bottom: 2px solid #fe7c25;
+  border-top: 5px solid #2e3192;
+  border-bottom: 5px solid #2e3192;
 }
 
 .navbar li a:hover {
-  background-color: #3438a5;
+  background-color: #fe7c25;
 }
 
 .navbar-nav .nav-link {
-  color: #fff;
+  color: #FFFFFF;
   font-size: .95em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;
@@ -111,19 +111,19 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link a .nav-link {
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .nav a {
-  color: #fe6d0c;
+  color: #FFFFFF;
 }
 
 .sidebar-1 .school-info-box {
-  background-color: #f7f7f7;
+  background-color: #f7f7f5;
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #eaeaea;
+  border: 5px solid #ecece7;
   border-radius: 6px;
 }
 
@@ -140,9 +140,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #6997d4;
+  background-color: #3a3f45;
   border-radius: 6px;
-  border: 5px solid #3063a7;
+  border: 5px solid #69727c;
 }
 
 .sidebar-1 nav h2 {
@@ -152,24 +152,24 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #6997d4;
+  background-color: #3a3f45;
   border-width: 0 0 1px 0;
-  border-color: #3063a7;
+  border-color: #69727c;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #91b2df;
+  background-color: #515861;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #a34201;
+  border-color: #161744;
   border-style: dashed;
 }
 
 .sidebar-1 .list-group li a {
-  color: #FFFFFF;
+  color: #feaa72;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -178,8 +178,12 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #3d4198;
-  background-color: #20224f;
+  border: 5px solid #0b0c0e;
+  background-color: #3a3f45;
+}
+
+.sidebar-1 .schooleventindexpage .calendar h4 {
+  color: #fe8c3f;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -187,23 +191,19 @@ h4 a:hover {
   font-size: 1em;
 }
 
-.sidebar-1 .schooleventindexpage .calendar h4 {
-  color: #fe9b58;
-}
-
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #91b2df;
+  color: #feaa72;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 95%;
   font-style: italic;
 }
 
 .news h2, .news h2 a {
-  color: #a5a5a5;
+  color: #2e3192;
 }
 
 .list-group a.list-group-item h3 {
@@ -216,13 +216,13 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #2e3192;
-  color: #fff;
+  background-color: #fe6d0c;
+  color: #FFFFFF;
   font-size: 95%;
 }
 
 .footer p, .footer a {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 95%;
 }
 
@@ -231,30 +231,30 @@ h4 a:hover {
 }
 
 .btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
-  background-color: #2e3192;
-  border-color: #2e3192;
-}
-
-.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
-  background-color: #1c1d58;
-}
-
-.btn-primary {
-  background-color: #fe7c25;
+  background-color: #fe6d0c;
   border-color: #fe6d0c;
 }
 
+.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
+  background-color: #bd4c01;
+}
+
+.btn-primary {
+  background-color: #fe6d0c;
+  border-color: #f06101;
+}
+
 .btn-primary:hover {
-  background-color: #3d4198;
+  background-color: #feaa72;
 }
 
 .btn-warning {
-  background-color: #fe6d0c;
-  border-color: #20224f;
+  background-color: #2e3192;
+  border-color: #3a3f45;
 }
 
 .btn-warning:hover {
-  background-color: #bd4c01;
+  background-color: #1c1d58;
 }
 
 .btn-calendar {
@@ -267,11 +267,11 @@ h4 a:hover {
 }
 
 .order-md-3 .htmlblock {
-  background-color: #f7f7f7;
+  background-color: #f7f7f5;
   padding: 8px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #eaeaea;
+  border: 5px solid #ecece7;
   border-radius: 6px;
 }
 
@@ -289,11 +289,11 @@ h4 a:hover {
   margin: 0px;
   padding: 5px 0px 5px 10px;
   list-style-type: none;
-  border-bottom: 1px dashed #b7b7b7;
+  border-bottom: 1px dashed #bebeae;
   text-align: left;
 }
 
 .order-md-3 .htmlblock ul li a {
-  color: #2e3192;
+  color: #fe6d0c;
 }
 /*# sourceMappingURL=main.css.map */
