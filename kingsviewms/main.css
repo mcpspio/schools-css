@@ -94,8 +94,8 @@ h4 a:hover {
   background-color: #323e49;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 4px solid #91ffff;
-  border-bottom: 4px solid #91ffff;
+  border-top: 5px solid #91ffff;
+  border-bottom: 5px solid #91ffff;
 }
 
 .navbar li a:hover {
@@ -193,7 +193,7 @@ h4 a:hover {
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #4ccace;
+  color: #FFFFFF;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
