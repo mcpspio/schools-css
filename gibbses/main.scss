@@ -123,24 +123,26 @@ nav{
 
 .secondary-menu li {
 
-    background-color: map-get($schoolcolors , accent);
+    background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+   
+    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
     border-width:0 0 1px 0;
-    border-color: lighten(map-get($schoolcolors , accent), 20%);
+  
     border-style: dashed;
   
 }
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , accent), 10%);}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , infoboxcolor), 10%);}
 
 .list-group-item {
 
     border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors , secondary), 20%);
+    border-color: darken(map-get($schoolcolors , infoboxcolor), 20%);
     border-style: dashed;
 
 }
 
 }
-.list-group  li  a {  color: lighten(map-get($schoolcolors , primary), 20%); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+.list-group  li  a {  color: lighten(map-get($schoolcolors , secondary), 5%); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
  // UPCOMING EVENTS
 .schooleventindexpage {
@@ -148,8 +150,8 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-    border:5px solid   darken(map-get($schoolcolors , accent), 20%);
-    background-color:map-get($schoolcolors , accent);
+    border:5px solid      background-color: darken(map-get($schoolcolors , secondary), 25%);
+    background-color: darken(map-get($schoolcolors , secondary), 20%);
 
     h4 {
 
