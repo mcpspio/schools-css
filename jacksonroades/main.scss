@@ -64,14 +64,14 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , accent);
+                color: map-get($schoolcolors , primary);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
                 font-weight: normal;
-                a{color: map-get($schoolcolors , accent); border-bottom: 1px dashed map-get($schoolcolors , accent);};
-                a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent); };
+                a{color: map-get($schoolcolors , accent); border-bottom: 1px dashed map-get($schoolcolors , primary;};
+                a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , primary); };
                }
  // TOP NAVIGATION
   .navbar{
