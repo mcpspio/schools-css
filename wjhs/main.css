@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #c84c26;
+  color: #e27144;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -62,17 +62,17 @@ h3 {
 }
 
 h3 a {
-  color: #c84c26;
+  color: #e27144;
   border-bottom: 1px dashed #017677;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #c84c26;
+  border-bottom-color: #e27144;
 }
 
 h4 {
-  color: #c84c26;
+  color: #e27144;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,25 +81,25 @@ h4 {
 }
 
 h4 a {
-  color: #c84c26;
-  border-bottom: 1px dashed #c84c26;
+  color: #e27144;
+  border-bottom: 1px dashed #e27144;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #c84c26;
+  border-bottom-color: #e27144;
 }
 
 .navbar {
   background-color: #112133;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #c84c26;
-  border-bottom: 5px solid #c84c26;
+  border-top: 5px solid #e27144;
+  border-bottom: 5px solid #e27144;
 }
 
 .navbar li a:hover {
-  background-color: #d85730;
+  background-color: #e5825a;
 }
 
 .navbar-nav .nav-link {
@@ -207,7 +207,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #c84c26;
+  color: #e27144;
 }
 
 .footer {
@@ -236,17 +236,17 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #c84c26;
-  border-color: #c84c26;
+  background-color: #e27144;
+  border-color: #e27144;
 }
 
 .btn-primary:hover {
-  background-color: #e48b70;
+  background-color: #f0b49c;
 }
 
 .btn-warning {
   background-color: #017677;
-  border-color: #c84c26;
+  border-color: #e27144;
 }
 
 .btn-warning:hover {
