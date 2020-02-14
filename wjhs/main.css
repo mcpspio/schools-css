@@ -141,7 +141,7 @@ h4 a:hover {
 .sidebar-1 nav {
   background-color: #017677;
   border-radius: 6px;
-  border: 5px solid #02dadc;
+  border: 5px solid #01a8aa;
 }
 
 .sidebar-1 nav h2 {
@@ -256,10 +256,6 @@ h4 a:hover {
 .btn-calendar {
   width: 255px;
   margin: -20px auto 0 auto;
-}
-
-.logo.has-image {
-  margin: 0px;
 }
 
 .order-md-3 .htmlblock {
