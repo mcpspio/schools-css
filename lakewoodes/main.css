@@ -141,7 +141,7 @@ h4 a:hover {
 .sidebar-1 nav {
   background-color: #007a7a;
   border-radius: 6px;
-  border: 5px solid #00e0e0;
+  border: 5px solid #00a3a3;
 }
 
 .sidebar-1 nav h2 {
@@ -153,7 +153,7 @@ h4 a:hover {
 .sidebar-1 nav .secondary-menu li {
   background-color: #007a7a;
   border-width: 0 0 1px 0;
-  border-color: #00e0e0;
+  border-color: #00adad;
   border-style: dashed;
 }
 
