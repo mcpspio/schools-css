@@ -196,7 +196,7 @@ font-size:95%; font-style: italic;}
 .btn-primary:hover
 {background-color: lighten(map-get($schoolcolors , accent), 20%);}
 
-.btn-warning{background-color: map-get($schoolcolors , secondary);
+.btn-warning{background-color: map-get($schoolcolors , accent);
     border-color:map-get($schoolcolors , accent); }
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%);}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
