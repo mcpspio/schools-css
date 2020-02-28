@@ -9,6 +9,7 @@ $schoolcolors: (
      navlinks:#FFFFFF,
      sidenavlinks:#FFFFFF,
      primaryfonts:#2c2a2a,
+     accentheading:#a61e0a,
     
 );
 
@@ -54,7 +55,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     
             h3 {
     
-                color: map-get($schoolcolors , primary);
+                color: map-get($schoolcolors , accentheading);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
