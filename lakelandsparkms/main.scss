@@ -149,18 +149,18 @@ nav{
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
     border:5px solid   darken(map-get($schoolcolors , accent), 20%);
-    background-color:map-get($schoolcolors , secondary);
+    background-color:map-get($schoolcolors , accent);
 
     h4 {
 
-        color:  lighten(map-get($schoolcolors , primary), 20%);
+        color:  lighten(map-get($schoolcolors , primary), 10%);
     }
   p {  
         line-height: 1.5em;
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color:  lighten(map-get($schoolcolors , primary), 30%);
+    color:  lighten(map-get($schoolcolors , primary), 20%);
 }
 
 
