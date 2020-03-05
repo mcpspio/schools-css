@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #dea826;
+  color: #59021b;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -82,12 +82,12 @@ h4 {
 
 h4 a {
   color: #dea826;
-  border-bottom: 1px dashed #dea826;
+  border-bottom: 1px dashed #59021b;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #dea826;
+  border-bottom-color: #59021b;
 }
 
 .navbar {
