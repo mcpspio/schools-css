@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #febf00;
+  color: #5a9d62;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,13 +81,13 @@ h4 {
 }
 
 h4 a {
-  color: #febf00;
-  border-bottom: 1px dashed #febf00;
+  color: #5a9d62;
+  border-bottom: 1px dashed #5a9d62;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #febf00;
+  border-bottom-color: #5a9d62;
 }
 
 .navbar {
@@ -254,9 +254,5 @@ h4 a:hover {
 .btn-calendar {
   width: 255px;
   margin: -20px auto 0 auto;
-}
-
-.logo.has-image {
-  margin: 0px;
 }
 /*# sourceMappingURL=main.css.map */
