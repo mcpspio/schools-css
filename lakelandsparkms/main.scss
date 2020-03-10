@@ -39,6 +39,10 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     a:hover {text-decoration: none;}
     }
 
+    .accentheading {
+
+    color:map-get($schoolcolors , accentheading);
+    }
 
         h2{
     
