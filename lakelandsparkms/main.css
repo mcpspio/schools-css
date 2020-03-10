@@ -33,7 +33,7 @@ header a:hover {
 }
 
 h2 {
-  color: #243765;
+  color: #a61e0a;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -44,7 +44,7 @@ h2 {
 
 h2 a {
   color: #326bf3;
-  border-bottom: 1px solid #326bf3;
+  border-bottom: 1px solid #a61e0a;
 }
 
 h2 a:hover {
@@ -63,7 +63,7 @@ h3 {
 
 h3 a {
   color: #3a3f45;
-  border-bottom: 1px dashed #a61e0a;
+  border-bottom: 1px dashed #326bf3;
 }
 
 h3 a:hover {
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #3a3f45;
+  color: #a61e0a;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -82,7 +82,7 @@ h4 {
 
 h4 a {
   color: #3a3f45;
-  border-bottom: 1px dashed #3a3f45;
+  border-bottom: 1px dashed #a61e0a;
 }
 
 h4 a:hover {
