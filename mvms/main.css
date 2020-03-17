@@ -226,13 +226,13 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #771718;
-  color: #FFFFFF;
+  background-color: #b8b7b7;
+  color: #771718;
   font-size: 95%;
 }
 
 .footer p, .footer a {
-  color: #FFFFFF;
+  color: #771718;
   font-size: 95%;
 }
 
