@@ -160,15 +160,15 @@ nav{
     background-color:map-get($schoolcolors , accentheading );
 
     h4 {
-        background-color:map-get($schoolcolors , secondary );
-        color:  map-get($schoolcolors , navlinks);
+        background-color:map-get($schoolcolors , accentheading );
+        color:  map-get($schoolcolors , secondary);
     }
   p {  
         line-height: 1.5em;
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color:  lighten(map-get($schoolcolors , secondary), 20%);
+    color:  map-get($schoolcolors , secondary);
 }
 
 
