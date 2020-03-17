@@ -98,8 +98,8 @@ h4 a:hover {
   background-color: #771718;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #ac1b18;
-  border-bottom: 5px solid #ac1b18;
+  border-top: 5px solid #b8b7b7;
+  border-bottom: 5px solid #b8b7b7;
 }
 
 .navbar li a:hover {
@@ -144,26 +144,30 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #ac1b18;
+  background-color: #ebebeb;
   border-radius: 6px;
-  border: 5px solid #e54845;
+  border: 5px solid #771718;
 }
 
 .sidebar-1 nav h2 {
   font-size: 1.6em;
   text-align: center;
-  color: #FFFFFF;
+  color: #ac1b18;
 }
 
 .sidebar-1 nav .secondary-menu li {
   background-color: #ebebeb;
   border-width: 0 0 1px 0;
-  border-color: white;
+  border-color: #771718;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: white;
+  background-color: #a21f21;
+}
+
+.sidebar-1 nav .secondary-menu li a:hover {
+  color: #FFFFFF;
 }
 
 .sidebar-1 nav .list-group-item {
@@ -173,7 +177,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .list-group li a {
-  color: #FFFFFF;
+  color: #771718;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;

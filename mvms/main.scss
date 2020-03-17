@@ -11,6 +11,7 @@ $schoolcolors: (
      primaryfonts:#2c2a2a,
      accentheading:#ebebeb,
     blueheading:#0a4e91,
+    graynav:#b8b7b7,
 );
 
 
@@ -84,8 +85,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , secondary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors , primary);
-    border-bottom:5px solid map-get($schoolcolors , primary);
+    border-top:5px solid map-get($schoolcolors , graynav);
+    border-bottom:5px solid map-get($schoolcolors , graynav);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , primary), 5%);}
   }
@@ -118,23 +119,25 @@ h4{    font-size: 1.6em;   line-height: 1.2em;
         color:  map-get($schoolcolors , primary);
          }
 nav{
-    background-color: map-get($schoolcolors , primary);
+    background-color: map-get($schoolcolors , accentheading);
      @include rounded-corners(6px); 
-     border:5px solid lighten(map-get($schoolcolors , primary), 20%);
+     border:5px solid map-get($schoolcolors , secondary);
      
 
- h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
+ h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , primary); }
 
 
 .secondary-menu li {
 
     background-color: map-get($schoolcolors , accentheading);
     border-width:0 0 1px 0;
-    border-color: lighten(map-get($schoolcolors , accentheading), 20%);
+    border-color: map-get($schoolcolors , secondary);
     border-style: dashed;
   
 }
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , accentheading), 10%);}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
+
+.secondary-menu li a:hover{color: map-get($schoolcolors , navlinks);}
 
 .list-group-item {
 
@@ -145,7 +148,7 @@ nav{
 }
 
 }
-.list-group  li  a {  color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+.list-group  li  a {  color: map-get($schoolcolors , secondary); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
  // UPCOMING EVENTS
 .schooleventindexpage {
