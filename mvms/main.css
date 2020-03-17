@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #ac1b18;
+  color: #326bf3;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #0a4e91;
+  color: #326bf3;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -37,7 +37,7 @@ header a:hover {
 }
 
 h2 {
-  color: #3a3f45;
+  color: #ac1b18;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -48,7 +48,7 @@ h2 {
 
 h2 a {
   color: #ac1b18;
-  border-bottom: 1px solid #771718;
+  border-bottom: 1px solid #ac1b18;
 }
 
 h2 a:hover {
@@ -57,7 +57,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #0a4e91;
+  color: #326bf3;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -67,7 +67,7 @@ h3 {
 
 h3 a {
   color: #3a3f45;
-  border-bottom: 1px dashed #0a4e91;
+  border-bottom: 1px dashed #326bf3;
 }
 
 h3 a:hover {
@@ -226,7 +226,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #3a3f45;
+  background-color: #771718;
   color: #FFFFFF;
   font-size: 95%;
 }
