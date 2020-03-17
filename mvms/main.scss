@@ -131,8 +131,8 @@ nav{
 
     background-color: map-get($schoolcolors , accentheading);
     border-width:0 0 1px 0;
-    border-color: map-get($schoolcolors , secondary);
-    border-style: dashed;
+    border-color: darken(map-get($schoolcolors ,  accentheading), 30%);
+    border-style: solid;
   
 }
 .secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
