@@ -95,11 +95,11 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #ebebeb;
+  background-color: #771718;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #771718;
-  border-bottom: 5px solid #771718;
+  border-top: 5px solid #ac1b18;
+  border-bottom: 5px solid #ac1b18;
 }
 
 .navbar li a:hover {
@@ -107,7 +107,7 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link {
-  color: #771718;
+  color: #FFFFFF;
   font-size: .95em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;
@@ -115,7 +115,7 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link a .nav-link {
-  color: #771718;
+  color: #FFFFFF;
 }
 
 .nav a {
