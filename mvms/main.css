@@ -37,7 +37,7 @@ header a:hover {
 }
 
 h2 {
-  color: #771718;
+  color: #3a3f45;
   font-size: 2.2em;
   line-height: 1.2em;
   margin: 24px 0;
@@ -76,7 +76,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #3a3f45;
+  color: #b8b7b7;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -226,7 +226,7 @@ h4 a:hover {
 
 .footer {
   padding: 20px;
-  background-color: #771718;
+  background-color: #3a3f45;
   color: #FFFFFF;
   font-size: 95%;
 }
@@ -250,12 +250,12 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #ac1b18;
-  border-color: #961715;
+  background-color: #771718;
+  border-color: #621314;
 }
 
 .btn-primary:hover {
-  background-color: #e54845;
+  background-color: #cc2829;
 }
 
 .btn-warning {
