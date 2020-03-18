@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #6bbaa7;
+  color: #32a38a;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #6bbaa7;
+  color: #32a38a;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,13 +62,13 @@ h3 {
 }
 
 h3 a {
-  color: #6bbaa7;
+  color: #32a38a;
   border-bottom: 1px dashed #7e80c7;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #6bbaa7;
+  border-bottom-color: #32a38a;
 }
 
 h4 {
@@ -81,21 +81,21 @@ h4 {
 }
 
 h4 a {
-  color: #6bbaa7;
-  border-bottom: 1px dashed #6bbaa7;
+  color: #32a38a;
+  border-bottom: 1px dashed #32a38a;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #6bbaa7;
+  border-bottom-color: #32a38a;
 }
 
 .navbar {
   background-color: #3f409c;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #6bbaa7;
-  border-bottom: 5px solid #6bbaa7;
+  border-top: 5px solid #7e80c7;
+  border-bottom: 5px solid #7e80c7;
 }
 
 .navbar li a:hover {
@@ -140,9 +140,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #6bbaa7;
+  background-color: #32a38a;
   border-radius: 6px;
-  border: 5px solid #b1dad0;
+  border: 5px solid #6ad1ba;
 }
 
 .sidebar-1 nav h2 {
@@ -152,19 +152,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #6bbaa7;
+  background-color: #32a38a;
   border-width: 0 0 1px 0;
-  border-color: #b1dad0;
+  border-color: #6ad1ba;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #8ecabc;
+  background-color: #43c5a8;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #3d8272;
+  border-color: #1a5548;
   border-style: dashed;
 }
 
@@ -178,7 +178,7 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #6bbaa7;
+  border: 5px solid #32a38a;
 }
 
 .sidebar-1 .schooleventindexpage .calendar h4 {
@@ -239,17 +239,17 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #6bbaa7;
-  border-color: #6bbaa7;
+  background-color: #32a38a;
+  border-color: #32a38a;
 }
 
 .btn-primary:hover {
-  background-color: #b1dad0;
+  background-color: #6ad1ba;
 }
 
 .btn-warning {
   background-color: #7e80c7;
-  border-color: #6bbaa7;
+  border-color: #32a38a;
 }
 
 .btn-warning:hover {
