@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #8080d8;
+  color: #7e80c7;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -63,7 +63,7 @@ h3 {
 
 h3 a {
   color: #6bbaa7;
-  border-bottom: 1px dashed #8080d8;
+  border-bottom: 1px dashed #7e80c7;
 }
 
 h3 a:hover {
@@ -136,13 +136,13 @@ h4 a:hover {
   font-size: 1.6em;
   line-height: 1.2em;
   font-family: 'Oswald', sans-serif;
-  color: #8080d8;
+  color: #7e80c7;
 }
 
 .sidebar-1 nav {
-  background-color: #8080d8;
+  background-color: #7e80c7;
   border-radius: 6px;
-  border: 5px solid #cecef0;
+  border: 5px solid #c5c6e6;
 }
 
 .sidebar-1 nav h2 {
@@ -152,19 +152,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #8080d8;
+  background-color: #7e80c7;
   border-width: 0 0 1px 0;
-  border-color: #cecef0;
+  border-color: #c5c6e6;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #a7a7e4;
+  background-color: #a2a3d6;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #3939b9;
+  border-color: #44469b;
   border-style: dashed;
 }
 
@@ -182,7 +182,7 @@ h4 a:hover {
 }
 
 .sidebar-1 .schooleventindexpage .calendar h4 {
-  color: #8080d8;
+  color: #7e80c7;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -210,7 +210,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #8080d8;
+  color: #7e80c7;
 }
 
 .footer {
@@ -248,12 +248,12 @@ h4 a:hover {
 }
 
 .btn-warning {
-  background-color: #8080d8;
+  background-color: #7e80c7;
   border-color: #6bbaa7;
 }
 
 .btn-warning:hover {
-  background-color: #4545c6;
+  background-color: #4b4ead;
 }
 
 .btn-calendar {
