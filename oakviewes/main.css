@@ -27,7 +27,7 @@ header .masthead address {
 }
 
 header .masthead h3 {
-  color: #04c0cd;
+  color: #e79030;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -57,7 +57,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #e79030;
+  color: #02a2ad;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -66,17 +66,17 @@ h3 {
 }
 
 h3 a {
-  color: #04c0cd;
-  border-bottom: 1px dashed #e79030;
+  color: #e79030;
+  border-bottom: 1px dashed #02a2ad;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #04c0cd;
+  border-bottom-color: #e79030;
 }
 
 h4 {
-  color: #04c0cd;
+  color: #e79030;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -85,25 +85,25 @@ h4 {
 }
 
 h4 a {
-  color: #04c0cd;
-  border-bottom: 1px dashed #04c0cd;
+  color: #e79030;
+  border-bottom: 1px dashed #e79030;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #04c0cd;
+  border-bottom-color: #e79030;
 }
 
 .navbar {
   background-color: #009900;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 5px solid #04c0cd;
-  border-bottom: 5px solid #04c0cd;
+  border-top: 5px solid #e79030;
+  border-bottom: 5px solid #e79030;
 }
 
 .navbar li a:hover {
-  background-color: #04d7e6;
+  background-color: #ea9c47;
 }
 
 .navbar-nav .nav-link {
@@ -143,9 +143,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #e79030;
+  background-color: #02a2ad;
   border-radius: 6px;
-  border: 5px solid #f2c18b;
+  border: 5px solid #19eefc;
 }
 
 .sidebar-1 nav h2 {
@@ -155,19 +155,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #e79030;
+  background-color: #02a2ad;
   border-width: 0 0 1px 0;
-  border-color: #f2c18b;
+  border-color: #19eefc;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #eca95e;
+  background-color: #03d1df;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #9f5c12;
+  border-color: #014448;
   border-style: dashed;
 }
 
@@ -203,7 +203,7 @@ h4 a:hover {
 }
 
 .news h2, .news h2 a {
-  color: #e79030;
+  color: #02a2ad;
 }
 
 .list-group a.list-group-item h3 {
@@ -211,7 +211,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #04c0cd;
+  color: #e79030;
 }
 
 .footer {
@@ -240,21 +240,21 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #04c0cd;
-  border-color: #04c0cd;
+  background-color: #e79030;
+  border-color: #e79030;
 }
 
 .btn-primary:hover {
-  background-color: #3ceffb;
+  background-color: #f2c18b;
 }
 
 .btn-warning {
-  background-color: #e79030;
-  border-color: #04c0cd;
+  background-color: #02a2ad;
+  border-color: #e79030;
 }
 
 .btn-warning:hover {
-  background-color: #b56915;
+  background-color: #015b61;
 }
 
 .btn-calendar {
