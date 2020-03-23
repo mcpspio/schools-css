@@ -2,10 +2,10 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     primary:#002594,
-     secondary:#445db5,
-     accent:#ea7734,
-     infoboxcolor:#f5f5f6,
+     primary:#22287c,
+     secondary:#0360a3,
+     accent:#0fc8c8,
+     infoboxcolor:#f7f7f7,
      navlinks:#fff,
      sidenavlinks:#fff,
      primaryfonts:#27282c,
@@ -53,14 +53,14 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     
             h3 {
     
-                color: map-get($schoolcolors , accent);
+                color: map-get($schoolcolors , secondary);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
                 font-weight: normal; 
-            a{color: map-get($schoolcolors , accent); border-bottom: 1px dashed map-get($schoolcolors , secondary);};
-            a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent);};
+            a{color: map-get($schoolcolors , secondary); border-bottom: 1px dashed map-get($schoolcolors , secondary);};
+            a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , secondary);};
         }
             h4 {
     
@@ -78,10 +78,10 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , primary);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors, secondary);
-    border-bottom:5px solid map-get($schoolcolors , secondary);
+    border-top:5px solid map-get($schoolcolors , accent);
+    border-bottom:5px solid map-get($schoolcolors , accent);
 
-     li a:hover{background-color: lighten(map-get($schoolcolors , secondary), 5%);}
+     li a:hover{background-color: lighten(map-get($schoolcolors , accent), 5%);}
   }
  .navbar-nav .nav-link {
 
@@ -108,6 +108,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
+    color: map-get($schoolcolors ,  primary);
          font-family: 'Oswald', sans-serif;  }
 nav{
     background-color: map-get($schoolcolors , secondary);
@@ -144,14 +145,16 @@ nav{
   
 .calendar {
     padding:0 15px 15px 15px!important;
-    @include rounded-corners(6px); 
-    border:5px solid (map-get($schoolcolors , accent));
+    background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    @include rounded-corners(6px);
   p {  
         line-height: 1.5em;
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
     color: lighten(map-get($schoolcolors , primaryfonts), 20%); 
+h4{color: map-get($schoolcolors ,  primary);}
 }
 
 
@@ -170,7 +173,7 @@ font-size:95%; font-style: italic;}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , accent);}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , secondary);}
   }
 
   // FOOTER
@@ -201,5 +204,27 @@ font-size:95%; font-style: italic;}
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%);}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {   margin: 0px; 
+    .logo.has-image {   margin:0px;     }
+
+
+   //  Aditional styles
+
+    .order-md-3{
+        .htmlblock{
+        background-color: map-get($schoolcolors , infoboxcolor); padding:8px;
+    margin-bottom: 20px;   text-align: center;
+    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    @include rounded-corners(6px);
+    h2{ font-size: 1.6em; padding:0 15px;}
+    ul{    margin: 0px 0px 5px 0px;
+        padding: 0px;
+        li{    margin: 0px;
+        padding: 5px 0px 5px 10px;
+        list-style-type: none;
+        border-bottom: 1px dashed darken(map-get($schoolcolors , infoboxcolor), 25%);
+    text-align: left;
+    a{color: map-get($schoolcolors , primary); }
+}
     }
+}
+}
