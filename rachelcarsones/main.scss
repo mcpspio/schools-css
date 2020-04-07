@@ -9,6 +9,7 @@ $schoolcolors: (
      navlinks:#fff,
      sidenavlinks:#091447,
      primaryfonts:#27282c,
+     graycolor:#656464,
 
 );
 
@@ -27,7 +28,7 @@ header{
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
-        font-weight: bolder;
+        font-weight: 300;
         text-transform: uppercase;
         text-align: center;
 
@@ -41,25 +42,25 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
         h2{
     
-            color: map-get($schoolcolors , primary);
+            color: map-get($schoolcolors , accent);
             font-size: 2.2em;
             line-height: 1.2em;
             margin: 24px 0;
             font-family: 'Oswald', sans-serif;  
             text-transform: uppercase;
-            font-weight: normal;
+            font-weight: 300;
             a{ color: map-get($schoolcolors , primary); border-bottom: 1px solid  map-get($schoolcolors , primary);};
             a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , primary);}
         }
     
             h3 {
     
-                color: map-get($schoolcolors , accent);
+                color: map-get($schoolcolors , primary);
                 font-size: 1.8em;
                 line-height: 1.2em;
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
-                font-weight: normal; 
+                font-weight: 300; 
             a{color: map-get($schoolcolors , accent); border-bottom: 1px dashed map-get($schoolcolors , secondary);};
             a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent);};
         }
@@ -70,7 +71,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 line-height: 1.1em;
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
-                font-weight: normal;
+                font-weight: 300;
                 a{color: map-get($schoolcolors , accent); border-bottom: 1px dashed map-get($schoolcolors , accent);};
                 a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent); };
                }
@@ -109,7 +110,9 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
-         font-family: 'Oswald', sans-serif;  }
+         font-family: 'Oswald', sans-serif; 
+         font-weight:300;
+         color: map-get($schoolcolors ,  graycolor); }
 nav{
     background-color: map-get($schoolcolors , secondary);
      @include rounded-corners(6px); 
@@ -167,11 +170,11 @@ font-size:95%; font-style: italic;}
 
 .news {
  
-    h2, h2 a{   color: map-get($schoolcolors , primary);}
+    h2, h2 a{   color: map-get($schoolcolors , accent);}
   }
   .list-group{
 
-  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , accent);}
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , primary);}
   }
 
   // FOOTER
