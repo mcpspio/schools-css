@@ -43,8 +43,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         h2{
     
             color: map-get($schoolcolors , accent);
-            font-size: 36px;
-            line-height: 42px;
+            font-size: 2.2em;
+            line-height: 1.2em;
             margin: 24px 0;
             font-family: 'Oswald', sans-serif;  
             text-transform: uppercase;
@@ -56,8 +56,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
             h3 {
     
                 color: map-get($schoolcolors , primary);
-                font-size: 26px;
-                line-height: 32px;
+                font-size: 1.8em;
+                line-height: 1.2em;
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
                 font-weight: 300; 
@@ -67,7 +67,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
             h4 {
     
                 color: map-get($schoolcolors , accent);
-                font-size: 1.3em;
+                font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
                 font-family: 'Oswald', sans-serif; 
@@ -111,8 +111,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif; 
-         font-weight:300;
-         color: map-get($schoolcolors ,  graycolor); }
+         color: map-get($schoolcolors ,  navlinks); }
 nav{
     background-color: map-get($schoolcolors , secondary);
      @include rounded-corners(6px); 
