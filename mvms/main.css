@@ -109,7 +109,7 @@ h4 a:hover {
 .navbar-nav .nav-link {
   color: #2c2a2a;
   font-size: .95em;
-  font-weight: 400;
+  font-weight: bold;
   padding: 12px 36px 12px 18px;
   text-transform: uppercase;
 }
