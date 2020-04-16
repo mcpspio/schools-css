@@ -12,6 +12,8 @@ $schoolcolors: (
      accentheading:#ebebeb,
     blueheading:#326bf3,
     graynav:#b8b7b7,
+    graybackground: #303032,
+    grayheading: #444444,
 );
 
 
@@ -25,7 +27,7 @@ header{
     background-color: map-get($schoolcolors , bannercolor); 
 
     h1{
-        color: map-get($schoolcolors , blueheading);
+        color: map-get($schoolcolors , primary);
         font-size: 4em;
         padding-top:20px; 
         font-family: 'Oswald', sans-serif;    
@@ -71,7 +73,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         }
             h4 {
     
-                color: map-get($schoolcolors , graynav);
+                color: map-get($schoolcolors , grayheading);
                 font-size: 1.5em;
                 line-height: 1.1em;
                 margin: 18px 0;
@@ -81,28 +83,28 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent); };
                }
  // TOP NAVIGATION
-  .navbar{
+ 
+ .navbar .container, .nav-wrapper {
+    background: #303032;
+    opacity: 0.9;
+}
 
-    background-color: map-get($schoolcolors , secondary);
-    padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors , graynav);
-    border-bottom:5px solid map-get($schoolcolors , graynav);
-
-     li a:hover{background-color: lighten(map-get($schoolcolors , primary), 5%);}
-  }
- .navbar-nav .nav-link {
-
-    color: map-get($schoolcolors , sidenavlinks);
-        font-size:.95em;
-        font-weight: 400;
-        padding: 12px 36px 12px 18px;
-        text-transform: uppercase;
-
-              a .nav-link {  color: map-get($schoolcolors , sidenavlinks);}   
+.navbar-default .navbar-nav > li > a {
+    margin: 0 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#ac1b18;
+    font-size: 16px;
   
-            }
- .nav a{ color: map-get($schoolcolors ,  sidenavlinks);}
+    text-transform: uppercase;
+    padding-left: 20x;
+    padding-right: 20px;
+}
 
+.navbar-default .navbar-nav > li > a:hover {
+   background-color:#ac1b18;
+   color:#FFF;
+}
 
  // SIDEBAR and NAVIGATION
 .sidebar-1{
@@ -118,36 +120,23 @@ h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif; 
         color:  map-get($schoolcolors , accent);
          }
-nav{
-    background-color: map-get($schoolcolors , secondary);
-     @include rounded-corners(6px); 
-     border:5px solid map-get($schoolcolors , secondary);
-     
-
- h2{ font-size: 1.6em; margin: 15px 0px; text-align: center;  color: map-get($schoolcolors ,  navlinks); }
-
-
-.secondary-menu li {
-
-    background-color: map-get($schoolcolors , accentheading);
-    border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors ,  accentheading), 30%);
-    border-style: solid;
-  
-}
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
-
-.secondary-menu li a:hover{color: map-get($schoolcolors , navlinks);}
-
-.list-group-item {
-
-    border-width:0 0 1px 0;
-    border-color: darken(map-get($schoolcolors ,  accentheading), 30%);
-    border-style: solid;
-
-}
-
-}
+         nav.list-group ul, nav.list-group ul li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: url('https://www2.montgomeryschoolsmd.org/siteassets/schools/middle-schools/n-r/clementems/images/nav-bg.jpg') repeat;
+        }
+        
+        nav.list-group ul li a {
+            font-size: 1.1em;
+            color: #494a4e;
+            display: block;
+            padding: 10px 10px;
+            
+            text-transform: uppercase;
+            border-bottom: 1px dashed #fff;
+        }
+        
 .list-group  li  a {  color: map-get($schoolcolors , secondary); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
  // UPCOMING EVENTS

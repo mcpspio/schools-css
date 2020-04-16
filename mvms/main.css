@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 header h1 {
-  color: #326bf3;
+  color: #ac1b18;
   font-size: 4em;
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
@@ -76,7 +76,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #b8b7b7;
+  color: #444444;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -94,32 +94,25 @@ h4 a:hover {
   border-bottom-color: #3a3f45;
 }
 
-.navbar {
-  background-color: #771718;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  border-top: 5px solid #b8b7b7;
-  border-bottom: 5px solid #b8b7b7;
+.navbar .container, .nav-wrapper {
+  background: #303032;
+  opacity: 0.9;
 }
 
-.navbar li a:hover {
-  background-color: #c21f1b;
-}
-
-.navbar-nav .nav-link {
-  color: #FFFFFF;
-  font-size: .95em;
-  font-weight: 400;
-  padding: 12px 36px 12px 18px;
+.navbar-default .navbar-nav > li > a {
+  margin: 0 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ac1b18;
+  font-size: 16px;
   text-transform: uppercase;
+  padding-left: 20x;
+  padding-right: 20px;
 }
 
-.navbar-nav .nav-link a .nav-link {
-  color: #FFFFFF;
-}
-
-.nav a {
-  color: #FFFFFF;
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #ac1b18;
+  color: #FFF;
 }
 
 .sidebar-1 .school-info-box {
@@ -143,38 +136,20 @@ h4 a:hover {
   color: #3a3f45;
 }
 
-.sidebar-1 nav {
-  background-color: #771718;
-  border-radius: 6px;
-  border: 5px solid #771718;
+.sidebar-1 nav.list-group ul, .sidebar-1 nav.list-group ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: url("https://www2.montgomeryschoolsmd.org/siteassets/schools/middle-schools/n-r/clementems/images/nav-bg.jpg") repeat;
 }
 
-.sidebar-1 nav h2 {
-  font-size: 1.6em;
-  margin: 15px 0px;
-  text-align: center;
-  color: #FFFFFF;
-}
-
-.sidebar-1 nav .secondary-menu li {
-  background-color: #ebebeb;
-  border-width: 0 0 1px 0;
-  border-color: #9f9f9f;
-  border-style: solid;
-}
-
-.sidebar-1 nav .secondary-menu li:hover {
-  background-color: #a21f21;
-}
-
-.sidebar-1 nav .secondary-menu li a:hover {
-  color: #FFFFFF;
-}
-
-.sidebar-1 nav .list-group-item {
-  border-width: 0 0 1px 0;
-  border-color: #9f9f9f;
-  border-style: solid;
+.sidebar-1 nav.list-group ul li a {
+  font-size: 1.1em;
+  color: #494a4e;
+  display: block;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #fff;
 }
 
 .sidebar-1 .list-group li a {
