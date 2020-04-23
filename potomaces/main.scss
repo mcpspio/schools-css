@@ -201,5 +201,5 @@ font-size:95%; font-style: italic;}
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%);}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {   margin: 0px; 
+    .logo.has-image {   margin: 0px auto; max-width:1031px;
     }
