@@ -53,7 +53,7 @@ h2 a:hover {
 }
 
 h3 {
-  color: #febf00;
+  color: #0188cf;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -62,13 +62,13 @@ h3 {
 }
 
 h3 a {
-  color: #febf00;
+  color: #0188cf;
   border-bottom: 1px dashed #0188cf;
 }
 
 h3 a:hover {
   text-decoration: none;
-  border-bottom-color: #febf00;
+  border-bottom-color: #0188cf;
 }
 
 h4 {
@@ -205,7 +205,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #febf00;
+  color: #0188cf;
 }
 
 .footer {
