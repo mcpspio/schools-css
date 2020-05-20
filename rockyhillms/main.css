@@ -250,12 +250,13 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #f76d6d;
-  border-color: #f76d6d;
+  background-color: #5166b7;
+  color: #fff;
+  border-color: #2e3b65;
 }
 
 .btn-primary:hover {
-  background-color: #fccece;
+  background-color: #6376bf;
 }
 
 .btn-warning {

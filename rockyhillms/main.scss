@@ -207,10 +207,10 @@ font-size:95%; font-style: italic;}
 
 
 .btn-primary
-{background-color: map-get($schoolcolors , secondary);    border-color:map-get($schoolcolors , secondary); }
+{background-color: lighten(map-get($schoolcolors , accent), 15%); color: map-get($schoolcolors , sidenavlinks);    border-color:map-get($schoolcolors , primary); }
 
 .btn-primary:hover
-{background-color: lighten(map-get($schoolcolors , secondary), 20%);}
+{background-color: lighten(map-get($schoolcolors , accent), 20%);}
 
 .btn-warning{background-color: map-get($schoolcolors , accent);
     border-color:map-get($schoolcolors , accent); }
