@@ -133,7 +133,7 @@ nav{
     border-style: dashed;
   
 }
-.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , accent), 10%);}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , accent), 10%); color: map-get($schoolcolors , sidenavlinks);}
 
 .list-group-item {
 
