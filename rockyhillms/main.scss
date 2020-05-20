@@ -108,14 +108,15 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
-         font-family: 'Oswald', sans-serif;   }
+         font-family: 'Oswald', sans-serif;  
+        color: map-get($schoolcolors , primary);}
 nav{
-    background-color: map-get($schoolcolors , secondary);
+    background-color: map-get($schoolcolors , primary);
      @include rounded-corners(6px); 
-     border:5px solid lighten(map-get($schoolcolors , secondary), 10%);
+     border:5px solid lighten(map-get($schoolcolors , primary), 10%);
      
 
- h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
+ h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , secondary); }
 
  .secondary-menu h4 {
 
@@ -151,11 +152,11 @@ nav{
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
      padding:15px;
-     background-color: map-get($schoolcolors , secondary); padding:15px;
-     border:5px solid darken(map-get($schoolcolors , secondary), 5%);
+     background-color: map-get($schoolcolors , accent); padding:15px;
+     border:5px solid darken(map-get($schoolcolors , accent), 5%);
 
      h4 {
-color: map-get($schoolcolors , infoboxcolor);
+color: map-get($schoolcolors , sidenavlinks);
      }
      }
   p {  
@@ -163,7 +164,7 @@ color: map-get($schoolcolors , infoboxcolor);
     font-size: 1em;}
    
 p  strong {text-transform: uppercase;
-    color: lighten(map-get($schoolcolors , infoboxcolor), 20%); 
+    color: lighten(map-get($schoolcolors , secondary), 20%); 
 }
 
 
@@ -213,5 +214,5 @@ font-size:95%; font-style: italic;}
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , accent), 15%);}
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {   margin: 0px 0 10px 0; 
+    .logo.has-image {   margin: 0px auto; 
     }
