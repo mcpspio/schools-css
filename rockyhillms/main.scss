@@ -9,6 +9,7 @@ $schoolcolors: (
      navlinks:#fff,
      sidenavlinks:#fff,
      primaryfonts:#27282c,
+     lightblue:#a8d1e7,
 );
 
 
@@ -120,7 +121,7 @@ nav{
 
  .secondary-menu h4 {
 
-   color: map-get($schoolcolors , secondary);
+   color: map-get($schoolcolors , sidenavlinks);
   
 }
 
@@ -143,7 +144,7 @@ nav{
 }
 
 }
-.list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+.list-group  li  a {   color: map-get($schoolcolors , lightblue); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
  // UPCOMING EVENTS
 .schooleventindexpage {
