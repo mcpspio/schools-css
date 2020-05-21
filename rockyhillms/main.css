@@ -140,9 +140,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #374785;
+  background-color: #a8d0e6;
   border-radius: 6px;
-  border: 5px solid #465aa9;
+  border: 5px solid #59a5cf;
 }
 
 .sidebar-1 nav h2 {
@@ -156,24 +156,24 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #374785;
+  background-color: #a8d0e6;
   border-width: 0 0 1px 0;
-  border-color: #6376bf;
+  border-color: #59a5cf;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #465aa9;
+  background-color: #fa9d9d;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #0e121f;
+  border-color: #59a5cf;
   border-style: dashed;
 }
 
 .sidebar-1 .list-group li a {
-  color: #a8d1e7;
+  color: #2e3b65;
   font-style: italic;
   line-height: 1.3em;
   padding: 12px 0;
@@ -250,13 +250,12 @@ h4 a:hover {
 }
 
 .btn-primary {
-  background-color: #5166b7;
-  color: #fff;
-  border-color: #2e3b65;
+  background-color: #f76d6d;
+  border-color: #f76d6d;
 }
 
 .btn-primary:hover {
-  background-color: #6376bf;
+  background-color: #fccece;
 }
 
 .btn-warning {
