@@ -203,8 +203,8 @@ a.btn-warning{background-color: map-get($schoolcolors , secondary); color:map-ge
     .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%); color:map-get($schoolcolors , sidenavlinks); }
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {  text-align:center; margin: 0px auto; 
-    }
+    .logo.has-image { max-width:1031px;  margin:0px auto;     }
+
 
     .sidebar-1 .schooleventindexpage a {
         color:map-get($schoolcolors , sidenavlinks);
