@@ -79,8 +79,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: darken(map-get($schoolcolors , primary), 10%);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid lighten(map-get($schoolcolors , prinavbordermary), 10%);
-    border-bottom:5px solid lighten(map-get($schoolcolors , prinavbordermary), 10%);
+    border-top:5px solid lighten(map-get($schoolcolors , navborder), 10%);
+    border-bottom:5px solid lighten(map-get($schoolcolors , navborder), 10%);
 
      li a:hover{background-color: lighten(map-get($schoolcolors , navborder), 5%);}
   }
