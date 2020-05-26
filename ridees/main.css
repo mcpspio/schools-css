@@ -233,18 +233,18 @@ h4 a:hover {
   background-color: #013561;
 }
 
-.btn-primary {
+a.btn-primary {
   background-color: #2f83db;
   border-color: #2f83db;
   color: #fff;
 }
 
-.btn-primary:hover {
+a.btn-primary:hover {
   background-color: #86b7ea;
   color: #fff;
 }
 
-.btn-warning {
+a.btn-warning {
   background-color: #be212d;
   color: #fff;
   border-color: #2f83db;
