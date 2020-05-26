@@ -236,19 +236,23 @@ h4 a:hover {
 .btn-primary {
   background-color: #2f83db;
   border-color: #2f83db;
+  color: #fff;
 }
 
 .btn-primary:hover {
   background-color: #86b7ea;
+  color: #fff;
 }
 
 .btn-warning {
   background-color: #be212d;
+  color: #fff;
   border-color: #2f83db;
 }
 
 .btn-warning:hover {
   background-color: #7d161e;
+  color: #fff;
 }
 
 .btn-calendar {
@@ -257,6 +261,7 @@ h4 a:hover {
 }
 
 .logo.has-image {
-  margin: 0px;
+  text-align: center;
+  margin: 0px auto;
 }
 /*# sourceMappingURL=main.css.map */

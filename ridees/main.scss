@@ -192,15 +192,16 @@ font-size:95%; font-style: italic;}
 
 
 .btn-primary
-{background-color: map-get($schoolcolors , accent);    border-color:map-get($schoolcolors , accent); }
+{background-color: map-get($schoolcolors , accent);    border-color:map-get($schoolcolors , accent); color:map-get($schoolcolors , sidenavlinks); }
+
 
 .btn-primary:hover
-{background-color: lighten(map-get($schoolcolors , accent), 20%);}
+{background-color: lighten(map-get($schoolcolors , accent), 20%); color:map-get($schoolcolors , sidenavlinks); }
 
-.btn-warning{background-color: map-get($schoolcolors , secondary);
+.btn-warning{background-color: map-get($schoolcolors , secondary); color:map-get($schoolcolors , sidenavlinks); 
     border-color:map-get($schoolcolors , accent); }
-    .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%);}
+    .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%); color:map-get($schoolcolors , sidenavlinks); }
     .btn-calendar {width:255px; margin: -20px auto 0 auto; }
 
-    .logo.has-image {   margin: 0px; 
+    .logo.has-image {  text-align:center; margin: 0px auto; 
     }
