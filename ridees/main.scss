@@ -205,3 +205,7 @@ a.btn-warning{background-color: map-get($schoolcolors , secondary); color:map-ge
 
     .logo.has-image {  text-align:center; margin: 0px auto; 
     }
+
+    .sidebar-1 .schooleventindexpage a {
+        color:map-get($schoolcolors , sidenavlinks);
+    }
