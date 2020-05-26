@@ -185,11 +185,12 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar p {
   line-height: 1.5em;
   font-size: 1em;
+  color: #fff;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p strong {
   text-transform: uppercase;
-  color: #5959a5;
+  color: #fff;
 }
 
 .sidebar-1 .schooleventindexpage .calendar a {
