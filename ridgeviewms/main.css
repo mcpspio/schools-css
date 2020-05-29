@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #e7e7e7;
+  color: #be212d;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -177,7 +177,8 @@ h4 a:hover {
 .sidebar-1 .schooleventindexpage .calendar {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
-  border: 5px solid #e7e7e7;
+  color: #e7e7e7;
+  border: 5px solid #c1c1c1;
 }
 
 .sidebar-1 .schooleventindexpage .calendar p {
@@ -234,13 +235,13 @@ h4 a:hover {
 }
 
 a.btn-primary {
-  background-color: #e7e7e7;
-  border-color: #e7e7e7;
+  background-color: #be212d;
+  border-color: #931923;
   color: #fff;
 }
 
 a.btn-primary:hover {
-  background-color: white;
+  background-color: #e4616b;
   color: #fff;
 }
 
