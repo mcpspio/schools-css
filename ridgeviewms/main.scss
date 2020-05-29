@@ -79,8 +79,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: darken(map-get($schoolcolors , primary), 10%);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:5px solid map-get($schoolcolors , navborder);
-    border-bottom:5px solid map-get($schoolcolors , navborder);
+    border-top:3px solid map-get($schoolcolors , secondary);
+    border-bottom:3px solid map-get($schoolcolors , secondary);
 
      li a:hover{background-color: map-get($schoolcolors , secondary);}
   }
@@ -147,6 +147,7 @@ nav{
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
     color: map-get($schoolcolors , infoboxcolor); 
+    background-color: map-get($schoolcolors , infoboxcolor); 
     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 15%);
   p {  
         line-height: 1.5em;
