@@ -53,7 +53,6 @@ h2 a:hover {
 }
 
 h3 {
-  color: #e7e7e7;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -207,7 +206,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #e7e7e7;
+  color: #be212d;
 }
 
 .footer {
