@@ -3,7 +3,7 @@
 $schoolcolors: (
   
      primary:#002594,
-     secondary:#febf00,
+     secondary:#99b93e,
      accent:#0188cf,
      infoboxcolor:#f5f5f6,
      navlinks:#fff,
@@ -88,7 +88,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     color: map-get($schoolcolors , navlinks);
         font-size:.95em;
         font-weight: 400;
-        padding: 12px 36px 12px 18px;
+        padding: 12px 16px 12px 18px;
         text-transform: uppercase;
 
               a .nav-link {  color: map-get($schoolcolors , navlinks);}   
