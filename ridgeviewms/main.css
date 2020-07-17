@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #e7e7e7;
+  color: #be212d;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -53,6 +53,7 @@ h2 a:hover {
 }
 
 h3 {
+  color: #be212d;
   font-size: 1.8em;
   line-height: 1.2em;
   margin: 18px 0;
@@ -61,7 +62,7 @@ h3 {
 }
 
 h3 a {
-  color: #e7e7e7;
+  color: #be212d;
   border-bottom: 1px dashed #be212d;
 }
 
