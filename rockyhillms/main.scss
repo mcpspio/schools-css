@@ -101,14 +101,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // SIDEBAR and NAVIGATION
 .sidebar-1{
 
-  nav .secondary-menu li {
 
-        background-color: map-get($schoolcolors , infoboxcolor);
-        border-width:0 0 1px 0;
-        border-color: darken(map-get($schoolcolors , infoboxcolor), 30%);
-        border-style: dashed;
-
-    }
     
 
 .school-info-box{
@@ -122,17 +115,27 @@ h4{    font-size: 1.6em;   line-height: 1.2em;
          font-family: 'Oswald', sans-serif;  
         color: map-get($schoolcolors , primary);}
 nav{
-     background-color: lighten(map-get($schoolcolors , infoboxcolor), 10%);
+     background-color: map-get($schoolcolors , infoboxcolor);
      @include rounded-corners(6px); 
-     border:5px solid lighten(map-get($schoolcolors , infoboxcolor), 5%);
+     border:5px solid darken(map-get($schoolcolors , infoboxcolor), 20%);
      
 
- h2{ font-size: 1.3em; text-align: center;  margin-top:0px; padding:10px; color: map-get($schoolcolors , navlinks);  background-color: map-get($schoolcolors , primary);}
+ h2{ font-size: 1.3em; text-align: center; margin-bottom:0px; margin-top:0px; padding:10px; color: map-get($schoolcolors , navlinks);  background-color: map-get($schoolcolors , primary);}
 
  .secondary-menu h4 {
 
    color: map-get($schoolcolors , sidenavlinks);
   
+}
+
+
+nav .secondary-menu li {
+
+    background-color: map-get($schoolcolors , infoboxcolor);
+    border-width:0 0 1px 0;
+    border-color: darken(map-get($schoolcolors , infoboxcolor), 30%);
+    border-style: dashed;
+
 }
 
 .secondary-menu li {
