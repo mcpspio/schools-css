@@ -148,6 +148,8 @@ h4 a:hover {
 .sidebar-1 nav h2 {
   font-size: 1.3em;
   text-align: center;
+  margin-top: 0px;
+  padding: 10px;
   color: #fff;
   background-color: #2e3b65;
 }
@@ -169,7 +171,7 @@ h4 a:hover {
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: #dedede;
+  border-color: #c5c5c5;
   border-style: dashed;
 }
 
@@ -188,7 +190,7 @@ h4 a:hover {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
   padding: 15px;
-  background-color: #242020;
+  background-color: #fff;
   padding: 15px;
   border: 5px solid #f65555;
 }
