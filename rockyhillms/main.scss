@@ -101,6 +101,16 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  // SIDEBAR and NAVIGATION
 .sidebar-1{
 
+  nav .secondary-menu li {
+
+        background-color: map-get($schoolcolors , infoboxcolor);
+        border-width:0 0 1px 0;
+        border-color: darken(map-get($schoolcolors , infoboxcolor), 30%);
+        border-style: dashed;
+
+    }
+    
+
 .school-info-box{
     background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
     margin-bottom: 20px;   text-align: center;
