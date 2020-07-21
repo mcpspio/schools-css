@@ -127,7 +127,7 @@ nav{
 
 .secondary-menu li {
 
-    background-color: lighten(map-get($schoolcolors , inforboxcolor), 10%);
+    background-color: lighten(map-get($schoolcolors , infoboxcolor), 10%);
     border-width:0 0 1px 0;
     border-color: lighten(map-get($schoolcolors , infoboxcolor), 5%);
     border-style: dashed;

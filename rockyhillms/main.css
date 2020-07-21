@@ -119,11 +119,11 @@ h4 a:hover {
 }
 
 .sidebar-1 .school-info-box {
-  background-color: #a8d0e6;
+  background-color: #ebebeb;
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border: 5px solid #94c5e0;
+  border: 5px solid #dedede;
   border-radius: 6px;
 }
 
@@ -146,19 +146,20 @@ h4 a:hover {
 }
 
 .sidebar-1 nav h2 {
-  font-size: 1.6em;
+  font-size: 1.3em;
   text-align: center;
-  color: #f76d6d;
+  color: #fff;
+  background-color: #2e3b65;
 }
 
 .sidebar-1 nav .secondary-menu h4 {
-  color: #fff;
+  color: #242020;
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #465aa9;
+  background-color: white;
   border-width: 0 0 1px 0;
-  border-color: #3e5197;
+  border-color: #f8f8f8;
   border-style: dashed;
 }
 
@@ -174,7 +175,7 @@ h4 a:hover {
 
 .sidebar-1 .list-group li a {
   color: #fff;
-  font-style: italic;
+  font-size: 1em;
   line-height: 1.3em;
   padding: 12px 0;
 }
@@ -187,7 +188,7 @@ h4 a:hover {
   padding: 0 15px 15px 15px !important;
   border-radius: 6px;
   padding: 15px;
-  background-color: #fff;
+  background-color: #242020;
   padding: 15px;
   border: 5px solid #f65555;
 }
