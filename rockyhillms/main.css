@@ -159,9 +159,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: white;
+  background-color: #ebebeb;
   border-width: 0 0 1px 0;
-  border-color: #f8f8f8;
+  border-color: #9f9f9f;
   border-style: dashed;
 }
 
