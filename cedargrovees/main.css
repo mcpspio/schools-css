@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+header h1 {
+  color: #047451;
+  font-size: 4em;
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header h1 span {
+  font-weight: lighter;
+  font-size: .5em;
+}
+
+header address {
+  text-indent: -9999px !important;
+  margin: 0;
+  padding: 0px;
+  height: 1px;
+  line-height: 1px;
+}
+
+header h3 {
+  color: #047451;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  color: #047451;
+  font-size: 2.2em;
+  line-height: 1.2em;
+  margin: 24px 0;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h2 a {
+  color: #323232;
+  border-bottom: 1px solid #323232;
+}
+
+h2 a:hover {
+  text-decoration: none;
+  border-bottom-color: #323232;
+}
+
+h3 {
+  color: #323232;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin: 18px 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+h3 a {
+  color: #047451;
+  border-bottom: 1px dashed #e6f3ef;
+}
+
+h3 a:hover {
+  text-decoration: none;
+  border-bottom-color: #047451;
+}
+
+h4 {
+  color: #047451;
+  font-size: 1.5em;
+  line-height: 1.1em;
+  margin: 18px 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+h4 a {
+  color: #047451;
+  border-bottom: 1px dashed #047451;
+}
+
+h4 a:hover {
+  text-decoration: none;
+  border-bottom-color: #047451;
+}
+
+.navbar {
+  background-color: #dcdcdc;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-top: 3px solid #02432f;
+  border-bottom: 3px solid #02432f;
+}
+
+.navbar li a:hover {
+  background-color: #058d62;
+}
+
+.navbar-nav .nav-link {
+  color: #323232;
+  font-size: .95em;
+  font-weight: 400;
+  padding: 12px 36px 12px 18px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link a .nav-link {
+  color: #323232;
+}
+
+.nav a {
+  color: #323232;
+}
+
+.sidebar-1 .school-info-box {
+  background-color: #e6f3ef;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 5px solid #d5ebe4;
+  border-radius: 6px;
+}
+
+.sidebar-1 .school-info-box p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.sidebar-1 h4 {
+  font-size: 1.6em;
+  line-height: 1.2em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.sidebar-1 nav {
+  background-color: #047451;
+  border-radius: 6px;
+  border: 5px solid #07d796;
+}
+
+.sidebar-1 nav h2 {
+  font-size: 1.6em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.sidebar-1 nav .secondary-menu li {
+  background-color: #047451;
+  border-width: 0 0 1px 0;
+  border-color: #07d796;
+  border-style: dashed;
+}
+
+.sidebar-1 nav .secondary-menu li:hover {
+  background-color: #06a573;
+}
+
+.sidebar-1 nav .list-group-item {
+  border-width: 0 0 1px 0;
+  border-color: #a1d2c3;
+  border-style: dashed;
+}
+
+.sidebar-1 .list-group li a {
+  color: #FFFFFF;
+  font-style: italic;
+  line-height: 1.3em;
+  padding: 12px 0;
+}
+
+.sidebar-1 .schooleventindexpage .calendar {
+  padding: 0 15px 15px 15px !important;
+  border-radius: 6px;
+  border: 5px solid  #0b0c10;
+  background-color: #1f2833;
+}
+
+.sidebar-1 .schooleventindexpage .calendar p {
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.sidebar-1 .schooleventindexpage .calendar p strong {
+  text-transform: uppercase;
+  color: white;
+}
+
+.sidebar-1 .schooleventindexpage .calendar a {
+  color: #07d796;
+  font-size: 95%;
+  font-style: italic;
+}
+
+.news h2, .news h2 a {
+  color: #323232;
+}
+
+.list-group a.list-group-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: normal;
+  margin: 5px 0;
+  color: #047451;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #323232;
+  color: #c5c6c8;
+  font-size: 95%;
+}
+
+.footer p, .footer a {
+  color: #c5c6c8;
+  font-size: 95%;
+}
+
+.carousel-item h2 {
+  color: #fff;
+}
+
+.btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1 {
+  background-color: #323232;
+  border-color: #323232;
+}
+
+.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover {
+  background-color: #0c0c0c;
+}
+
+.btn-primary {
+  background-color: #047451;
+  border-color: #047451;
+}
+
+.btn-primary:hover {
+  background-color: #07d796;
+}
+
+.btn-warning {
+  background-color: #e6f3ef;
+  border-color: #047451;
+}
+
+.btn-warning:hover {
+  background-color: #b2dace;
+}
+
+.btn-calendar {
+  width: 255px;
+  margin: -20px auto 0 auto;
+}
+
+.logo.has-image {
+  margin: 0px;
+}
+
+.order-md-3 .htmlblock {
+  background-color: #e6f3ef;
+  padding: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 5px solid #d5ebe4;
+  border-radius: 6px;
+}
+
+.order-md-3 .htmlblock h2 {
+  font-size: 1.6em;
+  padding: 0 15px;
+}
+
+.order-md-3 .htmlblock ul {
+  margin: 0px 0px 5px 0px;
+  padding: 0px;
+}
+
+.order-md-3 .htmlblock ul li {
+  margin: 0px;
+  padding: 5px 0px 5px 10px;
+  list-style-type: none;
+  border-bottom: 1px dashed #90cab8;
+  text-align: left;
+}
+
+.order-md-3 .htmlblock ul li a {
+  color: #323232;
+}
+/*# sourceMappingURL=main.css.map */
