@@ -84,6 +84,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
     border-top:3px solid darken(map-get($schoolcolors , mainnavcolor), 5%);
     border-bottom:3px solid darken(map-get($schoolcolors , mainnavcolor), 5%);
 
+    li a:hover{background-color: darken(map-get($schoolcolors , mainnavcolor), 5%);}
    
   }
  .navbar-nav .nav-link {
@@ -101,10 +102,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  .nav a{ color: map-get($schoolcolors ,  mainnavlink);}
 
 
-
- a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
  
-.navbar-nav li a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
+
 
  // SIDEBAR and NAVIGATION
 .sidebar-1{
