@@ -93,7 +93,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
         font-weight: 400;
         padding: 12px 36px 12px 18px;
         text-transform: uppercase;
-        a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
+        
         
               a.nav-link {  color: map-get($schoolcolors , mainnavlink);}   
   
@@ -104,6 +104,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
  a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
  
+.navbar-nav li a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
 
  // SIDEBAR and NAVIGATION
 .sidebar-1{
