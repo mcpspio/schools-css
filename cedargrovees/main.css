@@ -106,15 +106,15 @@ h4 a:hover {
   text-transform: uppercase;
 }
 
+.navbar-nav .nav-link a .nav-link:hover {
+  color: #323232;
+}
+
 .navbar-nav .nav-link a .nav-link {
   color: #323232;
 }
 
 .nav a {
-  color: #323232;
-}
-
-.nav a:hover {
   color: #323232;
 }
 
