@@ -100,7 +100,10 @@ h1 span{  font-weight:lighter; font-size: .5em;}
             }
  .nav a{ color: map-get($schoolcolors ,  mainnavlink);}
 
- .navbar-nav a:hover  { color: map-get($schoolcolors ,  primary);}
+ .menu a:hover .main-nav-item
+
+ .nav  .navbar-nav a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
+ 
 
  // SIDEBAR and NAVIGATION
 .sidebar-1{

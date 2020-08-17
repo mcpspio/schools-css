@@ -114,7 +114,8 @@ h4 a:hover {
   color: #323232;
 }
 
-.navbar-nav a:hover {
+.menu a:hover .main-nav-item
+.nav .navbar-nav a:hover .nav-link {
   color: #323232;
 }
 
