@@ -175,7 +175,7 @@ h4 a:hover {
   padding: 12px 0;
 }
 
-.sidebar-1 .sidebar-1 .SchoolInfoBlock h4 {
+.sidebar-1 .SchoolInfoBlock h4 {
   color: #047451;
 }
 
@@ -246,6 +246,7 @@ h4 a:hover {
 
 .btn-primary:hover {
   background-color: #07d796;
+  border-color: #06a573;
 }
 
 .btn-warning {

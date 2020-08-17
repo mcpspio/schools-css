@@ -153,7 +153,7 @@ nav{
 .list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
 
 
-.sidebar-1 .SchoolInfoBlock h4 {
+ .SchoolInfoBlock h4 {
     color:  map-get($schoolcolors , accent);
 }
 
@@ -215,7 +215,7 @@ font-size:95%; font-style: italic;}
 {background-color: map-get($schoolcolors , accent);    border-color:map-get($schoolcolors , accent); }
 
 .btn-primary:hover
-{background-color: lighten(map-get($schoolcolors , accent), 20%);}
+{background-color: lighten(map-get($schoolcolors , accent), 20%); border-color:lighten(map-get($schoolcolors , accent), 10%);}
 
 .btn-warning{background-color: map-get($schoolcolors , secondary);
     border-color:map-get($schoolcolors , accent); }
