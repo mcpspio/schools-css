@@ -102,7 +102,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
  .menu a:hover .main-nav-item
 
- .nav  .navbar-nav a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
+ a:hover .nav-link  { color: map-get($schoolcolors ,  primary);}
  
 
  // SIDEBAR and NAVIGATION
