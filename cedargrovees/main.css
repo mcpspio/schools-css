@@ -94,12 +94,8 @@ h4 a:hover {
   background-color: #dcdcdc;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 3px solid #c3c3c3;
-  border-bottom: 3px solid #c3c3c3;
-}
-
-.navbar li a:hover {
-  background-color: #058d62;
+  border-top: 3px solid #cfcfcf;
+  border-bottom: 3px solid #cfcfcf;
 }
 
 .navbar-nav .nav-link {
@@ -115,6 +111,10 @@ h4 a:hover {
 }
 
 .nav a {
+  color: #323232;
+}
+
+.nav a:hover {
   color: #323232;
 }
 
