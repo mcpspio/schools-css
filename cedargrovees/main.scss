@@ -107,9 +107,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
  // SIDEBAR and NAVIGATION
 
- .sidebar-1 .school-info-box h4 {
-    color:  map-get($schoolcolors , accent);
-}
+
 
 .sidebar-1{
 
@@ -153,6 +151,11 @@ nav{
 
 }
 .list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+
+
+.sidebar-1 .SchoolInfoBlock h4 {
+    color:  map-get($schoolcolors , accent);
+}
 
  // UPCOMING EVENTS
 .schooleventindexpage {
