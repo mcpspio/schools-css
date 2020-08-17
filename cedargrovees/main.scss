@@ -11,6 +11,7 @@ $schoolcolors: (
      primaryfonts:#323232,
      mainnavcolor:#dcdcdc,
      mainnavlink:#323232,
+     calendarcolor:#1f2833,
 );
 
 
@@ -80,8 +81,8 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 
     background-color: map-get($schoolcolors , mainnavcolor);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:3px solid darken(map-get($schoolcolors , accent), 10%);;
-    border-bottom:3px solid darken(map-get($schoolcolors , accent), 10%);;
+    border-top:3px solid darken(map-get($schoolcolors , mainnavcolor), 10%);;
+    border-bottom:3px solid darken(map-get($schoolcolors , mainnavcolor), 10%);;
 
      li a:hover{background-color: lighten(map-get($schoolcolors , accent), 5%);}
   }
@@ -110,11 +111,12 @@ h1 span{  font-weight:lighter; font-size: .5em;}
 }
 .school-info-box p {font-size: 14px; line-height: 18px; }
 h4{    font-size: 1.6em;   line-height: 1.2em;
-         font-family: 'Oswald', sans-serif;  }
+         font-family: 'Oswald', sans-serif;
+        color:  map-get($schoolcolors , secondary);}
 nav{
     background-color: map-get($schoolcolors , accent);
      @include rounded-corners(6px); 
-     border:5px solid lighten(map-get($schoolcolors , accent), 20%);
+     border:5px solid lighten(map-get($schoolcolors , accent), 5%);
      
 
  h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
@@ -147,8 +149,10 @@ nav{
 .calendar {
     padding:0 15px 15px 15px!important;
     @include rounded-corners(6px); 
-    border:5px solid  #0b0c10;
-    background-color:#1f2833;
+    border:5px solid  darken(map-get($schoolcolors , mainnavlink), 10%);
+    background-color: lighten(map-get($schoolcolors , mainnavlink), 5%);
+
+    
   p {  
         line-height: 1.5em;
     font-size: 1em;}
