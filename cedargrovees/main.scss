@@ -81,7 +81,7 @@ h1 span{  font-weight:lighter; font-size: .5em;}
  
   .navbar{
 
-    background-color: lighten(map-get($schoolcolors , accent), 10%);
+    background-color: lighten(map-get($schoolcolors , accent), 5%);
     padding-top: 0px; padding-bottom: 0px;
     border-top: 3px solid map-get($schoolcolors , calendarcolor);  
     border-bottom: 3px solid map-get($schoolcolors , calendarcolor);  
