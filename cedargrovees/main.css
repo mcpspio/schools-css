@@ -91,11 +91,11 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #047451;
+  background-color: #06a573;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 3px solid #058d62;
-  border-bottom: 3px solid #058d62;
+  border-top: 3px solid #1f2833;
+  border-bottom: 3px solid #1f2833;
 }
 
 .navbar li a:hover {

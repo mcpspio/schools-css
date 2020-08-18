@@ -77,14 +77,14 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent); };
                }
  // TOP NAVIGATION
- 
+
  
   .navbar{
 
-    background-color: map-get($schoolcolors , accent);
+    background-color: lighten(map-get($schoolcolors , accent), 10%);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:3px solid lighten(map-get($schoolcolors , accent), 5%);
-    border-bottom:3px solid lighten(map-get($schoolcolors , accent), 5%);
+    border-top: 3px solid map-get($schoolcolors , calendarcolor);  
+    border-bottom: 3px solid map-get($schoolcolors , calendarcolor);  
 
     li a:hover{background-color: darken(map-get($schoolcolors , accent), 10%);}
    
