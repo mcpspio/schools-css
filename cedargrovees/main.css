@@ -91,19 +91,19 @@ h4 a:hover {
 }
 
 .navbar {
-  background-color: #dcdcdc;
+  background-color: #047451;
   padding-top: 0px;
   padding-bottom: 0px;
-  border-top: 3px solid #cfcfcf;
-  border-bottom: 3px solid #cfcfcf;
+  border-top: 3px solid #058d62;
+  border-bottom: 3px solid #058d62;
 }
 
 .navbar li a:hover {
-  background-color: #cfcfcf;
+  background-color: #02432f;
 }
 
 .navbar-nav .nav-link {
-  color: #323232;
+  color: #FFFFFF;
   font-size: .95em;
   font-weight: 400;
   padding: 12px 36px 12px 18px;
@@ -111,11 +111,11 @@ h4 a:hover {
 }
 
 .navbar-nav .nav-link a.nav-link {
-  color: #323232;
+  color: #FFFFFF;
 }
 
 .nav a {
-  color: #323232;
+  color: #FFFFFF;
 }
 
 .sidebar-1 .school-info-box {

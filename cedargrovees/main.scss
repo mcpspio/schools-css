@@ -77,29 +77,31 @@ h1 span{  font-weight:lighter; font-size: .5em;}
                 a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent); };
                }
  // TOP NAVIGATION
+ 
+ 
   .navbar{
 
-    background-color: map-get($schoolcolors , mainnavcolor);
+    background-color: map-get($schoolcolors , accent);
     padding-top: 0px; padding-bottom: 0px;
-    border-top:3px solid darken(map-get($schoolcolors , mainnavcolor), 5%);
-    border-bottom:3px solid darken(map-get($schoolcolors , mainnavcolor), 5%);
+    border-top:3px solid lighten(map-get($schoolcolors , accent), 5%);
+    border-bottom:3px solid lighten(map-get($schoolcolors , accent), 5%);
 
-    li a:hover{background-color: darken(map-get($schoolcolors , mainnavcolor), 5%);}
+    li a:hover{background-color: darken(map-get($schoolcolors , accent), 10%);}
    
   }
  .navbar-nav .nav-link {
 
-    color: map-get($schoolcolors , mainnavlink);
+    color: map-get($schoolcolors , sidenavlinks);
         font-size:.95em;
         font-weight: 400;
         padding: 12px 36px 12px 18px;
         text-transform: uppercase;
         
         
-              a.nav-link {  color: map-get($schoolcolors , mainnavlink);}   
+              a.nav-link {  color: map-get($schoolcolors , sidenavlinks);}   
   
             }
- .nav a{ color: map-get($schoolcolors ,  mainnavlink);}
+ .nav a{ color: map-get($schoolcolors ,  sidenavlinks);}
 
 
  
