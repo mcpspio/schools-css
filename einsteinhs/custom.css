@@ -1,0 +1,126 @@
+
+
+/* ---------------------------------------------------------------------------------
+Lower - Numbers
+------------------------------------------------------------------------------------ */
+
+#content-lower1 .row {
+	  -moz-box-shadow:    0 0 2px 2px #f3f3f3;
+	  -webkit-box-shadow: 0 0 2px 2px #f3f3f3;
+	  box-shadow:         0 0 2px 2px #f3f3f3;
+	  padding:60px 0;
+	}
+
+#content-lower1 .col-md-6 { text-align:center; }
+#content-lower1 .col-md-6 p.number-big { font-family:josefin_slabbold; font-size:180px; line-height:120px; margin:0; }
+.number-cap { text-transform:uppercase; font-size:48px; line-height:48px; margin:0; letter-spacing:0.2em; }
+.number-text { text-transform:uppercase; font-size:28px; line-height:28px; margin:0; letter-spacing:0.1em; }
+
+.number1 p.number-big { color:#9bddff; }
+.number1 p.number-cap { color:#00628f; }
+.number1 p.number-text { color:#888; }
+
+.number2 p.number-big { color:#f5000c; }
+.number2 p.number-cap { color:#f5000c; }
+.number2 p.number-text { color:#888; }
+
+.number3 p.number-big { color:#00628f; }
+.number3 p.number-cap { color:#9bddff; }
+.number3 p.number-text { color:#888; }
+
+.number2 { border-left:0px dashed #dcdcdc; border-right:1px dashed #dcdcdc; }
+
+
+/* ---------------------------------------------------------------------------------
+Lower Content Areas of Homepage
+------------------------------------------------------------------------------------ */
+
+.academies { background:#00628f; padding-top:24px; padding-bottom:24px; margin:48px 0; color:#fff; }
+.academies h2, .academies p, .academies p.lead { font-family:josefin_slabregular; color:#fff; text-align:center; }
+.academies h2 { border-bottom: 1px dashed #fff; font-size: 60px; padding-bottom: 12px; text-transform: uppercase; margin-top:0; }
+.academies p a { color:#fff; font-family: josefin_slabregular; font-size: 20px; line-height: 1.4em; text-decoration:none; border-bottom:1px dashed #9bddff; }
+.academies p a:hover { color:#9bddff; border-bottom:0px dashed #ccc; }
+.academies p img { margin-bottom:15px; border:3px solid
+ #9bddff;  }
+.academies p.lead { color:#9bddff; margin:25px 5%; }
+
+.vac { background:#faf9f9; padding-top:24px; padding-bottom:24px; margin:48px 0; }
+h3.vac-logo { margin-top:0; }
+h3.vac-logo a { background:url(../images/logo-vac.png) center center no-repeat; display:block; width:197px; height:108px; text-indent:-9999px; margin:0 auto; margin-bottom:15px; }
+.vac .col-md-6 { text-align:center; }
+.vac-color { color:#a66509; margin-left:7%; margin-right:7%; }
+.vac .btn { background-color:#a66509; color:#fff; }
+.vac a.btn:hover { background-color:#ccc; color:#a66509; }
+
+
+
+.academy-section { padding-bottom:20px; border-bottom:1px dashed #ccc; margin-bottom:20px; }
+.academy-section h4 a {
+    color: #428bca;
+    font-family: josefin_slabbold;
+    font-size: 26px;
+    line-height: 30px;
+    text-decoration: none;
+    text-transform: none;
+}
+.academy-section h4 a:hover { color: #999; }
+img.academy-logo { padding:8px; background:#fff; display:block; margin:15px; }
+.head { color:#666; font-style:italic; font-size:12px; }
+
+/* ---------------------------------------------------------------------------------
+RESPONSIVE
+------------------------------------------------------------------------------------ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 240px) 
+and (max-width : 768px) {
+/* Styles */
+
+
+#content { background: url("../images/banner-sm.jpg") no-repeat center top; padding-bottom: 40px; padding-top: 265px; }
+#content-lower1 .row { padding: 20px 0; }
+.academies h2 { font-size:40px; }
+#content-lower1 .col-md-4 { display: block; overflow: auto; padding: 20px 0; }
+#content-lower1 .col-md-4 p.number-big { font-size: 100px; line-height: 60px; }
+.number-cap { font-size: 28px; line-height: 28px; }
+.number-text { font-size: 18px; line-height: 18px; }
+
+
+.academies, .vac { margin:24px 0; padding-bottom:12px; padding-top:12px; }
+.academies .col-md-3 { margin-bottom:20px; padding-bottom:20px; border-bottom:1px dashed #9bddff; } 
+.academies p img { width: 40%; }
+.academies p a { font-size: 18px; }
+
+
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 769px) 
+and (max-width : 1024px) {
+/* Styles */	
+
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+
+}
+	
