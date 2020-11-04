@@ -2,7 +2,7 @@
 // SCHOOL COLORS
 $schoolcolors: (
   
-     secondary:#000000,
+     secondary:#272727,
      primary:#03a5e3,
      accent:#3a3f45,
      infoboxcolor:#f7f7f5,
@@ -158,7 +158,9 @@ nav{
 
     h4 {
 
-        color:  lighten(map-get($schoolcolors , primary), 10%);
+        
+
+        color:  map-get($schoolcolors , sidenavlinks);
     }
   p {  
         line-height: 1.5em;
