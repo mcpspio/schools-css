@@ -143,9 +143,9 @@ h4 a:hover {
 }
 
 .sidebar-1 nav {
-  background-color: #002447;
+  background-color: #a66509;
   border-radius: 6px;
-  border: 5px solid #0058ad;
+  border: 5px solid #8e5608;
 }
 
 .sidebar-1 nav h2 {
@@ -155,19 +155,19 @@ h4 a:hover {
 }
 
 .sidebar-1 nav .secondary-menu li {
-  background-color: #002447;
+  background-color: #a66509;
   border-width: 0 0 1px 0;
-  border-color: #0058ad;
+  border-color: #8e5608;
   border-style: dashed;
 }
 
 .sidebar-1 nav .secondary-menu li:hover {
-  background-color: #003e7a;
+  background-color: #764806;
 }
 
 .sidebar-1 nav .list-group-item {
   border-width: 0 0 1px 0;
-  border-color: black;
+  border-color: #764806;
   border-style: dashed;
 }
 
