@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
 // SCHOOL COLORS
-$schoolcolors: (
-  
+$schoolcolors: (  
     primary:#445db5,
     secondary:#5a9d62,
     accent:#0190c8,
@@ -10,7 +9,6 @@ $schoolcolors: (
      sidenavlinks:#fff,
      primaryfonts:#27282c,
 );
-
 
 @mixin rounded-corners($arc) {
     -moz-border-radius: $arc;
