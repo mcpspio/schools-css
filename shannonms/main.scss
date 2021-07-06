@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+// SCHOOL COLORS
+$schoolcolors: (
+  
+     primary:#051c58,
+     secondary:#96d24d,
+     accent:#04bffe,
+     infoboxcolor:#f5f5f6,
+     navlinks:#fff,
+     sidenavlinks:#051c58,
+);
+
+
+@mixin rounded-corners($arc) {
+    -moz-border-radius: $arc;
+    -webkit-border-radius: $arc;
+    border-radius: $arc;  
+}
+// HEADER
+header{
+    background-color: map-get($schoolcolors , bannercolor); 
+
+    h1{
+        color: map-get($schoolcolors , primary);
+        font-size: 4em;
+        padding-top:20px; 
+        font-family: 'Oswald', sans-serif;    
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+
+}
+h1 span{  font-weight:lighter; font-size: .5em;}
+    address {  text-indent: -9999px!important; margin:0; padding: 0px; height: 1px; line-height: 1px;}
+    h3{ color: map-get($schoolcolors , accent); font-family: 'Oswald', sans-serif;  text-align: center;  }
+    a:hover {text-decoration: none;}
+    }
+
+
+        h2{
+    
+            color: map-get($schoolcolors , primary);
+            font-size: 2.2em;
+            line-height: 1.2em;
+            margin: 24px 0;
+            font-family: 'Oswald', sans-serif;  
+            text-transform: uppercase;
+            font-weight: normal;
+            a{ color: map-get($schoolcolors , primary); border-bottom: 1px solid  map-get($schoolcolors , primary);};
+            a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , primary);}
+        }
+    
+            h3 {
+    
+                color: map-get($schoolcolors , secondary);
+                font-size: 1.8em;
+                line-height: 1.2em;
+                margin: 18px 0;
+                font-family: 'Oswald', sans-serif; 
+                font-weight: normal; 
+            a{color: map-get($schoolcolors , secondary); border-bottom: 1px dashed map-get($schoolcolors , secondary);};
+            a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , secondary);};
+        }
+            h4 {
+    
+                color: map-get($schoolcolors , accent);
+                font-size: 1.5em;
+                line-height: 1.1em;
+                margin: 18px 0;
+                font-family: 'Oswald', sans-serif; 
+                font-weight: normal;
+                a{color: map-get($schoolcolors , accent); border-bottom: 1px dashed map-get($schoolcolors , accent);};
+                a:hover{text-decoration: none; border-bottom-color:map-get($schoolcolors , accent); };
+               }
+ // TOP NAVIGATION
+  .navbar{
+
+    background-color: map-get($schoolcolors , primary);
+    padding-top: 0px; padding-bottom: 0px;
+    border-top:5px solid map-get($schoolcolors , accent);
+    border-bottom:5px solid map-get($schoolcolors , accent);
+
+     li a:hover{background-color: lighten(map-get($schoolcolors , primary), 10%);}
+  }
+ .navbar-nav .nav-link {
+
+    color: map-get($schoolcolors , navlinks);
+        font-size:.95em;
+        font-weight: 400;
+        padding: 12px 36px 12px 18px;
+        text-transform: uppercase;
+
+              a .nav-link {  color: map-get($schoolcolors , navlinks);}   
+  
+            }
+ .nav a{ color: map-get($schoolcolors ,  navlinks);}
+
+
+ // SIDEBAR and NAVIGATION
+.sidebar-1{
+
+.school-info-box{
+    background-color: map-get($schoolcolors , infoboxcolor); padding:15px;
+    margin-bottom: 20px;   text-align: center;
+    border:5px solid darken(map-get($schoolcolors , infoboxcolor), 5%);
+    @include rounded-corners(6px);
+}
+.school-info-box p {font-size: 14px; line-height: 18px; }
+h4{    font-size: 1.6em;   line-height: 1.2em;
+         font-family: 'Oswald', sans-serif; color: map-get($schoolcolors , primary);}
+nav{
+    background-color: map-get($schoolcolors , secondary);
+     @include rounded-corners(6px); 
+     border:5px solid lighten(map-get($schoolcolors , secondary), 20%);
+     
+
+ h2{ font-size: 1.6em; text-align: center;  color: map-get($schoolcolors , sidenavlinks); }
+
+
+.secondary-menu li {
+
+    background-color: map-get($schoolcolors , secondary);
+    border-width:0 0 1px 0;
+    border-color: lighten(map-get($schoolcolors , secondary), 20%);
+    border-style: dashed;
+  
+}
+.secondary-menu li:hover{background-color: lighten(map-get($schoolcolors , secondary), 10%);}
+
+.list-group-item {
+
+    border-width:0 0 1px 0;
+    border-color: darken(map-get($schoolcolors , secondary), 20%);
+    border-style: dashed;
+
+}
+
+}
+.list-group  li  a {   color: map-get($schoolcolors , sidenavlinks); font-style: italic;  line-height: 1.3em;   padding: 12px 0;}
+
+ // UPCOMING EVENTS
+.schooleventindexpage {
+  
+.calendar {
+    padding:0 15px 15px 15px!important;
+    @include rounded-corners(6px); 
+    border:5px solid (map-get($schoolcolors , accent));
+  p {  
+        line-height: 1.5em;
+    font-size: 1em;}
+   
+p  strong {text-transform: uppercase;
+    color: lighten(map-get($schoolcolors , primary), 20%); 
+}
+
+
+a {    color: lighten(map-get($schoolcolors , primary), 20%);
+font-size:95%; font-style: italic;}
+
+}
+}
+}
+
+// NEWS
+
+.news {
+ 
+    h2, h2 a{   color: map-get($schoolcolors , primary);}
+  }
+  .list-group{
+
+  a.list-group-item h3{font-size: 24px;   line-height: 30px; font-weight: normal; margin:5px 0;  color: map-get($schoolcolors , accent);}
+  }
+
+  // FOOTER
+.footer{padding: 20px;
+    background-color: map-get($schoolcolors , primary);
+    color: map-get($schoolcolors , navlinks);
+    font-size: 95%;
+   p,a{  color: map-get($schoolcolors , navlinks); font-size: 95%;} 
+  
+}
+// CAROUSEL
+.carousel-item h2{ color:#fff;}
+// BUTTONS
+.btn-default, .Calendar-template-school .calendar-container .fc-view-container a.fc-event, .Calendar-template-school .calendar-container .fc-view-container a.fc-event.color-1
+{background-color: map-get($schoolcolors ,primary ); border-color:map-get($schoolcolors , primary); }
+.btn-default:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a.fc-event:hover, .Calendar-template-school:hover .calendar-container:hover .fc-view-container a:hover.fc-event.color-1:hover
+{background-color: darken(map-get($schoolcolors , primary), 15%);}
+
+
+.btn-primary
+{background-color: map-get($schoolcolors , accent);    border-color:map-get($schoolcolors , accent); }
+
+.btn-primary:hover
+{background-color: lighten(map-get($schoolcolors , accent), 20%);}
+
+.btn-warning{background-color: map-get($schoolcolors , secondary);
+    border-color:map-get($schoolcolors , accent); }
+    .btn-warning:hover  {background-color: darken(map-get($schoolcolors , secondary), 15%);}
+    .btn-calendar {width:255px; margin: -20px auto 0 auto; }
+
+    .logo.has-image {   margin:0px 0px 10px 0;     }
