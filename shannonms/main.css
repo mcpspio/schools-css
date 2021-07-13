@@ -23,7 +23,7 @@ header address {
 }
 
 header h3 {
-  color: #04bffe;
+  color: #220d9f;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -72,7 +72,7 @@ h3 a:hover {
 }
 
 h4 {
-  color: #04bffe;
+  color: #220d9f;
   font-size: 1.5em;
   line-height: 1.1em;
   margin: 18px 0;
@@ -81,13 +81,13 @@ h4 {
 }
 
 h4 a {
-  color: #04bffe;
-  border-bottom: 1px dashed #04bffe;
+  color: #220d9f;
+  border-bottom: 1px dashed #220d9f;
 }
 
 h4 a:hover {
   text-decoration: none;
-  border-bottom-color: #04bffe;
+  border-bottom-color: #220d9f;
 }
 
 .navbar {
@@ -206,7 +206,7 @@ h4 a:hover {
   line-height: 30px;
   font-weight: normal;
   margin: 5px 0;
-  color: #04bffe;
+  color: #220d9f;
 }
 
 .footer {
