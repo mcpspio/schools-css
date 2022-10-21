@@ -258,6 +258,7 @@ h4 a:hover {
 }
 
 .logo.has-image {
-  margin: 0px;
+  max-width: 1031px;
+  margin: 0px auto;
 }
 /*# sourceMappingURL=main.css.map */
